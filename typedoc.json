@@ -1,6 +1,12 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "plugin": ["@mxssfd/typedoc-theme"],
+  "excludeExternals": true,
+  "externalPattern": [
+    "**/node_modules/**"
+  ],
+  "entryPointStrategy": "expand",
+  "entryPoints": ["./definitions"],
   "theme": "my-theme",
   "name": "Latite Scripting Documentation",
   "disableSources": true

@@ -2,13 +2,13 @@
 
 By using the Client name, logo, or any of our files, you agree to these terms:
 
-You are ***allowed*** to:
+You are **_allowed_** to:
 
 - Use the Latite name and logo in a showcase, such as a YouTube video.
 - Modify the injector for personal use
 - Contribute to the injector's source by opening a PR/Forking the launcher
 
-You are ***not allowed*** to:
+You are **_not allowed_** to:
 
 - Distribute, redistribute or sell any of our files in any form of media.
 - Distribute, redistribute, or sell a modified version of the injector in any form of media.
