@@ -5,7 +5,8 @@
   "main": "./src/index.ts",
   "scripts": {
     "docs-html": "typedoc --options ./typedoc-html.json",
-    "docs-markdown": "typedoc --options ./typedoc-markdown.json"
+    "docs-markdown": "typedoc --options ./typedoc-markdown.json",
+    "docs": "typedoc --options ./typedoc-html.json && typedoc --options ./typedoc-markdown.json"
   },
   "keywords": [],
   "license": "Latite Products License (https://github.com/Plextora/LatiteInjector/blob/master/LICENSE.md)",
