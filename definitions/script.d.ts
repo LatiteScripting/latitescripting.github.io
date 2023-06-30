@@ -11,3 +11,10 @@ export interface Script {
   description: string;
 }
 declare var script: Script;
+/**
+ * Load a specified script from filesystem or web.
+ * @param path The filepath, HTTP or HTTPS link to the JS file.
+ * @throws Invalid filepath or Non-OK HTTP/HTTPS error code
+ * @returns Whatever the loaded script exports (through script_exports)
+ */
+declare function require(path: string): object;
