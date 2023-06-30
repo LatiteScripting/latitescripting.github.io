@@ -1,16 +1,17 @@
 interface Script {
-  /**
-   * Prints to chat, and logs the contents to file. They are seperated by new lines.
-   * @param contents The contents to log.
-   */
-  log(...contents: any[]): void;
+    /**
+     * Prints to chat, and logs the contents to file. They are seperated by new lines.
+     * @param contents The contents to log.
+     */
+    log(... contents: any[]): void;
 
-  name: string;
-  author: string;
-  version: string;
-  description: string;
+    name: string;
+    author: string;
+    version: string;
+    description: string;
 }
 declare var script: Script;
+
 /**
  * Load a specified script from filesystem or web.
  * @param path The filepath, HTTP or HTTPS link to the JS file.
