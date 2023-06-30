@@ -8,9 +8,7 @@
 
 **`Class`**
 
-Must be registered by ModuleManager, otherwise it may cause a memory leak.
-
-**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L4)
+**Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L2)
 
 ## Constructors
 
@@ -22,7 +20,7 @@ Must be registered by ModuleManager, otherwise it may cause a memory leak.
 > description: `string`,
 > key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)): [`Module`](class.Module.md)
 
-**Source:** [module.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L30)
+**Source:** [module.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L28)
 
 #### Parameters
 
@@ -43,13 +41,13 @@ Must be registered by ModuleManager, otherwise it may cause a memory leak.
 
 > **description**: `string`
 
-**Source:** [module.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L7)
+**Source:** [module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L5)
 
 ### displayName
 
 > **displayName**: `string`
 
-**Source:** [module.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L6)
+**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L4)
 
 ### id
 
@@ -57,37 +55,37 @@ Must be registered by ModuleManager, otherwise it may cause a memory leak.
 
 IDs for script modules are always 255.
 
-**Source:** [module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L13)
+**Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L11)
 
 ### key
 
 > **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** [module.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L8)
+**Source:** [module.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L6)
 
 ### name
 
 > **name**: `string`
 
-**Source:** [module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L5)
+**Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L3)
 
 ### onDisable
 
 > **onDisable**: `undefined` \| () => `void`
 
-**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L40)
+**Source:** [module.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L33)
 
 ### onEnable
 
 > **onEnable**: `undefined` \| () => `void`
 
-**Source:** [module.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L38)
+**Source:** [module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L31)
 
 ### shouldHoldToToggle
 
 > **shouldHoldToToggle**: `undefined` \| () => `boolean`
 
-**Source:** [module.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L42)
+**Source:** [module.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L35)
 
 ### visible
 
@@ -95,7 +93,7 @@ IDs for script modules are always 255.
 
 If the module is visible in the ClickGui
 
-**Source:** [module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L21)
+**Source:** [module.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L19)
 
 ### visual
 
@@ -103,7 +101,7 @@ If the module is visible in the ClickGui
 
 If the module is a HUD module (that you can move in the hud editor)
 
-**Source:** [module.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L17)
+**Source:** [module.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L15)
 
 ## Methods
 
@@ -113,7 +111,7 @@ If the module is a HUD module (that you can move in the hud editor)
 
 Check if the module is blocked.
 
-**Source:** [module.d.ts:58](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L58)
+**Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L51)
 
 #### Returns
 
@@ -125,7 +123,7 @@ Check if the module is blocked.
 
 Checks if the module is enabled.
 
-**Source:** [module.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L47)
+**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L40)
 
 #### Returns
 
@@ -137,7 +135,7 @@ Checks if the module is enabled.
 
 Set the module to be enabled or not.
 
-**Source:** [module.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/module.d.ts#L53)
+**Source:** [module.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/module.d.ts#L46)
 
 #### Parameters
 

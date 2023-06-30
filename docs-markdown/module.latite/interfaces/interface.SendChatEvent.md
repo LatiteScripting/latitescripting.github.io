@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/latite.d.ts#L17)
+**Source:** [latite.d.ts:10](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L10)
 
 ## Hierarchy
 
@@ -20,9 +20,7 @@
 
 > **cancel**: `boolean`
 
-If true, the event will be cancelled. (Example: setting the bool to true in SendChatEvent will stop the chat message from being sent. This is useful for custom commands)
-
-**Source:** [latite.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/latite.d.ts#L14)
+**Source:** [latite.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L7)
 
 #### Inherited from
 
@@ -32,4 +30,4 @@ If true, the event will be cancelled. (Example: setting the bool to true in Send
 
 > **message**: `string`
 
-**Source:** [latite.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/latite.d.ts#L18)
+**Source:** [latite.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L11)

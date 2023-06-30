@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/mmgr.d.ts#L1)
+**Source:** [mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/mmgr.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Loop through each module.
 
-**Source:** [mmgr.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/mmgr.d.ts#L28)
+**Source:** [mmgr.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/mmgr.d.ts#L30)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Get a module by its ID.
 All script modules will **always** have an id of 255.
 This is not recommended to get script modules.
 
-**Source:** [mmgr.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/mmgr.d.ts#L22)
+**Source:** [mmgr.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/mmgr.d.ts#L23)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Gets a module by the specified InternalName.
 For example, ArmorHud is the internal name for Armor Hud.
 Position is the internal name of Coordinates
 
-**Source:** [mmgr.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/mmgr.d.ts#L14)
+**Source:** [mmgr.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/mmgr.d.ts#L14)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Position is the internal name of Coordinates
 
 Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
 
-**Source:** [mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/mmgr.d.ts#L6)
+**Source:** [mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/mmgr.d.ts#L6)
 
 #### Parameters
 

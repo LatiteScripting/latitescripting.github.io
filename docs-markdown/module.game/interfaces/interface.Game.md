@@ -8,9 +8,21 @@
 
 **`Interface`**
 
-**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/game.d.ts#L1)
+**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/game.d.ts#L1)
 
 ## Methods
+
+### getLocalPlayer()
+
+> **getLocalPlayer**(): `null` \| [`Player`](../../module.entity/classes/class.Player.md)
+
+Get your player. This will return null if you are not in a game.
+
+**Source:** [game.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/game.d.ts#L11)
+
+#### Returns
+
+`null` \| [`Player`](../../module.entity/classes/class.Player.md)
 
 ### sendChatMessage()
 
@@ -18,7 +30,7 @@
 
 Sends a chat message.
 
-**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/game.d.ts#L6)
+**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/game.d.ts#L6)
 
 #### Parameters
 

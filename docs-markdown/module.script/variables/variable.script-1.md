@@ -10,4 +10,4 @@
 
 > `let` **script**: [`Script`](../interfaces/interface.Script.md)
 
-**Source:** [script.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/script.d.ts#L13)
+**Source:** [script.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/script.d.ts#L13)

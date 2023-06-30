@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/graphics.d.ts#L14)
+**Source:** [graphics.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/graphics.d.ts#L14)
 
 ## Constructors
 
@@ -18,7 +18,7 @@
 
 A point on the screen.
 
-**Source:** [graphics.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/graphics.d.ts#L20)
+**Source:** [graphics.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/graphics.d.ts#L20)
 
 #### Parameters
 

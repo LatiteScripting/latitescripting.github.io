@@ -8,6 +8,7 @@
 
 ### Modules
 
+- [entity](module.entity/index.md)
 - [game](module.game/index.md)
 - [graphics](module.graphics/index.md)
 - [key](module.key/index.md)

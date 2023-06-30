@@ -16,7 +16,7 @@ Load a specified script from filesystem or web.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/ff1a99f/definitions/script.d.ts#L20)
+**Source:** [script.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/script.d.ts#L21)
 
 ## Parameters
 
