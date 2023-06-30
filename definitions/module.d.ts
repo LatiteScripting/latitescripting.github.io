@@ -1,7 +1,7 @@
 /**
  * Must be registered by ModuleManager, otherwise it may cause a memory leak.
  */
-export declare class Module {
+declare class Module {
   name: string;
   displayName: string;
   description: string;

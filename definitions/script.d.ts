@@ -1,4 +1,4 @@
-export interface Script {
+interface Script {
   /**
    * Prints to chat, and logs the contents to file. They are seperated by new lines.
    * @param contents The contents to log.

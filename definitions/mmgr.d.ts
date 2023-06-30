@@ -1,4 +1,4 @@
-export interface ModuleManager {
+interface ModuleManager {
   /**
    * Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
    * @param mod The module to register.
