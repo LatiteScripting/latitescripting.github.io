@@ -9,5 +9,4 @@
   "entryPoints": ["./definitions"],
   "theme": "my-theme",
   "name": "Latite Scripting Documentation",
-  "disableSources": true
 }
