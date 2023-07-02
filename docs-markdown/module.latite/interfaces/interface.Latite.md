@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L42)
+**Source:** [latite.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L42)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 The Latite Client version. Example: v1.4.0 (release), b1.4.0 (beta)
 
-**Source:** [latite.d.ts:69](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L69)
+**Source:** [latite.d.ts:69](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L69)
 
 ## Methods
 
@@ -28,7 +28,7 @@ The Latite Client version. Example: v1.4.0 (release), b1.4.0 (beta)
 
 Gets the module manager. Use this to register modules.
 
-**Source:** [latite.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L64)
+**Source:** [latite.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L64)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Gets the module manager. Use this to register modules.
 
 Listen to an event.
 
-**Source:** [latite.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L46)
+**Source:** [latite.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L46)
 
 #### Type parameters
 
@@ -65,7 +65,7 @@ Listen to an event.
 
 Runs a Latite command.
 
-**Source:** [latite.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L59)
+**Source:** [latite.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L59)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ The success of the command.
 
 Shows a Latite toast on the top of the screen.
 
-**Source:** [latite.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L52)
+**Source:** [latite.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L52)
 
 #### Parameters
 

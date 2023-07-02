@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/graphics.d.ts#L1)
+**Source:** [graphics.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/graphics.d.ts#L1)
 
 ## Constructors
 
@@ -22,7 +22,7 @@
 
 A class representing a rectangle on the screen.
 
-**Source:** [graphics.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/graphics.d.ts#L9)
+**Source:** [graphics.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/graphics.d.ts#L9)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ A class representing a rectangle on the screen.
 
 > **new Rect**(): [`Rect`](class.Rect.md)
 
-**Source:** [graphics.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/graphics.d.ts#L11)
+**Source:** [graphics.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/graphics.d.ts#L11)
 
 #### Returns
 

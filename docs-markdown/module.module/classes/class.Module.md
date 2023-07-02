@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L2)
+**Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L2)
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > description: `string`,
 > key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)): [`Module`](class.Module.md)
 
-**Source:** [module.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L28)
+**Source:** [module.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L28)
 
 #### Parameters
 
@@ -41,13 +41,13 @@
 
 > **description**: `string`
 
-**Source:** [module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L5)
+**Source:** [module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L5)
 
 ### displayName
 
 > **displayName**: `string`
 
-**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L4)
+**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L4)
 
 ### id
 
@@ -55,37 +55,37 @@
 
 IDs for script modules are always 255.
 
-**Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L11)
+**Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L11)
 
 ### key
 
 > **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** [module.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L6)
+**Source:** [module.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L6)
 
 ### name
 
 > **name**: `string`
 
-**Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L3)
+**Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L3)
 
 ### onDisable
 
 > **onDisable**: `undefined` \| () => `void`
 
-**Source:** [module.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L33)
+**Source:** [module.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L33)
 
 ### onEnable
 
 > **onEnable**: `undefined` \| () => `void`
 
-**Source:** [module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L31)
+**Source:** [module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L31)
 
 ### shouldHoldToToggle
 
 > **shouldHoldToToggle**: `undefined` \| () => `boolean`
 
-**Source:** [module.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L35)
+**Source:** [module.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L35)
 
 ### visible
 
@@ -93,7 +93,7 @@ IDs for script modules are always 255.
 
 If the module is visible in the ClickGui
 
-**Source:** [module.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L19)
+**Source:** [module.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L19)
 
 ### visual
 
@@ -101,7 +101,7 @@ If the module is visible in the ClickGui
 
 If the module is a HUD module (that you can move in the hud editor)
 
-**Source:** [module.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L15)
+**Source:** [module.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L15)
 
 ## Methods
 
@@ -111,7 +111,7 @@ If the module is a HUD module (that you can move in the hud editor)
 
 Check if the module is blocked.
 
-**Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L51)
+**Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L51)
 
 #### Returns
 
@@ -123,7 +123,7 @@ Check if the module is blocked.
 
 Checks if the module is enabled.
 
-**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L40)
+**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L40)
 
 #### Returns
 
@@ -135,7 +135,7 @@ Checks if the module is enabled.
 
 Set the module to be enabled or not.
 
-**Source:** [module.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/module.d.ts#L46)
+**Source:** [module.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/module.d.ts#L46)
 
 #### Parameters
 
