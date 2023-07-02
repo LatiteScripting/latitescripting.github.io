@@ -17,12 +17,25 @@ interface ReceiveChatEvent extends LatiteEvent {
     xuid: string;
 }
 
+interface ClickEvent extends CancellableEvent {
+    mouseX: number;
+    mouseY: number;
+}
+
+interface KeyEvent extends CancellableEvent {
+    isDown: boolean;
+    keyCode: KeyCode; // like 0x43
+    keyAsChar: string; // like 'C'
+}
+
 interface ClientEvents {
     "world-tick": LatiteEvent,
     "leave-game": LatiteEvent,
     "receive-chat": ReceiveChatEvent,
     "send-chat": SendChatEvent,
-    "render2d": LatiteEvent
+    "render2d": LatiteEvent,
+    "key-press": KeyEvent,
+    "click": ClickEvent
 }
 
 interface Latite {
