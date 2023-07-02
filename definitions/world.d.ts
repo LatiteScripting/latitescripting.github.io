@@ -4,7 +4,7 @@ declare interface World {
      */
     getName(): string;
     /**
-     * Gets the name of the players onnected to the world.
+     * Gets the name of the players connected to the world.
      */
     getPlayers(): string[];
 
