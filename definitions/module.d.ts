@@ -1,4 +1,25 @@
-// Must be registered by ModuleManager, otherwise it may cause a memory leak.
+interface ModuleEvents {
+    "enable": () => void,
+    "disable": () => void,
+    "get-hold-to-toggle": () => boolean,
+    
+     /**
+      * Only available in HUD modules.
+      * @param isPreview If it's a preview in the main menu (when module settings are extended.)
+      * @param isEditor If it's in the HUD editor where you move modules around.
+      */
+    "render": (isPreview: boolean, isEditor: boolean) => void,
+     /**
+     * Only available in HUD modules.
+     */
+    "shouldRender": () => boolean;
+    
+    /**
+     * Only available in text modules.
+     */
+    "text": () => string;
+}
+
 declare class Module {
     name: string
     displayName: string
@@ -27,12 +48,7 @@ declare class Module {
  */
     constructor(name: string, displayName: string, description: string, key: KeyCode);
 
-    // Calls when the module is enabled.
-    onEnable: (() => void) | undefined;
-    // Calls when module is disabled.
-    onDisable: (() => void) | undefined;
-    // Return true if you want behavior where it enables while the key is held, and disables when key is released.
-    shouldHoldToToggle: (() => boolean) | undefined;
+    on: <K extends keyof ModuleEvents>(eventName: K, handler: ModuleEvents[K]) => void;
 
     /**
      * Checks if the module is enabled.

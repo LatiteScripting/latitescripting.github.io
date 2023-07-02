@@ -29,6 +29,12 @@ interface KeyEvent extends CancellableEvent {
     keyAsChar: string; // like 'C'
 }
 
+interface ScriptEvent extends LatiteEvent {
+    scriptName: string,
+    scriptVersion: string,
+    scriptAuthor: string
+}
+
 interface ClientEvents {
     "world-tick": LatiteEvent,
     "leave-game": LatiteEvent,
@@ -36,14 +42,21 @@ interface ClientEvents {
     "send-chat": SendChatEvent,
     "render2d": LatiteEvent,
     "key-press": KeyEvent,
-    "click": ClickEvent
+    "click": ClickEvent,
+    "render3d": LatiteEvent,
+    /**
+     * Whenever the game gets minimized or closed.
+     */
+    "app-suspended": LatiteEvent,
+    "load-script": ScriptEvent,
+    "unload-script": ScriptEvent,
 }
 
 interface Latite {
     /**
      * Listen to an event.
      */
-    listen<K extends keyof ClientEvents>(eventName: K, listener: (event: ClientEvents[K]) => void): void
+    on<K extends keyof ClientEvents>(eventName: K, listener: (event: ClientEvents[K]) => void): void
 
     /**
      * Shows a Latite toast on the top of the screen.

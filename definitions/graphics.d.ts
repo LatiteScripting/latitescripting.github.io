@@ -20,8 +20,30 @@ declare class Vector2 {
     constructor(x: number, y: number);
 } 
 
+type Color = [number,number,number,number];
+
+declare const enum TextAlignment {
+    Left,
+    Right,
+    Center
+}
+
+declare const enum Font {
+    /**
+     * By default, this is Noto Sans
+     */
+    Smooth,
+    /**
+     * By default, this is Mojangles
+     */
+    Minecraft,
+    MinecraftTen
+}
+
 declare interface Graphics2D {
-    drawRect(rect: Rect, color: [number, number, number, number], thickness: number): void;
+    drawRect(rect: Rect, color: Color, thickness: number): void;
+    fillRect(rect: Rect, color: Color): void;
+    drawText(rect: Rect, color: Color, text: string, size: number, font: Font, alignment: TextAlignment): void;
 }
 
 declare const graphics: Graphics2D;
