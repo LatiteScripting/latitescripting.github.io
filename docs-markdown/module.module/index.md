@@ -11,3 +11,7 @@
 ### Classes
 
 - [Module](classes/class.Module.md)
+
+### Interfaces
+
+- [ModuleEvents](interfaces/interface.ModuleEvents.md)

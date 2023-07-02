@@ -11,6 +11,7 @@
 - [entity](module.entity/index.md)
 - [game](module.game/index.md)
 - [graphics](module.graphics/index.md)
+- [hudmodule](module.hudmodule/index.md)
 - [key](module.key/index.md)
 - [latite](module.latite/index.md)
 - [mmgr](module.mmgr/index.md)

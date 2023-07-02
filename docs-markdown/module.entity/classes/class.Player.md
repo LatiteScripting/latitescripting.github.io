@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/entity.d.ts#L12)
+**Source:** [entity.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/entity.d.ts#L12)
 
 ## Hierarchy
 
@@ -38,7 +38,7 @@ A class representing an in-game entity.
 
 Get the player's name (same one as the player list in the pause menu.)
 
-**Source:** [entity.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/entity.d.ts#L16)
+**Source:** [entity.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/entity.d.ts#L16)
 
 #### Returns
 
@@ -51,7 +51,7 @@ Get the player's name (same one as the player list in the pause menu.)
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/entity.d.ts#L9)
+**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/entity.d.ts#L9)
 
 #### Returns
 

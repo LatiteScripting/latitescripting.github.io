@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L20)
+**Source:** [latite.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L20)
 
 ## Hierarchy
 
@@ -20,7 +20,7 @@
 
 > **cancel**: `boolean`
 
-**Source:** [latite.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L7)
+**Source:** [latite.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L7)
 
 #### Inherited from
 
@@ -30,16 +30,16 @@
 
 > **isDown**: `boolean`
 
-**Source:** [latite.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L21)
+**Source:** [latite.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L21)
 
 ### mouseX
 
 > **mouseX**: `number`
 
-**Source:** [latite.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L22)
+**Source:** [latite.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L22)
 
 ### mouseY
 
 > **mouseY**: `number`
 
-**Source:** [latite.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/5231c68/definitions/latite.d.ts#L23)
+**Source:** [latite.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L23)

@@ -17,6 +17,7 @@
 - [Latite](interfaces/interface.Latite.md)
 - [LatiteEvent](interfaces/interface.LatiteEvent.md)
 - [ReceiveChatEvent](interfaces/interface.ReceiveChatEvent.md)
+- [ScriptEvent](interfaces/interface.ScriptEvent.md)
 - [SendChatEvent](interfaces/interface.SendChatEvent.md)
 
 ### Type Aliases
