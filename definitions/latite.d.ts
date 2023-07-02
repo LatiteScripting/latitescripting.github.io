@@ -18,6 +18,7 @@ interface ReceiveChatEvent extends LatiteEvent {
 }
 
 interface ClickEvent extends CancellableEvent {
+    isDown: boolean;
     mouseX: number;
     mouseY: number;
 }
