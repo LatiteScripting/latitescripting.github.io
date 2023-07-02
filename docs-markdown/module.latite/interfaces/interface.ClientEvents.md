@@ -8,36 +8,48 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L20)
+**Source:** [latite.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L32)
 
 ## Properties
+
+### click
+
+> **click**: [`ClickEvent`](interface.ClickEvent.md)
+
+**Source:** [latite.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L39)
+
+### key-press
+
+> **key-press**: [`KeyEvent`](interface.KeyEvent.md)
+
+**Source:** [latite.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L38)
 
 ### leave-game
 
 > **leave-game**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L22)
+**Source:** [latite.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L34)
 
 ### receive-chat
 
 > **receive-chat**: [`ReceiveChatEvent`](interface.ReceiveChatEvent.md)
 
-**Source:** [latite.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L23)
+**Source:** [latite.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L35)
 
 ### render2d
 
 > **render2d**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L25)
+**Source:** [latite.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L37)
 
 ### send-chat
 
 > **send-chat**: [`SendChatEvent`](interface.SendChatEvent.md)
 
-**Source:** [latite.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L24)
+**Source:** [latite.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L36)
 
 ### world-tick
 
 > **world-tick**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/latite.d.ts#L21)
+**Source:** [latite.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/latite.d.ts#L33)

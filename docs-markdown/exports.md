@@ -16,3 +16,4 @@
 - [mmgr](module.mmgr/index.md)
 - [module](module.module/index.md)
 - [script](module.script/index.md)
+- [world](module.world/index.md)

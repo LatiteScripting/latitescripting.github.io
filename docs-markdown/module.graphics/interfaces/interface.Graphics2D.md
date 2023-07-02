@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/graphics.d.ts#L23)
+**Source:** [graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/graphics.d.ts#L23)
 
 ## Methods
 
@@ -19,7 +19,7 @@
 > color: [`number`, `number`, `number`, `number`],
 > thickness: `number`): `void`
 
-**Source:** [graphics.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/graphics.d.ts#L24)
+**Source:** [graphics.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/graphics.d.ts#L24)
 
 #### Parameters
 

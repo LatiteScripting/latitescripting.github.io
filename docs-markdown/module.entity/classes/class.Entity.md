@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/entity.d.ts#L4)
+**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -35,7 +35,7 @@ A class representing an in-game entity.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/0268f00/definitions/entity.d.ts#L9)
+**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5646e2d/definitions/entity.d.ts#L9)
 
 #### Returns
 
