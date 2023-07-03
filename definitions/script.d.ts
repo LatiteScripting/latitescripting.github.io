@@ -19,3 +19,11 @@ declare var script: Script;
  * @returns Whatever the loaded script exports (through script_exports)
  */
 declare function require(path: string): object;
+
+/**
+ * Stops execution for a specified amount of time.
+ * 
+ * **Warning**: This stops execution of both the JavaScript runtime and the game thread. Be careful when using this.
+ * @param ms The amount of time to sleep.
+ */
+declare function sleep(ms: number): void;

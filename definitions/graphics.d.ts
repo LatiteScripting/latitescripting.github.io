@@ -8,8 +8,11 @@ declare class Rect {
      */
     constructor(left: number, top: number, right: number, bottom: number);
 
-    constructor();
-} 
+    left: number;
+    top: number;
+    right: number;
+    bottom: number;
+}
 
 declare class Vector2 {
     /**
@@ -18,9 +21,12 @@ declare class Vector2 {
      * @param y The y coordinate.
      */
     constructor(x: number, y: number);
-} 
 
-type Color = [number,number,number,number];
+    x: number;
+    y: number;
+}
+
+type Color = [number, number, number, number];
 
 declare const enum TextAlignment {
     Left,
@@ -44,6 +50,9 @@ declare interface Graphics2D {
     drawRect(rect: Rect, color: Color, thickness: number): void;
     fillRect(rect: Rect, color: Color): void;
     drawText(rect: Rect, color: Color, text: string, size: number, font: Font, alignment: TextAlignment): void;
+    getTextSize(text: string, size: number, font: Font): Vector2;
+    setClippingRect(rect: Rect): void;
+    restoreClippingRect(): void;
 }
 
 declare const graphics: Graphics2D;

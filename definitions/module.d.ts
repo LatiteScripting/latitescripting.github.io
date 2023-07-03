@@ -12,7 +12,7 @@ interface ModuleEvents {
      /**
      * Only available in HUD modules.
      */
-    "shouldRender": () => boolean;
+    //"shouldRender": () => boolean;
     
     /**
      * Only available in text modules.
