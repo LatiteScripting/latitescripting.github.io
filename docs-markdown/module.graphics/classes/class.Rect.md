@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L1)
+**Source:** [graphics.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L1)
 
 ## Constructors
 
@@ -22,7 +22,7 @@
 
 A class representing a rectangle on the screen.
 
-**Source:** [graphics.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L9)
+**Source:** [graphics.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L9)
 
 #### Parameters
 
@@ -37,10 +37,28 @@ A class representing a rectangle on the screen.
 
 [`Rect`](class.Rect.md)
 
-> **new Rect**(): [`Rect`](class.Rect.md)
+## Properties
 
-**Source:** [graphics.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L11)
+### bottom
 
-#### Returns
+> **bottom**: `number`
 
-[`Rect`](class.Rect.md)
+**Source:** [graphics.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L14)
+
+### left
+
+> **left**: `number`
+
+**Source:** [graphics.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L11)
+
+### right
+
+> **right**: `number`
+
+**Source:** [graphics.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L13)
+
+### top
+
+> **top**: `number`
+
+**Source:** [graphics.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L12)

@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [graphics.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L43)
+**Source:** [graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L49)
 
 ## Methods
 
@@ -19,7 +19,7 @@
 > color: [`Color`](../type-aliases/type-alias.Color.md),
 > thickness: `number`): `void`
 
-**Source:** [graphics.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L44)
+**Source:** [graphics.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L50)
 
 #### Parameters
 
@@ -43,7 +43,7 @@
 > font: [`Font`](../enumerations/enumeration.Font.md),
 > alignment: [`TextAlignment`](../enumerations/enumeration.TextAlignment.md)): `void`
 
-**Source:** [graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L46)
+**Source:** [graphics.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L52)
 
 #### Parameters
 
@@ -64,7 +64,7 @@
 
 > **fillRect**(rect: [`Rect`](../classes/class.Rect.md), color: [`Color`](../type-aliases/type-alias.Color.md)): `void`
 
-**Source:** [graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L45)
+**Source:** [graphics.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L51)
 
 #### Parameters
 
@@ -72,6 +72,53 @@
 | :-------- | :--------------------------------------------- |
 | rect      | [`Rect`](../classes/class.Rect.md)             |
 | color     | [`Color`](../type-aliases/type-alias.Color.md) |
+
+#### Returns
+
+`void`
+
+### getTextSize()
+
+> **getTextSize**(
+> text: `string`,
+> size: `number`,
+> font: [`Font`](../enumerations/enumeration.Font.md)): [`Vector2`](../classes/class.Vector2.md)
+
+**Source:** [graphics.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L53)
+
+#### Parameters
+
+| Parameter | Type                                          |
+| :-------- | :-------------------------------------------- |
+| text      | `string`                                      |
+| size      | `number`                                      |
+| font      | [`Font`](../enumerations/enumeration.Font.md) |
+
+#### Returns
+
+[`Vector2`](../classes/class.Vector2.md)
+
+### restoreClippingRect()
+
+> **restoreClippingRect**(): `void`
+
+**Source:** [graphics.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L55)
+
+#### Returns
+
+`void`
+
+### setClippingRect()
+
+> **setClippingRect**(rect: [`Rect`](../classes/class.Rect.md)): `void`
+
+**Source:** [graphics.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L54)
+
+#### Parameters
+
+| Parameter | Type                               |
+| :-------- | :--------------------------------- |
+| rect      | [`Rect`](../classes/class.Rect.md) |
 
 #### Returns
 

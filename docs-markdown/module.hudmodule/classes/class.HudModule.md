@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [hudmodule.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/hudmodule.d.ts#L1)
+**Source:** [hudmodule.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L1)
 
 ## Hierarchy
 
@@ -22,9 +22,10 @@
 > name: `string`,
 > displayName: `string`,
 > description: `string`,
-> key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)): [`HudModule`](class.HudModule.md)
+> key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md),
+> resizable: `boolean`): [`HudModule`](class.HudModule.md)
 
-**Source:** [hudmodule.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/hudmodule.d.ts#L2)
+**Source:** [hudmodule.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L2)
 
 #### Parameters
 
@@ -34,6 +35,7 @@
 | displayName | `string`                                                          |
 | description | `string`                                                          |
 | key         | [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md) |
+| resizable   | `boolean`                                                         |
 
 #### Returns
 
@@ -49,7 +51,7 @@
 
 > **description**: `string`
 
-**Source:** [module.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L26)
+**Source:** [module.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L26)
 
 #### Inherited from
 
@@ -59,7 +61,7 @@
 
 > **displayName**: `string`
 
-**Source:** [module.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L25)
+**Source:** [module.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L25)
 
 #### Inherited from
 
@@ -71,7 +73,7 @@
 
 IDs for script modules are always 255.
 
-**Source:** [module.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L32)
+**Source:** [module.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L32)
 
 #### Inherited from
 
@@ -81,7 +83,7 @@ IDs for script modules are always 255.
 
 > **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** [module.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L27)
+**Source:** [module.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L27)
 
 #### Inherited from
 
@@ -91,7 +93,7 @@ IDs for script modules are always 255.
 
 > **name**: `string`
 
-**Source:** [module.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L24)
+**Source:** [module.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L24)
 
 #### Inherited from
 
@@ -101,13 +103,13 @@ IDs for script modules are always 255.
 
 > **on**: `Function`
 
-**Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L51)
+**Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L51)
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`ModuleEvents`](../../module.module/interfaces/interface.ModuleEvents.md)[`K`]): `void`
 >
-> **Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L51)
+> **Source:** [module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L51)
 >
 > ##### Type parameters
 >
@@ -136,7 +138,7 @@ IDs for script modules are always 255.
 
 If the module is visible in the ClickGui
 
-**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L40)
+**Source:** [module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L40)
 
 #### Inherited from
 
@@ -148,7 +150,7 @@ If the module is visible in the ClickGui
 
 If the module is a HUD module (that you can move in the hud editor)
 
-**Source:** [module.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L36)
+**Source:** [module.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L36)
 
 #### Inherited from
 
@@ -156,13 +158,33 @@ If the module is a HUD module (that you can move in the hud editor)
 
 ## Methods
 
+### getRect()
+
+> **getRect**(): [`Rect`](../../module.graphics/classes/class.Rect.md)
+
+**Source:** [hudmodule.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L4)
+
+#### Returns
+
+[`Rect`](../../module.graphics/classes/class.Rect.md)
+
+### getSize()
+
+> **getSize**(): `number`
+
+**Source:** [hudmodule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L6)
+
+#### Returns
+
+`number`
+
 ### isBlocked()
 
 > **isBlocked**(): `boolean`
 
 Check if the module is blocked.
 
-**Source:** [module.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L67)
+**Source:** [module.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L67)
 
 #### Returns
 
@@ -178,7 +200,7 @@ Check if the module is blocked.
 
 Checks if the module is enabled.
 
-**Source:** [module.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L56)
+**Source:** [module.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L56)
 
 #### Returns
 
@@ -194,7 +216,7 @@ Checks if the module is enabled.
 
 Set the module to be enabled or not.
 
-**Source:** [module.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/module.d.ts#L62)
+**Source:** [module.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L62)
 
 #### Parameters
 
@@ -209,3 +231,29 @@ Set the module to be enabled or not.
 #### Inherited from
 
 [`Module`](../../module.module/classes/class.Module.md).[`setEnabled`](../../module.module/classes/class.Module.md#setenabled)
+
+### setRect()
+
+> **setRect**(newRect: [`Rect`](../../module.graphics/classes/class.Rect.md)): `void`
+
+**Source:** [hudmodule.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L5)
+
+#### Parameters
+
+| Parameter | Type                                                  |
+| :-------- | :---------------------------------------------------- |
+| newRect   | [`Rect`](../../module.graphics/classes/class.Rect.md) |
+
+#### Returns
+
+`void`
+
+### setSize()
+
+> **setSize**(): `number`
+
+**Source:** [hudmodule.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/hudmodule.d.ts#L7)
+
+#### Returns
+
+`number`

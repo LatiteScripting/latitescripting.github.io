@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L38)
+**Source:** [latite.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L38)
 
 ## Properties
 
@@ -18,64 +18,64 @@
 
 Whenever the game gets minimized or closed.
 
-**Source:** [latite.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L50)
+**Source:** [latite.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L50)
 
 ### click
 
 > **click**: [`ClickEvent`](interface.ClickEvent.md)
 
-**Source:** [latite.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L45)
+**Source:** [latite.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L45)
 
 ### key-press
 
 > **key-press**: [`KeyEvent`](interface.KeyEvent.md)
 
-**Source:** [latite.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L44)
+**Source:** [latite.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L44)
 
 ### leave-game
 
 > **leave-game**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L40)
+**Source:** [latite.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L40)
 
 ### load-script
 
 > **load-script**: [`ScriptEvent`](interface.ScriptEvent.md)
 
-**Source:** [latite.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L51)
+**Source:** [latite.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L51)
 
 ### receive-chat
 
 > **receive-chat**: [`ReceiveChatEvent`](interface.ReceiveChatEvent.md)
 
-**Source:** [latite.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L41)
+**Source:** [latite.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L41)
 
 ### render2d
 
 > **render2d**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L43)
+**Source:** [latite.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L43)
 
 ### render3d
 
 > **render3d**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L46)
+**Source:** [latite.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L46)
 
 ### send-chat
 
 > **send-chat**: [`SendChatEvent`](interface.SendChatEvent.md)
 
-**Source:** [latite.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L42)
+**Source:** [latite.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L42)
 
 ### unload-script
 
 > **unload-script**: [`ScriptEvent`](interface.ScriptEvent.md)
 
-**Source:** [latite.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L52)
+**Source:** [latite.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L52)
 
 ### world-tick
 
 > **world-tick**: [`LatiteEvent`](interface.LatiteEvent.md)
 
-**Source:** [latite.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/latite.d.ts#L39)
+**Source:** [latite.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L39)

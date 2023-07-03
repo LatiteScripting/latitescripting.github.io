@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [world.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/world.d.ts#L1)
+**Source:** [world.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/world.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 The saved world name.
 
-**Source:** [world.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/world.d.ts#L5)
+**Source:** [world.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/world.d.ts#L5)
 
 #### Returns
 
@@ -30,7 +30,7 @@ The saved world name.
 
 Gets the name of the players connected to the world.
 
-**Source:** [world.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/world.d.ts#L9)
+**Source:** [world.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/world.d.ts#L9)
 
 #### Returns
 
@@ -42,7 +42,7 @@ Gets the name of the players connected to the world.
 
 Returns true if it's your own local world. Returns false if not.
 
-**Source:** [world.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/world.d.ts#L14)
+**Source:** [world.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/world.d.ts#L14)
 
 #### Returns
 

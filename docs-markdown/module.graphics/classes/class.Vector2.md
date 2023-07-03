@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L14)
+**Source:** [graphics.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L17)
 
 ## Constructors
 
@@ -18,7 +18,7 @@
 
 A point on the screen.
 
-**Source:** [graphics.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L20)
+**Source:** [graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L23)
 
 #### Parameters
 
@@ -30,3 +30,17 @@ A point on the screen.
 #### Returns
 
 [`Vector2`](class.Vector2.md)
+
+## Properties
+
+### x
+
+> **x**: `number`
+
+**Source:** [graphics.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L25)
+
+### y
+
+> **y**: `number`
+
+**Source:** [graphics.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L26)

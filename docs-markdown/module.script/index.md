@@ -19,3 +19,4 @@
 ### Functions
 
 - [require](functions/function.require.md)
+- [sleep](functions/function.sleep.md)

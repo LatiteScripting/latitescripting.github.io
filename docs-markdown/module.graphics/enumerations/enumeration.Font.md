@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L31)
+**Source:** [graphics.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L37)
 
 ## Enumeration Members
 
@@ -18,13 +18,13 @@
 
 By default, this is Mojangles
 
-**Source:** [graphics.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L39)
+**Source:** [graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L45)
 
 ### MinecraftTen
 
 > **MinecraftTen**: 2
 
-**Source:** [graphics.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L40)
+**Source:** [graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L46)
 
 ### Smooth
 
@@ -32,4 +32,4 @@ By default, this is Mojangles
 
 By default, this is Noto Sans
 
-**Source:** [graphics.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c02322/definitions/graphics.d.ts#L35)
+**Source:** [graphics.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L41)
