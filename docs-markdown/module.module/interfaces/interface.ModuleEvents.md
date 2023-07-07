@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L1)
+**Source:** [module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L1)
 
 ## Properties
 
@@ -16,13 +16,13 @@
 
 > **disable**: `Function`
 
-**Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L3)
+**Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L3)
 
 #### Type declaration (disable)
 
 > > (): `void`
 >
-> **Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L3)
+> **Source:** [module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L3)
 >
 > ##### Returns
 >
@@ -32,13 +32,13 @@
 
 > **enable**: `Function`
 
-**Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L2)
+**Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L2)
 
 #### Type declaration (enable)
 
 > > (): `void`
 >
-> **Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L2)
+> **Source:** [module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L2)
 >
 > ##### Returns
 >
@@ -48,13 +48,13 @@
 
 > **get-hold-to-toggle**: `Function`
 
-**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L4)
+**Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L4)
 
 #### Type declaration (get-hold-to-toggle)
 
 > > (): `boolean`
 >
-> **Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L4)
+> **Source:** [module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L4)
 >
 > ##### Returns
 >
@@ -64,7 +64,7 @@
 
 > **render**: `Function`
 
-**Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L11)
+**Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L11)
 
 #### Type declaration (render)
 
@@ -72,7 +72,7 @@
 >
 > Only available in HUD modules.
 >
-> **Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L11)
+> **Source:** [module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L11)
 >
 > ##### Parameters
 >
@@ -89,15 +89,22 @@
 
 > **text**: `Function`
 
-**Source:** [module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L20)
+**Source:** [module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L20)
 
 #### Type declaration (text)
 
-> > (): `string`
+> > (isPreview: `boolean`, isEditor: `boolean`): `string`
 >
 > Only available in text modules.
 >
-> **Source:** [module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/module.d.ts#L20)
+> **Source:** [module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/module.d.ts#L20)
+>
+> ##### Parameters
+>
+> | Parameter | Type      |
+> | :-------- | :-------- |
+> | isPreview | `boolean` |
+> | isEditor  | `boolean` |
 >
 > ##### Returns
 >

@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L32)
+**Source:** [latite.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/latite.d.ts#L32)
 
 ## Hierarchy
 
@@ -20,16 +20,16 @@
 
 > **scriptAuthor**: `string`
 
-**Source:** [latite.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L35)
+**Source:** [latite.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/latite.d.ts#L35)
 
 ### scriptName
 
 > **scriptName**: `string`
 
-**Source:** [latite.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L33)
+**Source:** [latite.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/latite.d.ts#L33)
 
 ### scriptVersion
 
 > **scriptVersion**: `string`
 
-**Source:** [latite.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/latite.d.ts#L34)
+**Source:** [latite.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/latite.d.ts#L34)

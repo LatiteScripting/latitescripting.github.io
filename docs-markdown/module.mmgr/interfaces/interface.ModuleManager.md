@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L1)
+**Source:** [mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Removes a module from the client.
 
-**Source:** [mmgr.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L12)
+**Source:** [mmgr.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L12)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Removes a module from the client.
 
 Loop through each module.
 
-**Source:** [mmgr.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L36)
+**Source:** [mmgr.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L36)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Get a module by its ID.
 All script modules will **always** have an id of 255.
 This is not recommended to get script modules.
 
-**Source:** [mmgr.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L29)
+**Source:** [mmgr.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L29)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Gets a module by the specified InternalName.
 For example, ArmorHud is the internal name for Armor Hud.
 Position is the internal name of Coordinates
 
-**Source:** [mmgr.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L20)
+**Source:** [mmgr.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L20)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Position is the internal name of Coordinates
 
 Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
 
-**Source:** [mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/mmgr.d.ts#L6)
+**Source:** [mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/mmgr.d.ts#L6)
 
 #### Parameters
 

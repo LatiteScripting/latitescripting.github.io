@@ -2,35 +2,47 @@
 
 ---
 
-[Exports](../../exports.md) > [entity](../index.md) > Player
+[Exports](../../exports.md) > [entity](../index.md) > LocalPlayer
 
-# Player
+# LocalPlayer
 
 **`Class`**
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L29)
+**Source:** [entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L42)
 
 ## Hierarchy
 
-- [`Entity`](class.Entity.md).**`Player`**
+- [`Player`](class.Player.md).**`LocalPlayer`**
 
 ## Constructors
 
 ### constructor()
 
-> **new Player**(): [`Player`](class.Player.md)
+> **new LocalPlayer**(): [`LocalPlayer`](class.LocalPlayer.md)
 
 #### Returns
 
-[`Player`](class.Player.md)
+[`LocalPlayer`](class.LocalPlayer.md)
 
 #### Inherited from
 
-[`Entity`](class.Entity.md).[`constructor`](class.Entity.md#constructor)
+[`Player`](class.Player.md).[`constructor`](class.Player.md#constructor)
 
 ## Methods
+
+### getDestructionProgress()
+
+> **getDestructionProgress**(): `number`
+
+Get the progress of breaking a block (from 0 to 1)
+
+**Source:** [entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L46)
+
+#### Returns
+
+`number`
 
 ### getDimension()
 
@@ -47,7 +59,19 @@ for example, "Overworld"
 
 #### Inherited from
 
-[`Entity`](class.Entity.md).[`getDimension`](class.Entity.md#getdimension)
+[`Player`](class.Player.md).[`getDimension`](class.Player.md#getdimension)
+
+### getLookingAt()
+
+> **getLookingAt**(): [`LookingAt`](../enumerations/enumeration.LookingAt.md)
+
+Get the type of whatever the player is looking at.
+
+**Source:** [entity.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L51)
+
+#### Returns
+
+[`LookingAt`](../enumerations/enumeration.LookingAt.md)
 
 ### getName()
 
@@ -60,6 +84,10 @@ Get the player's name (same one as the player list in the pause menu.)
 #### Returns
 
 `string`
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getName`](class.Player.md#getname)
 
 ### getPos()
 
@@ -77,7 +105,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Inherited from
 
-[`Entity`](class.Entity.md).[`getPos`](class.Entity.md#getpos)
+[`Player`](class.Player.md).[`getPos`](class.Player.md#getpos)
 
 ### getRot()
 
@@ -95,7 +123,19 @@ Get the rotation. Note that this will fail if you dont have permission
 
 #### Inherited from
 
-[`Entity`](class.Entity.md).[`getRot`](class.Entity.md#getrot)
+[`Player`](class.Player.md).[`getRot`](class.Player.md#getrot)
+
+### getSelectedBlock()
+
+> **getSelectedBlock**(): `null` \| [`Vector3`](../../module.graphics/classes/class.Vector3.md)
+
+Get the block selected by looking at it.
+
+**Source:** [entity.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L56)
+
+#### Returns
+
+`null` \| [`Vector3`](../../module.graphics/classes/class.Vector3.md)
 
 ### isValid()
 
@@ -112,4 +152,4 @@ event listener. This is to prevent the scripting engine from being used as a che
 
 #### Inherited from
 
-[`Entity`](class.Entity.md).[`isValid`](class.Entity.md#isvalid)
+[`Player`](class.Player.md).[`isValid`](class.Player.md#isvalid)

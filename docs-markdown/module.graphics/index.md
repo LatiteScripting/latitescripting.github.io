@@ -17,6 +17,7 @@
 
 - [Rect](classes/class.Rect.md)
 - [Vector2](classes/class.Vector2.md)
+- [Vector3](classes/class.Vector3.md)
 
 ### Interfaces
 

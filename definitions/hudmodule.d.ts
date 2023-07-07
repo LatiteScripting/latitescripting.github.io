@@ -3,6 +3,7 @@ declare class HudModule extends Module {
 
     getRect(): Rect;
     setRect(newRect: Rect): void;
+    setBounds(width: number, height: number): void;
     getSize(): number;
     setSize(): number;
 }

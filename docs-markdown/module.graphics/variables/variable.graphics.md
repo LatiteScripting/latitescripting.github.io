@@ -10,4 +10,4 @@
 
 > `const` **graphics**: [`Graphics2D`](../interfaces/interface.Graphics2D.md)
 
-**Source:** [graphics.d.ts:58](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/graphics.d.ts#L58)
+**Source:** [graphics.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L65)

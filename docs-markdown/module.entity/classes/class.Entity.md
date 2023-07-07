@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/entity.d.ts#L4)
+**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -28,6 +28,47 @@ A class representing an in-game entity.
 
 ## Methods
 
+### getDimension()
+
+> **getDimension**(): `string`
+
+Get the dimension.
+for example, "Overworld"
+
+**Source:** [entity.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L26)
+
+#### Returns
+
+`string`
+
+### getPos()
+
+> **getPos**(): [`Vector3`](../../module.graphics/classes/class.Vector3.md)
+
+Get the position. Note that this will fail if you dont have permission to get the position
+
+#### Throws
+
+**Source:** [entity.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L15)
+
+#### Returns
+
+[`Vector3`](../../module.graphics/classes/class.Vector3.md)
+
+### getRot()
+
+> **getRot**(): [`Vector2`](../../module.graphics/classes/class.Vector2.md)
+
+Get the rotation. Note that this will fail if you dont have permission
+
+#### Throws
+
+**Source:** [entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L20)
+
+#### Returns
+
+[`Vector2`](../../module.graphics/classes/class.Vector2.md)
+
 ### isValid()
 
 > **isValid**(): `boolean`
@@ -35,7 +76,7 @@ A class representing an in-game entity.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/63a7e7f/definitions/entity.d.ts#L9)
+**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/entity.d.ts#L9)
 
 #### Returns
 

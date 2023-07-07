@@ -17,7 +17,7 @@ interface ModuleEvents {
     /**
      * Only available in text modules.
      */
-    "text": () => string;
+    "text": (isPreview: boolean, isEditor: boolean) => string;
 }
 
 declare class Module {
