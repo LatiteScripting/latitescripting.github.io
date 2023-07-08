@@ -10,4 +10,4 @@
 
 > **Color**: [`number`, `number`, `number`, `number`]
 
-**Source:** [graphics.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L36)
+**Source:** [graphics.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L36)

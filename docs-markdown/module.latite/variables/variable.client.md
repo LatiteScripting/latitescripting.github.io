@@ -10,4 +10,4 @@
 
 > `const` **client**: [`Latite`](../interfaces/interface.Latite.md)
 
-**Source:** [latite.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/latite.d.ts#L85)
+**Source:** [latite.d.ts:91](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/latite.d.ts#L91)

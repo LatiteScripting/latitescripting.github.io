@@ -14,6 +14,8 @@
 - [hudmodule](module.hudmodule/index.md)
 - [key](module.key/index.md)
 - [latite](module.latite/index.md)
+- [lib/filesystem](module.lib_filesystem/index.md)
+- [lib/network](module.lib_network/index.md)
 - [mmgr](module.mmgr/index.md)
 - [module](module.module/index.md)
 - [script](module.script/index.md)

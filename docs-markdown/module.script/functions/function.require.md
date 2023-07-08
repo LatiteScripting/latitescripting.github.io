@@ -8,6 +8,34 @@
 
 **`Function`**
 
+> **require**\<K\>(path: `K`): [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
+
+Load a specified library.
+
+## Throws
+
+Invalid filepath or Non-OK HTTP/HTTPS error code
+
+**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/script.d.ts#L26)
+
+## Type parameters
+
+| Parameter                                                                           |
+| :---------------------------------------------------------------------------------- |
+| K _extends_ _keyof_ [`EngineLibraries`](../interfaces/interface.EngineLibraries.md) |
+
+## Parameters
+
+| Parameter | Type | Description                                      |
+| :-------- | :--- | :----------------------------------------------- |
+| path      | `K`  | The filepath, HTTP or HTTPS link to the JS file. |
+
+## Returns
+
+[`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
+
+Whatever the loaded script exports (through script_exports)
+
 > **require**(path: `string`): `object`
 
 Load a specified script from filesystem or web.
@@ -16,7 +44,7 @@ Load a specified script from filesystem or web.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/script.d.ts#L21)
+**Source:** [script.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/script.d.ts#L33)
 
 ## Parameters
 

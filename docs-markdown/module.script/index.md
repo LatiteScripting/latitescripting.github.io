@@ -10,6 +10,7 @@
 
 ### Interfaces
 
+- [EngineLibraries](interfaces/interface.EngineLibraries.md)
 - [Script](interfaces/interface.Script.md)
 
 ### Variables

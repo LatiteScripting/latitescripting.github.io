@@ -8,6 +8,10 @@
 
 ## Index
 
+### Enumerations
+
+- [MouseButton](enumerations/enumeration.MouseButton.md)
+
 ### Interfaces
 
 - [CancellableEvent](interfaces/interface.CancellableEvent.md)
@@ -19,10 +23,6 @@
 - [ReceiveChatEvent](interfaces/interface.ReceiveChatEvent.md)
 - [ScriptEvent](interfaces/interface.ScriptEvent.md)
 - [SendChatEvent](interfaces/interface.SendChatEvent.md)
-
-### Type Aliases
-
-- [EventName](type-aliases/type-alias.EventName.md)
 
 ### Variables
 

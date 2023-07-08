@@ -1,5 +1,3 @@
-type EventName = 'world-tick' | 'leave-game' | 'receive-chat' | 'send-chat' | 'render2d';
-
 interface LatiteEvent {
 }
 
@@ -17,7 +15,15 @@ interface ReceiveChatEvent extends LatiteEvent {
     xuid: string;
 }
 
+declare const enum MouseButton {
+    Left = 1,
+    Right = 2,
+    Middle = 3,
+    Scroll = 4
+}
+
 interface ClickEvent extends CancellableEvent {
+    button: MouseButton
     isDown: boolean;
     mouseX: number;
     mouseY: number;

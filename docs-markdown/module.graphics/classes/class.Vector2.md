@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L17)
+**Source:** [graphics.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L17)
 
 ## Constructors
 
@@ -18,7 +18,7 @@
 
 A point on the screen.
 
-**Source:** [graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L23)
+**Source:** [graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L23)
 
 #### Parameters
 
@@ -37,10 +37,10 @@ A point on the screen.
 
 > **x**: `number`
 
-**Source:** [graphics.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L25)
+**Source:** [graphics.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L25)
 
 ### y
 
 > **y**: `number`
 
-**Source:** [graphics.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L26)
+**Source:** [graphics.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L26)

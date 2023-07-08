@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L29)
+**Source:** [graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L29)
 
 ## Constructors
 
@@ -19,7 +19,7 @@
 > y: `number`,
 > z: `number`): [`Vector3`](class.Vector3.md)
 
-**Source:** [graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L30)
+**Source:** [graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L30)
 
 #### Parameters
 
@@ -39,16 +39,16 @@
 
 > **x**: `number`
 
-**Source:** [graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L31)
+**Source:** [graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L31)
 
 ### y
 
 > **y**: `number`
 
-**Source:** [graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L32)
+**Source:** [graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L32)
 
 ### z
 
 > **z**: `number`
 
-**Source:** [graphics.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/d4523bf/definitions/graphics.d.ts#L33)
+**Source:** [graphics.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L33)
