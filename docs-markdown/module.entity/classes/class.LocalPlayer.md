@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L42)
+**Source:** [entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L42)
 
 ## Hierarchy
 
@@ -38,7 +38,7 @@ A class representing an in-game entity.
 
 Get the progress of breaking a block (from 0 to 1)
 
-**Source:** [entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L46)
+**Source:** [entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L46)
 
 #### Returns
 
@@ -51,7 +51,7 @@ Get the progress of breaking a block (from 0 to 1)
 Get the dimension.
 for example, "Overworld"
 
-**Source:** [entity.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L26)
+**Source:** [entity.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L26)
 
 #### Returns
 
@@ -67,7 +67,7 @@ for example, "Overworld"
 
 Get the type of whatever the player is looking at.
 
-**Source:** [entity.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L51)
+**Source:** [entity.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L51)
 
 #### Returns
 
@@ -79,7 +79,7 @@ Get the type of whatever the player is looking at.
 
 Get the player's name (same one as the player list in the pause menu.)
 
-**Source:** [entity.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L33)
+**Source:** [entity.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L33)
 
 #### Returns
 
@@ -97,7 +97,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [entity.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L15)
+**Source:** [entity.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L15)
 
 #### Returns
 
@@ -115,7 +115,7 @@ Get the rotation. Note that this will fail if you dont have permission
 
 #### Throws
 
-**Source:** [entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L20)
+**Source:** [entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L20)
 
 #### Returns
 
@@ -131,7 +131,7 @@ Get the rotation. Note that this will fail if you dont have permission
 
 Get the block selected by looking at it.
 
-**Source:** [entity.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L56)
+**Source:** [entity.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L56)
 
 #### Returns
 
@@ -144,7 +144,7 @@ Get the block selected by looking at it.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L9)
+**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L9)
 
 #### Returns
 

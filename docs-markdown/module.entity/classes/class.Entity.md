@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L4)
+**Source:** [entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -35,7 +35,7 @@ A class representing an in-game entity.
 Get the dimension.
 for example, "Overworld"
 
-**Source:** [entity.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L26)
+**Source:** [entity.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L26)
 
 #### Returns
 
@@ -49,7 +49,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [entity.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L15)
+**Source:** [entity.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L15)
 
 #### Returns
 
@@ -63,7 +63,7 @@ Get the rotation. Note that this will fail if you dont have permission
 
 #### Throws
 
-**Source:** [entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L20)
+**Source:** [entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L20)
 
 #### Returns
 
@@ -76,7 +76,7 @@ Get the rotation. Note that this will fail if you dont have permission
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/entity.d.ts#L9)
+**Source:** [entity.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/entity.d.ts#L9)
 
 #### Returns
 

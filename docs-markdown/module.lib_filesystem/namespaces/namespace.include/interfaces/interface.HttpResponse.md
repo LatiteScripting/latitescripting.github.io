@@ -8,18 +8,20 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L2)
+**Source:** [lib/network.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L2)
 
 ## Properties
 
 ### body
 
-> **body**: `string`
+> **body**: `Uint8Array`
 
-**Source:** [lib/network.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L3)
+The body, if the status code is 200 (OK)
+
+**Source:** [lib/network.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L6)
 
 ### statusCode
 
 > **statusCode**: `number`
 
-**Source:** [lib/network.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L4)
+**Source:** [lib/network.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L7)

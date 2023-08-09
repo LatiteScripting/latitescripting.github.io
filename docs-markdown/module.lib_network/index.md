@@ -20,4 +20,4 @@ Re-exports [include](../module.lib_filesystem/namespaces/namespace.include/index
 
 > **include**
 
-**Source:** [lib/filesystem.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/filesystem.d.ts#L1) [lib/network.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L1)
+**Source:** [lib/filesystem.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/filesystem.d.ts#L1) [lib/network.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L1)

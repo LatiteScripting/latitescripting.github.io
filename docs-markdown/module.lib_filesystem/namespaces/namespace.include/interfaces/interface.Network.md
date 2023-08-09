@@ -8,23 +8,43 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L6)
+**Source:** [lib/network.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L20)
 
 ## Methods
 
 ### getSync()
 
-> **getSync**(url: `string`): [`HttpResponse`](interface.HttpResponse.md)
+> **getSync**(url: `string`, data?: [`GetData`](interface.GetData.md)): [`HttpResponse`](interface.HttpResponse.md)
 
 Sends a basic GET request to a URL.
 
-**Source:** [lib/network.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/network.d.ts#L11)
+**Source:** [lib/network.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L26)
 
 #### Parameters
 
-| Parameter | Type     | Description                  |
-| :-------- | :------- | :--------------------------- |
-| url       | `string` | The URL to send the request. |
+| Parameter | Type                              | Description                  |
+| :-------- | :-------------------------------- | :--------------------------- |
+| url       | `string`                          | The URL to send the request. |
+| data?     | [`GetData`](interface.GetData.md) |                              |
+
+#### Returns
+
+[`HttpResponse`](interface.HttpResponse.md)
+
+### postSync()
+
+> **postSync**(url: `string`, data?: [`PostData`](interface.PostData.md)): [`HttpResponse`](interface.HttpResponse.md)
+
+Sends a basic POST request to a URL.
+
+**Source:** [lib/network.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L33)
+
+#### Parameters
+
+| Parameter | Type                                | Description                     |
+| :-------- | :---------------------------------- | :------------------------------ |
+| url       | `string`                            | The URL to send a POST request. |
+| data?     | [`PostData`](interface.PostData.md) |                                 |
 
 #### Returns
 

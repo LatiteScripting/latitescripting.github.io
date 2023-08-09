@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [graphics.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L38)
+**Source:** [graphics.d.ts:84](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/graphics.d.ts#L84)
 
 ## Enumeration Members
 
@@ -16,16 +16,16 @@
 
 > **Center**: 2
 
-**Source:** [graphics.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L41)
+**Source:** [graphics.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/graphics.d.ts#L87)
 
 ### Left
 
 > **Left**: 0
 
-**Source:** [graphics.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L39)
+**Source:** [graphics.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/graphics.d.ts#L85)
 
 ### Right
 
 > **Right**: 1
 
-**Source:** [graphics.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/graphics.d.ts#L40)
+**Source:** [graphics.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/graphics.d.ts#L86)

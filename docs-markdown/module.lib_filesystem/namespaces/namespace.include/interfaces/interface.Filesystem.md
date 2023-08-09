@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/filesystem.d.ts#L2)
+**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/filesystem.d.ts#L2)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Reads a file from the path specified.
 
-**Source:** [lib/filesystem.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/filesystem.d.ts#L7)
+**Source:** [lib/filesystem.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/filesystem.d.ts#L7)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Reads a file from the path specified.
 
 Writes a file to the path specified.
 
-**Source:** [lib/filesystem.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/eee19f3/definitions/lib/filesystem.d.ts#L13)
+**Source:** [lib/filesystem.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/filesystem.d.ts#L13)
 
 #### Parameters
 
