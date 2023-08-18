@@ -1,0 +1,49 @@
+[**Latite Scripting Documentation**](../../README.md) ([**Exports**](../../exports.md))
+
+---
+
+[Exports](../../exports.md) > [world/world](../index.md) > World
+
+# World
+
+**`Interface`**
+
+**Source:** world/world.d.ts:1
+
+## Methods
+
+### getName()
+
+> **getName**(): `string`
+
+The saved world name.
+
+**Source:** world/world.d.ts:5
+
+#### Returns
+
+`string`
+
+### getPlayers()
+
+> **getPlayers**(): `string`[]
+
+Gets the name of the players connected to the world.
+
+**Source:** world/world.d.ts:9
+
+#### Returns
+
+`string`[]
+
+### isLocalWorld()
+
+> **isLocalWorld**(): `boolean`
+
+Returns true if it's your own local world. Returns false if not.
+
+**Source:** world/world.d.ts:14
+
+#### Returns
+
+`boolean`

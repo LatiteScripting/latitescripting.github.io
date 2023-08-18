@@ -1,0 +1,379 @@
+[**Latite Scripting Documentation**](../../README.md) ([**Exports**](../../exports.md))
+
+---
+
+[Exports](../../exports.md) > [feature/hudmodule](../index.md) > HudModule
+
+# HudModule
+
+**`Class`**
+
+**Source:** feature/hudmodule.d.ts:1
+
+## Hierarchy
+
+- [`Module`](../../module.feature_module/classes/class.Module.md).**`HudModule`**
+
+## Constructors
+
+### constructor()
+
+> **new HudModule**(
+> name: `string`,
+> displayName: `string`,
+> description: `string`,
+> key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md),
+> resizable: `boolean`): [`HudModule`](class.HudModule.md)
+
+**Source:** feature/hudmodule.d.ts:2
+
+#### Parameters
+
+| Parameter   | Type                                                              |
+| :---------- | :---------------------------------------------------------------- |
+| name        | `string`                                                          |
+| displayName | `string`                                                          |
+| description | `string`                                                          |
+| key         | [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md) |
+| resizable   | `boolean`                                                         |
+
+#### Returns
+
+[`HudModule`](class.HudModule.md)
+
+#### Overrides
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`constructor`](../../module.feature_module/classes/class.Module.md#constructor)
+
+## Properties
+
+### description
+
+> `readonly` **description**: `string`
+
+**Source:** feature/module.d.ts:26
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`description`](../../module.feature_module/classes/class.Module.md#description)
+
+### displayName
+
+> `readonly` **displayName**: `string`
+
+**Source:** feature/module.d.ts:25
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`displayName`](../../module.feature_module/classes/class.Module.md#displayname)
+
+### id
+
+> `readonly` **id**: `number`
+
+IDs for script modules are always 255.
+
+**Source:** feature/module.d.ts:32
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`id`](../../module.feature_module/classes/class.Module.md#id)
+
+### key
+
+> `readonly` **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
+
+**Source:** feature/module.d.ts:27
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`key`](../../module.feature_module/classes/class.Module.md#key)
+
+### name
+
+> `readonly` **name**: `string`
+
+**Source:** feature/module.d.ts:24
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`name`](../../module.feature_module/classes/class.Module.md#name)
+
+### on
+
+> **on**: `Function`
+
+**Source:** feature/module.d.ts:51
+
+#### Type declaration (on)
+
+> > \<K\>(eventName: `K`, handler: [`ModuleEvents`](../../module.feature_module/interfaces/interface.ModuleEvents.md)[`K`]): `void`
+>
+> **Source:** feature/module.d.ts:51
+>
+> ##### Type parameters
+>
+> | Parameter                                                                                              |
+> | :----------------------------------------------------------------------------------------------------- |
+> | K _extends_ _keyof_ [`ModuleEvents`](../../module.feature_module/interfaces/interface.ModuleEvents.md) |
+>
+> ##### Parameters
+>
+> | Parameter | Type                                                                                    |
+> | :-------- | :-------------------------------------------------------------------------------------- |
+> | eventName | `K`                                                                                     |
+> | handler   | [`ModuleEvents`](../../module.feature_module/interfaces/interface.ModuleEvents.md)[`K`] |
+>
+> ##### Returns
+>
+> `void`
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`on`](../../module.feature_module/classes/class.Module.md#on)
+
+### visible
+
+> `readonly` **visible**: `boolean`
+
+If the module is visible in the ClickGui
+
+**Source:** feature/module.d.ts:40
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`visible`](../../module.feature_module/classes/class.Module.md#visible)
+
+### visual
+
+> `readonly` **visual**: `boolean`
+
+If the module is a HUD module (that you can move in the hud editor)
+
+**Source:** feature/module.d.ts:36
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`visual`](../../module.feature_module/classes/class.Module.md#visual)
+
+## Methods
+
+### addBoolSetting()
+
+> **addBoolSetting**(
+> name: `string`,
+> displayName: `string`,
+> description: `string`): [`Setting`](../../module.feature_setting/classes/class.Setting.md)
+
+Adds a setting.
+
+**Source:** feature/module.d.ts:80
+
+#### Parameters
+
+| Parameter   | Type     | Description                                  |
+| :---------- | :------- | :------------------------------------------- |
+| name        | `string` | The internal name                            |
+| displayName | `string` | The name that shows in the menu              |
+| description | `string` | A short description of what the setting does |
+
+#### Returns
+
+[`Setting`](../../module.feature_setting/classes/class.Setting.md)
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`addBoolSetting`](../../module.feature_module/classes/class.Module.md#addboolsetting)
+
+### addNumberSetting()
+
+> **addNumberSetting**(
+> name: `string`,
+> displayName: `string`,
+> description: `string`,
+> min: `number`,
+> max: `number`,
+> interval: `number`): [`Setting`](../../module.feature_setting/classes/class.Setting.md)
+
+Adds a setting.
+
+**Source:** feature/module.d.ts:91
+
+#### Parameters
+
+| Parameter   | Type     | Description                                  |
+| :---------- | :------- | :------------------------------------------- |
+| name        | `string` | The internal name                            |
+| displayName | `string` | The name that shows in the menu              |
+| description | `string` | A short description of what the setting does |
+| min         | `number` | The minimum value                            |
+| max         | `number` | The maximum value                            |
+| interval    | `number` | The precision of the setting                 |
+
+#### Returns
+
+[`Setting`](../../module.feature_setting/classes/class.Setting.md)
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`addNumberSetting`](../../module.feature_module/classes/class.Module.md#addnumbersetting)
+
+### getPos()
+
+> **getPos**(): [`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
+
+**Source:** feature/hudmodule.d.ts:9
+
+#### Returns
+
+[`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
+
+### getRect()
+
+> **getRect**(): [`Rect`](../../module.gfx_graphics/classes/class.Rect.md)
+
+**Source:** feature/hudmodule.d.ts:4
+
+#### Returns
+
+[`Rect`](../../module.gfx_graphics/classes/class.Rect.md)
+
+### getSettings()
+
+> **getSettings**(): [`Setting`](../../module.feature_setting/classes/class.Setting.md)[]
+
+Gets the settings of the module.
+
+**Source:** feature/module.d.ts:72
+
+#### Returns
+
+[`Setting`](../../module.feature_setting/classes/class.Setting.md)[]
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`getSettings`](../../module.feature_module/classes/class.Module.md#getsettings)
+
+### getSize()
+
+> **getSize**(): `number`
+
+**Source:** feature/hudmodule.d.ts:7
+
+#### Returns
+
+`number`
+
+### isBlocked()
+
+> **isBlocked**(): `boolean`
+
+Check if the module is blocked.
+
+**Source:** feature/module.d.ts:67
+
+#### Returns
+
+`boolean`
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`isBlocked`](../../module.feature_module/classes/class.Module.md#isblocked)
+
+### isEnabled()
+
+> **isEnabled**(): `boolean`
+
+Checks if the module is enabled.
+
+**Source:** feature/module.d.ts:56
+
+#### Returns
+
+`boolean`
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`isEnabled`](../../module.feature_module/classes/class.Module.md#isenabled)
+
+### setBounds()
+
+> **setBounds**(width: `number`, height: `number`): `void`
+
+**Source:** feature/hudmodule.d.ts:6
+
+#### Parameters
+
+| Parameter | Type     |
+| :-------- | :------- |
+| width     | `number` |
+| height    | `number` |
+
+#### Returns
+
+`void`
+
+### setEnabled()
+
+> **setEnabled**(b: `boolean`): `void`
+
+Set the module to be enabled or not.
+
+**Source:** feature/module.d.ts:62
+
+#### Parameters
+
+| Parameter | Type      | Description                   |
+| :-------- | :-------- | :---------------------------- |
+| b         | `boolean` | The new status of the module. |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`Module`](../../module.feature_module/classes/class.Module.md).[`setEnabled`](../../module.feature_module/classes/class.Module.md#setenabled)
+
+### setPos()
+
+> **setPos**(x: `number`, y: `number`): `void`
+
+**Source:** feature/hudmodule.d.ts:10
+
+#### Parameters
+
+| Parameter | Type     |
+| :-------- | :------- |
+| x         | `number` |
+| y         | `number` |
+
+#### Returns
+
+`void`
+
+### setRect()
+
+> **setRect**(newRect: [`Rect`](../../module.gfx_graphics/classes/class.Rect.md)): `void`
+
+**Source:** feature/hudmodule.d.ts:5
+
+#### Parameters
+
+| Parameter | Type                                                      |
+| :-------- | :-------------------------------------------------------- |
+| newRect   | [`Rect`](../../module.gfx_graphics/classes/class.Rect.md) |
+
+#### Returns
+
+`void`
+
+### setSize()
+
+> **setSize**(): `number`
+
+**Source:** feature/hudmodule.d.ts:8
+
+#### Returns
+
+`number`

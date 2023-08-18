@@ -16,7 +16,7 @@ Load a specified library.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/script.d.ts#L26)
+**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/script.d.ts#L26)
 
 ## Type parameters
 
@@ -44,7 +44,7 @@ Load a specified script from filesystem or web.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/script.d.ts#L33)
+**Source:** [script.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/script.d.ts#L33)
 
 ## Parameters
 

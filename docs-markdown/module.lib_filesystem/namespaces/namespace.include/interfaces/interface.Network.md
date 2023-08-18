@@ -8,9 +8,32 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L20)
+**Source:** [lib/network.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/lib/network.d.ts#L25)
 
 ## Methods
+
+### get()
+
+> **get**(
+> url: `string`,
+> data: [`GetData`](interface.GetData.md),
+> callback: `Function`): `void`
+
+Sends an async GET request to a URL.
+
+**Source:** [lib/network.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/lib/network.d.ts#L39)
+
+#### Parameters
+
+| Parameter | Type                                                          | Description                  |
+| :-------- | :------------------------------------------------------------ | :--------------------------- |
+| url       | `string`                                                      | The URL to send the request. |
+| data      | [`GetData`](interface.GetData.md)                             |                              |
+| callback  | (resp: [`HttpResponse`](interface.HttpResponse.md)) => `void` |                              |
+
+#### Returns
+
+`void`
 
 ### getSync()
 
@@ -18,7 +41,7 @@
 
 Sends a basic GET request to a URL.
 
-**Source:** [lib/network.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L26)
+**Source:** [lib/network.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/lib/network.d.ts#L31)
 
 #### Parameters
 
@@ -37,7 +60,7 @@ Sends a basic GET request to a URL.
 
 Sends a basic POST request to a URL.
 
-**Source:** [lib/network.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/lib/network.d.ts#L33)
+**Source:** [lib/network.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/lib/network.d.ts#L46)
 
 #### Parameters
 

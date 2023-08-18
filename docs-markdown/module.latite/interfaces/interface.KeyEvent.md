@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/latite.d.ts#L32)
+**Source:** [latite.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L32)
 
 ## Hierarchy
 
@@ -20,7 +20,7 @@
 
 > **cancel**: `boolean`
 
-**Source:** [latite.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/latite.d.ts#L5)
+**Source:** [latite.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L5)
 
 #### Inherited from
 
@@ -30,16 +30,16 @@
 
 > **isDown**: `boolean`
 
-**Source:** [latite.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/latite.d.ts#L33)
+**Source:** [latite.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L33)
 
 ### keyAsChar
 
 > **keyAsChar**: `string`
 
-**Source:** [latite.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/latite.d.ts#L35)
+**Source:** [latite.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L35)
 
 ### keyCode
 
 > **keyCode**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** [latite.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/latite.d.ts#L34)
+**Source:** [latite.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L34)

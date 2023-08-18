@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [util/util.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/util/util.d.ts#L1)
+**Source:** [util/util.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/util/util.d.ts#L1)
 
 ## Methods
 
@@ -16,7 +16,9 @@
 
 > **bufferToString**(buf: `Uint8Array`): `string`
 
-**Source:** [util/util.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/util/util.d.ts#L2)
+Converts a buffer into a UTF-8 string.
+
+**Source:** [util/util.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/util/util.d.ts#L6)
 
 #### Parameters
 
@@ -32,7 +34,9 @@
 
 > **stringToBuffer**(str: `string`): `Uint8Array`
 
-**Source:** [util/util.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/b8f7d69/definitions/util/util.d.ts#L3)
+Converts a string to a UTF-8 buffer.
+
+**Source:** [util/util.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/util/util.d.ts#L11)
 
 #### Parameters
 
