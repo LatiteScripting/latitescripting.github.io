@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** feature/module.d.ts:23
+**Source:** [feature/module.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L23)
 
 ## Hierarchy
 
@@ -24,7 +24,7 @@
 > description: `string`,
 > key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)): [`Module`](class.Module.md)
 
-**Source:** feature/module.d.ts:49
+**Source:** [feature/module.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L49)
 
 #### Parameters
 
@@ -45,13 +45,13 @@
 
 > `readonly` **description**: `string`
 
-**Source:** feature/module.d.ts:26
+**Source:** [feature/module.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L26)
 
 ### displayName
 
 > `readonly` **displayName**: `string`
 
-**Source:** feature/module.d.ts:25
+**Source:** [feature/module.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L25)
 
 ### id
 
@@ -59,31 +59,31 @@
 
 IDs for script modules are always 255.
 
-**Source:** feature/module.d.ts:32
+**Source:** [feature/module.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L32)
 
 ### key
 
 > `readonly` **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** feature/module.d.ts:27
+**Source:** [feature/module.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L27)
 
 ### name
 
 > `readonly` **name**: `string`
 
-**Source:** feature/module.d.ts:24
+**Source:** [feature/module.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L24)
 
 ### on
 
 > **on**: `Function`
 
-**Source:** feature/module.d.ts:51
+**Source:** [feature/module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L51)
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`ModuleEvents`](../interfaces/interface.ModuleEvents.md)[`K`]): `void`
 >
-> **Source:** feature/module.d.ts:51
+> **Source:** [feature/module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L51)
 >
 > ##### Type parameters
 >
@@ -108,7 +108,7 @@ IDs for script modules are always 255.
 
 If the module is visible in the ClickGui
 
-**Source:** feature/module.d.ts:40
+**Source:** [feature/module.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L40)
 
 ### visual
 
@@ -116,7 +116,7 @@ If the module is visible in the ClickGui
 
 If the module is a HUD module (that you can move in the hud editor)
 
-**Source:** feature/module.d.ts:36
+**Source:** [feature/module.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L36)
 
 ## Methods
 
@@ -129,7 +129,7 @@ If the module is a HUD module (that you can move in the hud editor)
 
 Adds a setting.
 
-**Source:** feature/module.d.ts:80
+**Source:** [feature/module.d.ts:80](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L80)
 
 #### Parameters
 
@@ -155,7 +155,7 @@ Adds a setting.
 
 Adds a setting.
 
-**Source:** feature/module.d.ts:91
+**Source:** [feature/module.d.ts:91](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L91)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ Adds a setting.
 
 Gets the settings of the module.
 
-**Source:** feature/module.d.ts:72
+**Source:** [feature/module.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L72)
 
 #### Returns
 
@@ -190,7 +190,7 @@ Gets the settings of the module.
 
 Check if the module is blocked.
 
-**Source:** feature/module.d.ts:67
+**Source:** [feature/module.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L67)
 
 #### Returns
 
@@ -202,7 +202,7 @@ Check if the module is blocked.
 
 Checks if the module is enabled.
 
-**Source:** feature/module.d.ts:56
+**Source:** [feature/module.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L56)
 
 #### Returns
 
@@ -214,7 +214,7 @@ Checks if the module is enabled.
 
 Set the module to be enabled or not.
 
-**Source:** feature/module.d.ts:62
+**Source:** [feature/module.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L62)
 
 #### Parameters
 

@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** feature/manager/commandmgr.d.ts:1
+**Source:** [feature/manager/commandmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/manager/commandmgr.d.ts#L1)
 
 ## Constructors
 
@@ -28,7 +28,7 @@
 
 Removes a command from the client.
 
-**Source:** feature/manager/commandmgr.d.ts:17
+**Source:** [feature/manager/commandmgr.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/manager/commandmgr.d.ts#L17)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Removes a command from the client.
 
 Gets the command prefix, default is '.'
 
-**Source:** feature/manager/commandmgr.d.ts:5
+**Source:** [feature/manager/commandmgr.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/manager/commandmgr.d.ts#L5)
 
 #### Returns
 
@@ -58,7 +58,7 @@ Gets the command prefix, default is '.'
 
 Adds a command into the client
 
-**Source:** feature/manager/commandmgr.d.ts:11
+**Source:** [feature/manager/commandmgr.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/manager/commandmgr.d.ts#L11)
 
 #### Parameters
 

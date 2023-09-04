@@ -16,7 +16,7 @@ Load a specified library.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/script.d.ts#L26)
+**Source:** [script.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/script.d.ts#L25)
 
 ## Type parameters
 
@@ -34,8 +34,6 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 
 [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
 
-Whatever the loaded script exports (through script_exports)
-
 > **require**(path: `string`): `object`
 
 Load a specified script from filesystem or web.
@@ -44,7 +42,7 @@ Load a specified script from filesystem or web.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/script.d.ts#L33)
+**Source:** [script.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/script.d.ts#L31)
 
 ## Parameters
 
@@ -55,5 +53,3 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 ## Returns
 
 `object`
-
-Whatever the loaded script exports (through script_exports)

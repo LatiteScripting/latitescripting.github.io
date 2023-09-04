@@ -8,9 +8,33 @@
 
 **`Interface`**
 
-**Source:** world/world.d.ts:1
+**Source:** [world/world.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L1)
 
 ## Methods
+
+### getEntities()
+
+> **getEntities**(): [`Entity`](../../module.world_entity/classes/class.Entity.md)[]
+
+Gets the clientside entity list (only if you have operator otherwise it will only return you)
+
+**Source:** [world/world.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L19)
+
+#### Returns
+
+[`Entity`](../../module.world_entity/classes/class.Entity.md)[]
+
+### getEntityCount()
+
+> **getEntityCount**(): `number`
+
+Gets the clientside number of entities (including you)
+
+**Source:** [world/world.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L24)
+
+#### Returns
+
+`number`
 
 ### getName()
 
@@ -18,7 +42,7 @@
 
 The saved world name.
 
-**Source:** world/world.d.ts:5
+**Source:** [world/world.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L5)
 
 #### Returns
 
@@ -30,7 +54,7 @@ The saved world name.
 
 Gets the name of the players connected to the world.
 
-**Source:** world/world.d.ts:9
+**Source:** [world/world.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L9)
 
 #### Returns
 
@@ -42,7 +66,7 @@ Gets the name of the players connected to the world.
 
 Returns true if it's your own local world. Returns false if not.
 
-**Source:** world/world.d.ts:14
+**Source:** [world/world.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/world.d.ts#L14)
 
 #### Returns
 

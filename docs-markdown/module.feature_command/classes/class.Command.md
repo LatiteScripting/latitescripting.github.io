@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** feature/command.d.ts:12
+**Source:** [feature/command.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L12)
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > usage: `string`,
 > aliases: `string`[]): [`Command`](class.Command.md)
 
-**Source:** feature/command.d.ts:24
+**Source:** [feature/command.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L24)
 
 #### Parameters
 
@@ -41,31 +41,31 @@
 
 > `readonly` **aliases**: `string`[]
 
-**Source:** feature/command.d.ts:15
+**Source:** [feature/command.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L15)
 
 ### description
 
 > `readonly` **description**: `string`
 
-**Source:** feature/command.d.ts:14
+**Source:** [feature/command.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L14)
 
 ### name
 
 > `readonly` **name**: `string`
 
-**Source:** feature/command.d.ts:13
+**Source:** [feature/command.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L13)
 
 ### on
 
 > **on**: `Function`
 
-**Source:** feature/command.d.ts:26
+**Source:** [feature/command.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L26)
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`CommandEvents`](../interfaces/interface.CommandEvents.md)[`K`]): `void`
 >
-> **Source:** feature/command.d.ts:26
+> **Source:** [feature/command.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L26)
 >
 > ##### Type parameters
 >

@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** world/entity.d.ts:4
+**Source:** [world/entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -26,7 +26,31 @@ A class representing an in-game entity.
 
 [`Entity`](class.Entity.md)
 
+## Properties
+
+### runtimeId
+
+> `readonly` **runtimeId**: `number`
+
+The runtime ID of the entity. Local player is always 1.
+
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L8)
+
 ## Methods
+
+### attack()
+
+> **attack**(): `void`
+
+Makes your player attack the entity. Only works if you have operator
+
+#### Throws
+
+**Source:** [world/entity.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L59)
+
+#### Returns
+
+`void`
 
 ### getDimensionName()
 
@@ -35,39 +59,89 @@ A class representing an in-game entity.
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** world/entity.d.ts:26
+**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L31)
 
 #### Returns
 
 `string`
 
-### getPos()
+### getEntityType()
 
-> **getPos**(): [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
+> **getEntityType**(): `number`
+
+Gets the entity type ID.
+
+https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
+
+**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L53)
+
+#### Returns
+
+`number`
+
+### getHurtTime()
+
+> **getHurtTime**(): `number`
+
+Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
+
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L36)
+
+#### Returns
+
+`number`
+
+### getPosition()
+
+> **getPosition**(): [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
 
 Get the position. Note that this will fail if you dont have permission to get the position
 
 #### Throws
 
-**Source:** world/entity.d.ts:15
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
 [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
 
-### getRot()
+### getRotation()
 
-> **getRot**(): [`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
+> **getRotation**(): [`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
 
-Get the rotation. Note that this will fail if you dont have permission
+Get the rotation. Note that this will fail if you dont have permission to get the rotation
 
 #### Throws
 
-**Source:** world/entity.d.ts:20
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
 [`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
+
+### isLocalPlayer()
+
+> **isLocalPlayer**(): `boolean`
+
+Whether the entity is the local player (yourself) or not.
+
+**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L46)
+
+#### Returns
+
+`boolean`
+
+### isPlayer()
+
+> **isPlayer**(): `boolean`
+
+Whether the entity is a player or not.
+
+**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L41)
+
+#### Returns
+
+`boolean`
 
 ### isValid()
 
@@ -76,7 +150,7 @@ Get the rotation. Note that this will fail if you dont have permission
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** world/entity.d.ts:9
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L14)
 
 #### Returns
 

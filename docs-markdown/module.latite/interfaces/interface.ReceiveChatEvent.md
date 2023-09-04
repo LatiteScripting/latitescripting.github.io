@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L12)
+**Source:** [latite.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L12)
 
 ## Hierarchy
 
@@ -20,16 +20,16 @@
 
 > **message**: `string`
 
-**Source:** [latite.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L13)
+**Source:** [latite.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L13)
 
 ### sender
 
 > **sender**: `string`
 
-**Source:** [latite.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L14)
+**Source:** [latite.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L14)
 
 ### xuid
 
 > **xuid**: `string`
 
-**Source:** [latite.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/latite.d.ts#L15)
+**Source:** [latite.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L15)

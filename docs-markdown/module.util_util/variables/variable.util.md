@@ -10,4 +10,4 @@
 
 > `let` **util**: [`IUtil`](../interfaces/interface.IUtil.md)
 
-**Source:** [util/util.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/be6d927/definitions/util/util.d.ts#L14)
+**Source:** [util/util.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/util/util.d.ts#L14)

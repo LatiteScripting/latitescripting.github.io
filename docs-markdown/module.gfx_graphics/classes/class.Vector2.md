@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** gfx/graphics.d.ts:27
+**Source:** [gfx/graphics.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L27)
 
 ## Constructors
 
@@ -18,7 +18,7 @@
 
 A point on the screen.
 
-**Source:** gfx/graphics.d.ts:38
+**Source:** [gfx/graphics.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L38)
 
 #### Parameters
 
@@ -33,7 +33,7 @@ A point on the screen.
 
 > **new Vector2**(): [`Vector2`](class.Vector2.md)
 
-**Source:** gfx/graphics.d.ts:39
+**Source:** [gfx/graphics.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L39)
 
 #### Returns
 
@@ -45,13 +45,13 @@ A point on the screen.
 
 > **add**: `Function`
 
-**Source:** gfx/graphics.d.ts:28
+**Source:** [gfx/graphics.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L28)
 
 #### Type declaration (add)
 
 > > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** gfx/graphics.d.ts:28
+> **Source:** [gfx/graphics.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L28)
 >
 > ##### Parameters
 >
@@ -67,13 +67,13 @@ A point on the screen.
 
 > **distanceTo**: `Function`
 
-**Source:** gfx/graphics.d.ts:32
+**Source:** [gfx/graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L32)
 
 #### Type declaration (distanceTo)
 
 > > (pos: [`Vector2`](class.Vector2.md)): `number`
 >
-> **Source:** gfx/graphics.d.ts:32
+> **Source:** [gfx/graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L32)
 >
 > ##### Parameters
 >
@@ -89,13 +89,13 @@ A point on the screen.
 
 > **div**: `Function`
 
-**Source:** gfx/graphics.d.ts:31
+**Source:** [gfx/graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L31)
 
 #### Type declaration (div)
 
 > > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** gfx/graphics.d.ts:31
+> **Source:** [gfx/graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L31)
 >
 > ##### Parameters
 >
@@ -111,13 +111,13 @@ A point on the screen.
 
 > **mul**: `Function`
 
-**Source:** gfx/graphics.d.ts:30
+**Source:** [gfx/graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L30)
 
 #### Type declaration (mul)
 
 > > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** gfx/graphics.d.ts:30
+> **Source:** [gfx/graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L30)
 >
 > ##### Parameters
 >
@@ -133,13 +133,13 @@ A point on the screen.
 
 > **sub**: `Function`
 
-**Source:** gfx/graphics.d.ts:29
+**Source:** [gfx/graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L29)
 
 #### Type declaration (sub)
 
 > > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** gfx/graphics.d.ts:29
+> **Source:** [gfx/graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L29)
 >
 > ##### Parameters
 >
@@ -155,10 +155,10 @@ A point on the screen.
 
 > **x**: `number`
 
-**Source:** gfx/graphics.d.ts:41
+**Source:** [gfx/graphics.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L41)
 
 ### y
 
 > **y**: `number`
 
-**Source:** gfx/graphics.d.ts:42
+**Source:** [gfx/graphics.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics.d.ts#L42)
