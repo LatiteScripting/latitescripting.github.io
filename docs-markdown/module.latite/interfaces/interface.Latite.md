@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L62)
+**Source:** [latite.d.ts:151](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L151)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 The Latite Client version. Example: "v2.0.0"
 
-**Source:** [latite.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L94)
+**Source:** [latite.d.ts:183](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L183)
 
 ## Methods
 
@@ -28,7 +28,7 @@ The Latite Client version. Example: "v2.0.0"
 
 Gets the command manager. Use this to register commands.
 
-**Source:** [latite.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L89)
+**Source:** [latite.d.ts:178](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L178)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Gets the command manager. Use this to register commands.
 
 Gets the module manager. Use this to register modules.
 
-**Source:** [latite.d.ts:84](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L84)
+**Source:** [latite.d.ts:173](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L173)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Gets the module manager. Use this to register modules.
 
 Listen to an event.
 
-**Source:** [latite.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L66)
+**Source:** [latite.d.ts:155](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L155)
 
 #### Type parameters
 
@@ -77,7 +77,7 @@ Listen to an event.
 
 Runs a Latite command.
 
-**Source:** [latite.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L79)
+**Source:** [latite.d.ts:168](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L168)
 
 #### Parameters
 
@@ -97,7 +97,7 @@ The success of the command.
 
 Shows a Latite toast on the top of the screen.
 
-**Source:** [latite.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L72)
+**Source:** [latite.d.ts:161](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L161)
 
 #### Parameters
 

@@ -33,7 +33,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">ClientEvents</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L44">latite.d.ts:44</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L44">latite.d.ts:44</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -59,66 +59,117 @@
 <section class="tsd-panel tsd-member"><a id="app_suspended" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>app-<wbr/>suspended</span><a href="#app_suspended" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" id="icon-anchor"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path></g></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">app-<wbr/>suspended</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
-<div class="tsd-comment tsd-typography"><p>Whenever the game gets minimized or closed.</p>
+<div class="tsd-comment tsd-typography"><p>Called on the game being minimized/closed.</p>
 </div>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L57">latite.d.ts:57</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L122">latite.d.ts:122</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="click" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>click</span><a href="#click" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">click</span><span class="tsd-signature-symbol">:</span> <a href="latite.ClickEvent.html" class="tsd-signature-type tsd-kind-interface">ClickEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">click</span><span class="tsd-signature-symbol">:</span> <a href="latite.ClickEvent.html" class="tsd-signature-type tsd-kind-interface">ClickEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every (non-move) mouse input. Cancellable - setting <code>cancel</code> to true will make the game not see the event.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">button</span><span class="hl-0">: </span><span class="hl-2">MouseButton</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">isDown</span><span class="hl-0">: </span><span class="hl-2">boolean</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">mouseX</span><span class="hl-0">: </span><span class="hl-2">number</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">mouseY</span><span class="hl-0">: </span><span class="hl-2">number</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">cancel</span><span class="hl-0">: </span><span class="hl-2">boolean</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L52">latite.d.ts:52</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L114">latite.d.ts:114</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="key_press" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>key-<wbr/>press</span><a href="#key_press" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">key-<wbr/>press</span><span class="tsd-signature-symbol">:</span> <a href="latite.KeyEvent.html" class="tsd-signature-type tsd-kind-interface">KeyEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">key-<wbr/>press</span><span class="tsd-signature-symbol">:</span> <a href="latite.KeyEvent.html" class="tsd-signature-type tsd-kind-interface">KeyEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every keyboard input. Cancellable - setting <code>cancel</code> to true will make the game not see the event.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">isDown</span><span class="hl-0">: </span><span class="hl-2">boolean</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">keyCode</span><span class="hl-0">: </span><span class="hl-2">KeyCode</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">keyAsChar</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">cancel</span><span class="hl-0">: </span><span class="hl-2">boolean</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L51">latite.d.ts:51</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L99">latite.d.ts:99</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="leave_game" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>leave-<wbr/>game</span><a href="#leave_game" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">leave-<wbr/>game</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">leave-<wbr/>game</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on the user leaving a world.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L46">latite.d.ts:46</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L52">latite.d.ts:52</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="load_script" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>load-<wbr/>script</span><a href="#load_script" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">load-<wbr/>script</span><span class="tsd-signature-symbol">:</span> <a href="latite.ScriptEvent.html" class="tsd-signature-type tsd-kind-interface">ScriptEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">load-<wbr/>script</span><span class="tsd-signature-symbol">:</span> <a href="latite.ScriptEvent.html" class="tsd-signature-type tsd-kind-interface">ScriptEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on any script being loaded.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">scriptName</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">scriptVersion</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">scriptAuthor</span><span class="hl-0">: </span><span class="hl-2">string</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L58">latite.d.ts:58</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L135">latite.d.ts:135</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="receive_chat" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>receive-<wbr/>chat</span><a href="#receive_chat" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">receive-<wbr/>chat</span><span class="tsd-signature-symbol">:</span> <a href="latite.ReceiveChatEvent.html" class="tsd-signature-type tsd-kind-interface">ReceiveChatEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">receive-<wbr/>chat</span><span class="tsd-signature-symbol">:</span> <a href="latite.ReceiveChatEvent.html" class="tsd-signature-type tsd-kind-interface">ReceiveChatEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every chat message received.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">message</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">sender</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">xuid</span><span class="hl-0">: </span><span class="hl-2">string</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L47">latite.d.ts:47</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L65">latite.d.ts:65</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="render2d" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>render2d</span><a href="#render2d" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">render2d</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">render2d</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every frame; use this for 2D rendering.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L49">latite.d.ts:49</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L81">latite.d.ts:81</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="render3d" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>render3d</span><a href="#render3d" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">render3d</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">render3d</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every frame; use this for 3D rendering.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L53">latite.d.ts:53</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L118">latite.d.ts:118</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="renderDX" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>renderDX</span><a href="#renderDX" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">renderDX</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">renderDX</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every frame; use this for DirectX rendering.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L50">latite.d.ts:50</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L85">latite.d.ts:85</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="send_chat" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>send-<wbr/>chat</span><a href="#send_chat" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">send-<wbr/>chat</span><span class="tsd-signature-symbol">:</span> <a href="latite.SendChatEvent.html" class="tsd-signature-type tsd-kind-interface">SendChatEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">send-<wbr/>chat</span><span class="tsd-signature-symbol">:</span> <a href="latite.SendChatEvent.html" class="tsd-signature-type tsd-kind-interface">SendChatEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every chat message sent. Cancellable - setting <code>cancel</code> to true will make the game not see the event.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">message</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">cancel</span><span class="hl-0">: </span><span class="hl-2">boolean</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L48">latite.d.ts:48</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L77">latite.d.ts:77</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="unload_script" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>unload-<wbr/>script</span><a href="#unload_script" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">unload-<wbr/>script</span><span class="tsd-signature-symbol">:</span> <a href="latite.ScriptEvent.html" class="tsd-signature-type tsd-kind-interface">ScriptEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">unload-<wbr/>script</span><span class="tsd-signature-symbol">:</span> <a href="latite.ScriptEvent.html" class="tsd-signature-type tsd-kind-interface">ScriptEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on any script being unloaded.</p>
+<p>Listener:</p>
+<pre><code class="language-ts"><span class="hl-0">{</span><br/><span class="hl-0">  </span><span class="hl-1">scriptName</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">scriptVersion</span><span class="hl-0">: </span><span class="hl-2">string</span><span class="hl-0">,</span><br/><span class="hl-0">  </span><span class="hl-1">scriptAuthor</span><span class="hl-0">: </span><span class="hl-2">string</span><br/><span class="hl-0">}</span>
+</code><button>Copy</button></pre>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L59">latite.d.ts:59</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L148">latite.d.ts:148</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member"><a id="world_tick" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>world-<wbr/>tick</span><a href="#world_tick" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
-<div class="tsd-signature"><span class="tsd-kind-property">world-<wbr/>tick</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div><aside class="tsd-sources">
+<div class="tsd-signature"><span class="tsd-kind-property">world-<wbr/>tick</span><span class="tsd-signature-symbol">:</span> <a href="latite.LatiteEvent.html" class="tsd-signature-type tsd-kind-interface">LatiteEvent</a></div>
+<div class="tsd-comment tsd-typography"><p>Called on every tick.</p>
+</div>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/latite.d.ts#L45">latite.d.ts:45</a></li></ul></aside></section></section></div>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L48">latite.d.ts:48</a></li></ul></aside></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
@@ -350,6 +401,17 @@
 <li><a href="../classes/world_entity.Player.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-128"></use></svg>
 <div>Player
 <div class="menu-item-desc">A class representing an in-game entity.</div></div></a></li></ul></div></details></li>
+<li>
+<details class="tsd-index-accordion" data-key="world/item"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/world_item.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg>
+<div>world/item</div></a></summary>
+<div class="tsd-accordion-details">
+<ul class="tsd-nested-navigation">
+<li><a href="../classes/world_item.Item.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-128"></use></svg>
+<div>Item
+<div class="menu-item-desc">A class representing a Minecraft Item definition (not an item instance)</div></div></a></li>
+<li><a href="../classes/world_item.ItemStack.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-128"></use></svg>
+<div>Item<wbr/>Stack
+<div class="menu-item-desc">An instance of an `Item` (has count, damage, etc.)</div></div></a></li></ul></div></details></li>
 <li>
 <details class="tsd-index-accordion" data-key="world/world"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/world_world.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg>
 <div>world/world</div></a></summary>

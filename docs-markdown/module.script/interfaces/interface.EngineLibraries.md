@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [script.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/script.d.ts#L15)
+**Source:** [script.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/script.d.ts#L15)
 
 ## Properties
 
@@ -16,10 +16,10 @@
 
 > **filesystem**: [`Filesystem`](../../module.lib_filesystem/namespaces/namespace.include/interfaces/interface.Filesystem.md)
 
-**Source:** [script.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/script.d.ts#L16)
+**Source:** [script.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/script.d.ts#L16)
 
 ### network
 
 > **network**: [`Network`](../../module.lib_filesystem/namespaces/namespace.include/interfaces/interface.Network.md)
 
-**Source:** [script.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/script.d.ts#L17)
+**Source:** [script.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/script.d.ts#L17)

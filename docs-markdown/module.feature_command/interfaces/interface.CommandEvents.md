@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/command.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L1)
+**Source:** [feature/command.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/command.d.ts#L1)
 
 ## Properties
 
@@ -16,13 +16,15 @@
 
 > **execute**: `Function`
 
-**Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L8)
+**Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/command.d.ts#L8)
 
 #### Type declaration (execute)
 
 > > (label: `string`, args: `string`[]): `boolean`
 >
-> **Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/command.d.ts#L8)
+> Called on any command being used.
+>
+> **Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/command.d.ts#L8)
 >
 > ##### Parameters
 >

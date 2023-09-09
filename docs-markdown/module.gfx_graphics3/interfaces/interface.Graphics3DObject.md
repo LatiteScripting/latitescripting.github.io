@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics3.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics3.d.ts#L1)
+**Source:** [gfx/graphics3.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics3.d.ts#L1)
 
 ## Methods
 
@@ -19,7 +19,7 @@
 > p2: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
 > color: [`Color`](../../module.gfx_graphics/classes/class.Color.md)): `void`
 
-**Source:** [gfx/graphics3.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics3.d.ts#L3)
+**Source:** [gfx/graphics3.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics3.d.ts#L3)
 
 #### Parameters
 
@@ -40,7 +40,7 @@
 > p2: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
 > color: [`Color`](../../module.gfx_graphics/classes/class.Color.md)): `void`
 
-**Source:** [gfx/graphics3.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/gfx/graphics3.d.ts#L2)
+**Source:** [gfx/graphics3.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics3.d.ts#L2)
 
 #### Parameters
 

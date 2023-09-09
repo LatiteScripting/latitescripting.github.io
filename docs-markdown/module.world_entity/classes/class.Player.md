@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [world/entity.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L62)
+**Source:** [world/entity.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L62)
 
 ## Hierarchy
 
@@ -38,7 +38,7 @@ A class representing an in-game entity.
 
 The runtime ID of the entity. Local player is always 1.
 
-**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L8)
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L8)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Makes your player attack the entity. Only works if you have operator
 
 #### Throws
 
-**Source:** [world/entity.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L59)
+**Source:** [world/entity.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L59)
 
 #### Returns
 
@@ -71,7 +71,7 @@ Makes your player attack the entity. Only works if you have operator
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L31)
+**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L31)
 
 #### Returns
 
@@ -89,7 +89,7 @@ Gets the entity type ID.
 
 https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
-**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L53)
+**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L53)
 
 #### Returns
 
@@ -105,7 +105,7 @@ https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
 Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
 
-**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L36)
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L36)
 
 #### Returns
 
@@ -121,7 +121,7 @@ Gets the number of ticks that the entity is invulnerable (after the entity is hi
 
 Get the player's name (same one as the player list in the pause menu.)
 
-**Source:** [world/entity.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L66)
+**Source:** [world/entity.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L66)
 
 #### Returns
 
@@ -135,7 +135,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L20)
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
@@ -153,7 +153,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L25)
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
@@ -169,7 +169,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 Gets the player's Xbox User ID.
 
-**Source:** [world/entity.d.ts:71](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L71)
+**Source:** [world/entity.d.ts:71](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L71)
 
 #### Returns
 
@@ -181,7 +181,7 @@ Gets the player's Xbox User ID.
 
 Whether the entity is the local player (yourself) or not.
 
-**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L46)
+**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L46)
 
 #### Returns
 
@@ -197,7 +197,7 @@ Whether the entity is the local player (yourself) or not.
 
 Whether the entity is a player or not.
 
-**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L41)
+**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L41)
 
 #### Returns
 
@@ -214,7 +214,7 @@ Whether the entity is a player or not.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/world/entity.d.ts#L14)
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L14)
 
 #### Returns
 

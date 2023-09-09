@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L1)
+**Source:** [feature/module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L1)
 
 ## Properties
 
@@ -16,13 +16,15 @@
 
 > **disable**: `Function`
 
-**Source:** [feature/module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L3)
+**Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L9)
 
 #### Type declaration (disable)
 
 > > (): `void`
 >
-> **Source:** [feature/module.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L3)
+> Called on any module being disabled.
+>
+> **Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L9)
 >
 > ##### Returns
 >
@@ -32,13 +34,15 @@
 
 > **enable**: `Function`
 
-**Source:** [feature/module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L2)
+**Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L5)
 
 #### Type declaration (enable)
 
 > > (): `void`
 >
-> **Source:** [feature/module.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L2)
+> Called on any module being enabled.
+>
+> **Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L5)
 >
 > ##### Returns
 >
@@ -48,13 +52,15 @@
 
 > **get-hold-to-toggle**: `Function`
 
-**Source:** [feature/module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L4)
+**Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L13)
 
 #### Type declaration (get-hold-to-toggle)
 
 > > (): `boolean`
 >
-> **Source:** [feature/module.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L4)
+> Called on every frame. Return a bool to set the toggle form of the module - `true` makes it a hold module, like player list; `false`, standard toggle form.
+>
+> **Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L13)
 >
 > ##### Returns
 >
@@ -64,15 +70,19 @@
 
 > **render**: `Function`
 
-**Source:** [feature/module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L11)
+**Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L21)
 
 #### Type declaration (render)
 
 > > (isPreview: `boolean`, isEditor: `boolean`): `void`
 >
+> Called on every frame; use this to render something arbitrary.
+>
+> ##### Note
+>
 > Only available in HUD modules.
 >
-> **Source:** [feature/module.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L11)
+> **Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L21)
 >
 > ##### Parameters
 >
@@ -89,15 +99,19 @@
 
 > **text**: `Function`
 
-**Source:** [feature/module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L20)
+**Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L31)
 
 #### Type declaration (text)
 
 > > (isPreview: `boolean`, isEditor: `boolean`): `string`
 >
+> Called on every frame; use this to render text. Return a string to render it on the next frame.
+>
+> ##### Note
+>
 > Only available in text modules.
 >
-> **Source:** [feature/module.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1c6b44e/definitions/feature/module.d.ts#L20)
+> **Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/feature/module.d.ts#L31)
 >
 > ##### Parameters
 >

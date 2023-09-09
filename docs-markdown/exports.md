@@ -26,4 +26,5 @@
 - [util/buffer](module.util_buffer/index.md)
 - [util/util](module.util_util/index.md)
 - [world/entity](module.world_entity/index.md)
+- [world/item](module.world_item/index.md)
 - [world/world](module.world_world/index.md)
