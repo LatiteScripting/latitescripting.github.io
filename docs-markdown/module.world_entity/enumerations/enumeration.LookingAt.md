@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [world/entity.d.ts:74](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L74)
+**Source:** [world/entity.d.ts:111](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L111)
 
 ## Enumeration Members
 
@@ -16,16 +16,16 @@
 
 > **Air**: 2
 
-**Source:** [world/entity.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L77)
+**Source:** [world/entity.d.ts:114](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L114)
 
 ### Block
 
 > **Block**: 0
 
-**Source:** [world/entity.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L75)
+**Source:** [world/entity.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L112)
 
 ### Entity
 
 > **Entity**: 1
 
-**Source:** [world/entity.d.ts:76](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L76)
+**Source:** [world/entity.d.ts:113](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L113)

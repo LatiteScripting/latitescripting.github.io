@@ -20,9 +20,14 @@
 - [KeyEvent](interfaces/interface.KeyEvent.md)
 - [Latite](interfaces/interface.Latite.md)
 - [LatiteEvent](interfaces/interface.LatiteEvent.md)
-- [ReceiveChatEvent](interfaces/interface.ReceiveChatEvent.md)
 - [ScriptEvent](interfaces/interface.ScriptEvent.md)
 - [SendChatEvent](interfaces/interface.SendChatEvent.md)
+- [TitleEvent](interfaces/interface.TitleEvent.md)
+
+### Type Aliases
+
+- [MessageType](type-aliases/type-alias.MessageType.md)
+- [TitleType](type-aliases/type-alias.TitleType.md)
 
 ### Variables
 

@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [world/entity.d.ts:80](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L80)
+**Source:** [world/entity.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L117)
 
 ## Hierarchy
 
@@ -38,7 +38,7 @@ A class representing an in-game entity.
 
 The runtime ID of the entity. Local player is always 1.
 
-**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L8)
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L8)
 
 #### Inherited from
 
@@ -52,9 +52,11 @@ The runtime ID of the entity. Local player is always 1.
 
 Makes your player attack the entity. Only works if you have operator
 
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
 #### Throws
 
-**Source:** [world/entity.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L59)
+**Source:** [world/entity.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L61)
 
 #### Returns
 
@@ -70,7 +72,7 @@ Makes your player attack the entity. Only works if you have operator
 
 Get the progress of breaking a block (ranging from 0 to 1)
 
-**Source:** [world/entity.d.ts:84](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L84)
+**Source:** [world/entity.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L121)
 
 #### Returns
 
@@ -83,7 +85,7 @@ Get the progress of breaking a block (ranging from 0 to 1)
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L31)
+**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L31)
 
 #### Returns
 
@@ -101,7 +103,7 @@ Gets the entity type ID.
 
 https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
-**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L53)
+**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L53)
 
 #### Returns
 
@@ -111,13 +113,67 @@ https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
 [`Player`](class.Player.md).[`getEntityType`](class.Player.md#getentitytype)
 
+### getHealth()
+
+> **getHealth**(): `number`
+
+Gets the health of the entity.
+
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
+**Source:** [world/entity.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L68)
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getHealth`](class.Player.md#gethealth)
+
+### getHoldingItem()
+
+> **getHoldingItem**(): [`ItemStack`](../../module.world_item/classes/class.ItemStack.md)
+
+Gets the item being held.
+
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
+**Source:** [world/entity.d.ts:101](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L101)
+
+#### Returns
+
+[`ItemStack`](../../module.world_item/classes/class.ItemStack.md)
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getHoldingItem`](class.Player.md#getholdingitem)
+
+### getHunger()
+
+> **getHunger**(): `number`
+
+Gets the hunger of the entity.
+
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
+**Source:** [world/entity.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L75)
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getHunger`](class.Player.md#gethunger)
+
 ### getHurtTime()
 
 > **getHurtTime**(): `number`
 
 Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
 
-**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L36)
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L36)
 
 #### Returns
 
@@ -133,7 +189,7 @@ Gets the number of ticks that the entity is invulnerable (after the entity is hi
 
 Same as `getBreakProgress` but doesn't reset
 
-**Source:** [world/entity.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L89)
+**Source:** [world/entity.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L126)
 
 #### Returns
 
@@ -145,7 +201,7 @@ Same as `getBreakProgress` but doesn't reset
 
 Get the type of whatever the player is looking at.
 
-**Source:** [world/entity.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L94)
+**Source:** [world/entity.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L131)
 
 #### Returns
 
@@ -157,7 +213,7 @@ Get the type of whatever the player is looking at.
 
 Get the player's name (same one as the player list in the pause menu.)
 
-**Source:** [world/entity.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L66)
+**Source:** [world/entity.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L89)
 
 #### Returns
 
@@ -175,7 +231,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L20)
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
@@ -193,7 +249,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L25)
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
@@ -203,17 +259,53 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 [`Player`](class.Player.md).[`getRotation`](class.Player.md#getrotation)
 
+### getSaturation()
+
+> **getSaturation**(): `number`
+
+Gets the saturation of the entity.
+
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
+**Source:** [world/entity.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L82)
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getSaturation`](class.Player.md#getsaturation)
+
 ### getSelectedBlock()
 
 > **getSelectedBlock**(): `null` \| [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
 
 Get the block selected by looking at it.
 
-**Source:** [world/entity.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L99)
+**Source:** [world/entity.d.ts:136](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L136)
 
 #### Returns
 
 `null` \| [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
+
+### getSelectedSlot()
+
+> **getSelectedSlot**(): `number`
+
+Gets the slot of the item being held.
+
+This function is restricted - meaning it will only work on LocalPlayer or if you have OP
+
+**Source:** [world/entity.d.ts:108](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L108)
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[`Player`](class.Player.md).[`getSelectedSlot`](class.Player.md#getselectedslot)
 
 ### getXUID()
 
@@ -221,7 +313,7 @@ Get the block selected by looking at it.
 
 Gets the player's Xbox User ID.
 
-**Source:** [world/entity.d.ts:71](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L71)
+**Source:** [world/entity.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L94)
 
 #### Returns
 
@@ -237,7 +329,7 @@ Gets the player's Xbox User ID.
 
 Whether the entity is the local player (yourself) or not.
 
-**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L46)
+**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L46)
 
 #### Returns
 
@@ -253,7 +345,7 @@ Whether the entity is the local player (yourself) or not.
 
 Whether the entity is a player or not.
 
-**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L41)
+**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L41)
 
 #### Returns
 
@@ -270,7 +362,7 @@ Whether the entity is a player or not.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/world/entity.d.ts#L14)
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/world/entity.d.ts#L14)
 
 #### Returns
 

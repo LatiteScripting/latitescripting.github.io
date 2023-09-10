@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics.d.ts:106](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics.d.ts#L106)
+**Source:** [gfx/graphics.d.ts:106](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/gfx/graphics.d.ts#L106)
 
 ## Methods
 
@@ -19,7 +19,7 @@
 > color: [`Color`](../classes/class.Color.md),
 > thickness: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:107](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics.d.ts#L107)
+**Source:** [gfx/graphics.d.ts:107](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/gfx/graphics.d.ts#L107)
 
 #### Parameters
 
@@ -37,7 +37,7 @@
 
 > **fillRect**(rect: [`Rect`](../classes/class.Rect.md), color: [`Color`](../classes/class.Color.md)): `void`
 
-**Source:** [gfx/graphics.d.ts:108](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/gfx/graphics.d.ts#L108)
+**Source:** [gfx/graphics.d.ts:108](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/gfx/graphics.d.ts#L108)
 
 #### Parameters
 

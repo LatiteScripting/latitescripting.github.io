@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L1)
+**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Execute an in-game command.
 
-**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L12)
+**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L12)
 
 #### Parameters
 
@@ -30,27 +30,15 @@ Execute an in-game command.
 
 `void`
 
-### getConnectedFeaturedServer()
+### getFeaturedServer()
 
-> **getConnectedFeaturedServer**(): `null` \| `string`
+> **getFeaturedServer**(): `null` \| `string`
 
 Gets the featured server name you are connected to. This will return null if you are not in a featured server.
 
 Featured server examples: "The Hive" "CubeCraft" "InPvP" "Mineplex"
 
-**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L37)
-
-#### Returns
-
-`null` \| `string`
-
-### getConnectedServer()
-
-> **getConnectedServer**(): `null` \| `string`
-
-Gets the server you are connected to. This will return null if you are not in a server.
-
-**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L30)
+**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L37)
 
 #### Returns
 
@@ -62,7 +50,7 @@ Gets the server you are connected to. This will return null if you are not in a 
 
 Get your player. This will return null if you are not in a game.
 
-**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L25)
+**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L25)
 
 #### Returns
 
@@ -74,7 +62,7 @@ Get your player. This will return null if you are not in a game.
 
 Get the mouse position.
 
-**Source:** [game.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L54)
+**Source:** [game.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L54)
 
 #### Returns
 
@@ -86,11 +74,23 @@ Get the mouse position.
 
 Get the open screen name
 
-**Source:** [game.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L49)
+**Source:** [game.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L49)
 
 #### Returns
 
 `string`
+
+### getServer()
+
+> **getServer**(): `null` \| `string`
+
+Gets the server you are connected to. This will return null if you are not in a server.
+
+**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L30)
+
+#### Returns
+
+`null` \| `string`
 
 ### getWorld()
 
@@ -98,7 +98,7 @@ Get the open screen name
 
 Get the current world that you're in.
 
-**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L42)
+**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L42)
 
 #### Returns
 
@@ -108,7 +108,7 @@ Get the current world that you're in.
 
 > **isInUI**(): `boolean`
 
-**Source:** [game.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L44)
+**Source:** [game.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L44)
 
 #### Returns
 
@@ -123,7 +123,7 @@ Get the current world that you're in.
 
 Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for sounds
 
-**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L20)
+**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L20)
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for
 
 Sends a chat message.
 
-**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/game.d.ts#L6)
+**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/game.d.ts#L6)
 
 #### Parameters
 

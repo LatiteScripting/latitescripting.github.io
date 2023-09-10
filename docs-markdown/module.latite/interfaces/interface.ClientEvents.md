@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L44)
+**Source:** [latite.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L85)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 Called on the game being minimized/closed.
 
-**Source:** [latite.d.ts:122](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L122)
+**Source:** [latite.d.ts:170](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L170)
 
 ### click
 
@@ -38,7 +38,13 @@ Listener:
 }
 ```
 
-**Source:** [latite.d.ts:114](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L114)
+**Source:** [latite.d.ts:162](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L162)
+
+### join-game
+
+> **join-game**: [`LatiteEvent`](interface.LatiteEvent.md)
+
+**Source:** [latite.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L93)
 
 ### key-press
 
@@ -57,7 +63,7 @@ Listener:
 }
 ```
 
-**Source:** [latite.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L99)
+**Source:** [latite.d.ts:147](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L147)
 
 ### leave-game
 
@@ -65,7 +71,7 @@ Listener:
 
 Called on the user leaving a world.
 
-**Source:** [latite.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L52)
+**Source:** [latite.d.ts:98](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L98)
 
 ### load-script
 
@@ -83,25 +89,27 @@ Listener:
 }
 ```
 
-**Source:** [latite.d.ts:135](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L135)
+**Source:** [latite.d.ts:183](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L183)
 
 ### receive-chat
 
-> **receive-chat**: [`ReceiveChatEvent`](interface.ReceiveChatEvent.md)
+> **receive-chat**: `MessageEvent`\<`any`\>
 
-Called on every chat message received.
+Called on every message received.
 
 Listener:
 
 ```ts
 {
-  message: string,
-  sender: string,
-  xuid: string
+  type: MessageType;
+  isChat: boolean;
+  message: string;
+  sender: string;
+  xuid: string;
 }
 ```
 
-**Source:** [latite.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L65)
+**Source:** [latite.d.ts:113](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L113)
 
 ### render2d
 
@@ -109,7 +117,7 @@ Listener:
 
 Called on every frame; use this for 2D rendering.
 
-**Source:** [latite.d.ts:81](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L81)
+**Source:** [latite.d.ts:129](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L129)
 
 ### render3d
 
@@ -117,7 +125,7 @@ Called on every frame; use this for 2D rendering.
 
 Called on every frame; use this for 3D rendering.
 
-**Source:** [latite.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L118)
+**Source:** [latite.d.ts:166](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L166)
 
 ### renderDX
 
@@ -125,7 +133,7 @@ Called on every frame; use this for 3D rendering.
 
 Called on every frame; use this for DirectX rendering.
 
-**Source:** [latite.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L85)
+**Source:** [latite.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L133)
 
 ### send-chat
 
@@ -142,7 +150,24 @@ Listener:
 }
 ```
 
-**Source:** [latite.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L77)
+**Source:** [latite.d.ts:125](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L125)
+
+### title
+
+> **title**: [`TitleEvent`](interface.TitleEvent.md)
+
+Called whenever you receive a title from the server.
+
+Listener:
+
+```ts
+{
+  type: TitleType,
+  text: string
+}
+```
+
+**Source:** [latite.d.ts:209](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L209)
 
 ### unload-script
 
@@ -160,7 +185,7 @@ Listener:
 }
 ```
 
-**Source:** [latite.d.ts:148](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L148)
+**Source:** [latite.d.ts:196](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L196)
 
 ### world-tick
 
@@ -168,4 +193,4 @@ Listener:
 
 Called on every tick.
 
-**Source:** [latite.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/1a915c6/definitions/latite.d.ts#L48)
+**Source:** [latite.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/latite.d.ts#L89)
