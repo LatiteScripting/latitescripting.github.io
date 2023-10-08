@@ -2,7 +2,7 @@
 
 ---
 
-[Exports](../../../exports.md) > [lib/filesystem](../../index.md) > include
+[Exports](../../../exports.md) > [lib/clipboard](../../index.md) > include
 
 # include
 
@@ -10,6 +10,7 @@
 
 ### Interfaces
 
+- [Clipboard](interfaces/interface.Clipboard.md)
 - [Filesystem](interfaces/interface.Filesystem.md)
 - [GetData](interfaces/interface.GetData.md)
 - [HttpResponse](interfaces/interface.HttpResponse.md)

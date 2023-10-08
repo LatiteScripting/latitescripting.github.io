@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/command.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/feature/command.d.ts#L1)
+**Source:** [feature/command.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/command.d.ts#L1)
 
 ## Properties
 
@@ -16,22 +16,26 @@
 
 > **execute**: `Function`
 
-**Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/feature/command.d.ts#L8)
+**Source:** [feature/command.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/command.d.ts#L9)
 
 #### Type declaration (execute)
 
-> > (label: `string`, args: `string`[]): `boolean`
+> > (
+> > label: `string`,
+> > args: `string`[],
+> > commandLine: `string`): `boolean`
 >
 > Called on any command being used.
 >
-> **Source:** [feature/command.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/35e18e6/definitions/feature/command.d.ts#L8)
+> **Source:** [feature/command.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/command.d.ts#L9)
 >
 > ##### Parameters
 >
-> | Parameter | Type       | Description                                                                       |
-> | :-------- | :--------- | :-------------------------------------------------------------------------------- |
-> | label     | `string`   | The beginning of the command line (for example, `'test'` in '.test 123')          |
-> | args      | `string`[] | The list of arguments of the command line (for example, `['123']` in '.test 123') |
+> | Parameter   | Type       | Description                                                                       |
+> | :---------- | :--------- | :-------------------------------------------------------------------------------- |
+> | label       | `string`   | The beginning of the command line (for example, `'test'` in '.test 123')          |
+> | args        | `string`[] | The list of arguments of the command line (for example, `['123']` in '.test 123') |
+> | commandLine | `string`   | The command line (for example, `'.test 123 test'` in '.test 123 test')            |
 >
 > ##### Returns
 >

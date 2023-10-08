@@ -22,8 +22,12 @@
 
 ### Interfaces
 
-- [DXGraphics](interfaces/interface.DXGraphics.md)
+- [Graphics](interfaces/interface.Graphics.md)
+
+### Type Aliases
+
+- [BackendType](type-aliases/type-alias.BackendType.md)
 
 ### Variables
 
-- [dx](variables/variable.dx.md)
+- [graphics](variables/variable.graphics-1.md)
