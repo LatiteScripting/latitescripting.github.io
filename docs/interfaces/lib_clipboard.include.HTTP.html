@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>Network | Latite Scripting Documentation</title><meta name="description" content="Documentation for Latite Scripting Documentation"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><link rel="stylesheet" href="../assets/my-theme.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="search-script"></script></head><body><script>console.log(`Loaded ${location.href}`)</script><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>HTTP | Latite Scripting Documentation</title><meta name="description" content="Documentation for Latite Scripting Documentation"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><link rel="stylesheet" href="../assets/my-theme.css"/><script defer src="../assets/main.js"></script><script async src="../assets/search.js" id="search-script"></script></head><body><script>console.log(`Loaded ${location.href}`)</script><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -27,14 +27,14 @@
 <li><a href="../index.html">Latite Scripting Documentation</a></li>
 <li><a href="../modules/lib_clipboard.html">lib/clipboard</a></li>
 <li><a href="../modules/lib_clipboard.include.html">include</a></li>
-<li><a href="lib_clipboard.include.Network.html">Network</a></li></ul>
-<h1>Interface Network</h1></div>
+<li><a href="lib_clipboard.include.HTTP.html">HTTP</a></li></ul>
+<h1>Interface HTTP</h1></div>
 <section class="tsd-panel tsd-hierarchy">
 <h4>Hierarchy</h4>
 <ul class="tsd-hierarchy">
-<li><span class="target">Network</span></li></ul></section><aside class="tsd-sources">
+<li><span class="target">HTTP</span></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/lib/network.d.ts#L25">lib/network.d.ts:25</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/lib/network.d.ts#L25">lib/network.d.ts:25</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -42,9 +42,9 @@
 <div class="tsd-accordion-details">
 <section class="tsd-index-section">
 <h3 class="tsd-index-heading">Methods</h3>
-<div class="tsd-index-list"><a href="lib_clipboard.include.Network.html#get" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-2048"><rect fill="var(--color-icon-background)" stroke="#FF4DB8" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M9.162 16V7.24H10.578L11.514 10.072C11.602 10.328 11.674 10.584 11.73 10.84C11.794 11.088 11.842 11.28 11.874 11.416C11.906 11.28 11.954 11.088 12.018 10.84C12.082 10.584 12.154 10.324 12.234 10.06L13.122 7.24H14.538V16H13.482V12.82C13.482 12.468 13.49 12.068 13.506 11.62C13.53 11.172 13.558 10.716 13.59 10.252C13.622 9.78 13.654 9.332 13.686 8.908C13.726 8.476 13.762 8.1 13.794 7.78L12.366 12.16H11.334L9.894 7.78C9.934 8.092 9.97 8.456 10.002 8.872C10.042 9.28 10.078 9.716 10.11 10.18C10.142 10.636 10.166 11.092 10.182 11.548C10.206 12.004 10.218 12.428 10.218 12.82V16H9.162Z" fill="var(--color-text)"></path></g></svg><span>get</span></a>
-<a href="lib_clipboard.include.Network.html#getSync" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Sync</span></a>
-<a href="lib_clipboard.include.Network.html#postSync" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>post<wbr/>Sync</span></a>
+<div class="tsd-index-list"><a href="lib_clipboard.include.HTTP.html#get" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-2048"><rect fill="var(--color-icon-background)" stroke="#FF4DB8" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="12"></rect><path d="M9.162 16V7.24H10.578L11.514 10.072C11.602 10.328 11.674 10.584 11.73 10.84C11.794 11.088 11.842 11.28 11.874 11.416C11.906 11.28 11.954 11.088 12.018 10.84C12.082 10.584 12.154 10.324 12.234 10.06L13.122 7.24H14.538V16H13.482V12.82C13.482 12.468 13.49 12.068 13.506 11.62C13.53 11.172 13.558 10.716 13.59 10.252C13.622 9.78 13.654 9.332 13.686 8.908C13.726 8.476 13.762 8.1 13.794 7.78L12.366 12.16H11.334L9.894 7.78C9.934 8.092 9.97 8.456 10.002 8.872C10.042 9.28 10.078 9.716 10.11 10.18C10.142 10.636 10.166 11.092 10.182 11.548C10.206 12.004 10.218 12.428 10.218 12.82V16H9.162Z" fill="var(--color-text)"></path></g></svg><span>get</span></a>
+<a href="lib_clipboard.include.HTTP.html#getSync" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Sync</span></a>
+<a href="lib_clipboard.include.HTTP.html#postSync" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>post<wbr/>Sync</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
@@ -83,7 +83,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/lib/network.d.ts#L39">lib/network.d.ts:39</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/lib/network.d.ts#L39">lib/network.d.ts:39</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getSync" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Sync</span><a href="#getSync" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -105,7 +105,7 @@
 <h4 class="tsd-returns-title">Returns <a href="lib_clipboard.include.HttpResponse.html" class="tsd-signature-type tsd-kind-interface">HttpResponse</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/lib/network.d.ts#L31">lib/network.d.ts:31</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/lib/network.d.ts#L31">lib/network.d.ts:31</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="postSync" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>post<wbr/>Sync</span><a href="#postSync" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -127,7 +127,7 @@
 <h4 class="tsd-returns-title">Returns <a href="lib_clipboard.include.HttpResponse.html" class="tsd-signature-type tsd-kind-interface">HttpResponse</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/lib/network.d.ts#L46">lib/network.d.ts:46</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/lib/network.d.ts#L46">lib/network.d.ts:46</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
@@ -298,10 +298,10 @@
 <div>Filesystem</div></a></li>
 <li><a href="lib_clipboard.include.GetData.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
 <div>Get<wbr/>Data</div></a></li>
+<li><a href="lib_clipboard.include.HTTP.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
+<div>HTTP</div></a></li>
 <li><a href="lib_clipboard.include.HttpResponse.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
 <div>Http<wbr/>Response</div></a></li>
-<li><a href="lib_clipboard.include.Network.html" class="current"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
-<div>Network</div></a></li>
 <li><a href="lib_clipboard.include.PostData.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
 <div>Post<wbr/>Data</div></a></li></ul></div></details></li></ul></div></details></li>
 <li>

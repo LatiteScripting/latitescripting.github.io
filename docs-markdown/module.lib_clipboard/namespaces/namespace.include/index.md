@@ -13,6 +13,6 @@
 - [Clipboard](interfaces/interface.Clipboard.md)
 - [Filesystem](interfaces/interface.Filesystem.md)
 - [GetData](interfaces/interface.GetData.md)
+- [HTTP](interfaces/interface.HTTP.md)
 - [HttpResponse](interfaces/interface.HttpResponse.md)
-- [Network](interfaces/interface.Network.md)
 - [PostData](interfaces/interface.PostData.md)

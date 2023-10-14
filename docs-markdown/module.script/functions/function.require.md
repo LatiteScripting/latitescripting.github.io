@@ -16,7 +16,7 @@ Load a specified library.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/script.d.ts#L26)
+**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/script.d.ts#L26)
 
 ## Type parameters
 
@@ -34,6 +34,24 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 
 [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
 
+> **require**(path: "network"): [`HTTP`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.HTTP.md)
+
+## Deprecated
+
+use require("http")
+
+**Source:** [script.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/script.d.ts#L32)
+
+## Parameters
+
+| Parameter | Type      |
+| :-------- | :-------- |
+| path      | "network" |
+
+## Returns
+
+[`HTTP`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.HTTP.md)
+
 > **require**(path: `string`): `object`
 
 Load a specified script from filesystem or web.
@@ -42,7 +60,7 @@ Load a specified script from filesystem or web.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/script.d.ts#L32)
+**Source:** [script.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/script.d.ts#L39)
 
 ## Parameters
 

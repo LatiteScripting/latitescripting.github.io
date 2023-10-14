@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/manager/mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/manager/mmgr.d.ts#L1)
+**Source:** [feature/manager/mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/feature/manager/mmgr.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Removes a module from the client.
 
-**Source:** [feature/manager/mmgr.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/manager/mmgr.d.ts#L12)
+**Source:** [feature/manager/mmgr.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/feature/manager/mmgr.d.ts#L12)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Removes a module from the client.
 
 Loop through each module.
 
-**Source:** [feature/manager/mmgr.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/manager/mmgr.d.ts#L26)
+**Source:** [feature/manager/mmgr.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/feature/manager/mmgr.d.ts#L26)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Gets a module by the specified InternalName.
 For example, ArmorHud is the internal name for Armor Hud.
 Position is the internal name of Coordinates
 
-**Source:** [feature/manager/mmgr.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/manager/mmgr.d.ts#L20)
+**Source:** [feature/manager/mmgr.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/feature/manager/mmgr.d.ts#L20)
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Position is the internal name of Coordinates
 
 Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
 
-**Source:** [feature/manager/mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a89f467/definitions/feature/manager/mmgr.d.ts#L6)
+**Source:** [feature/manager/mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/feature/manager/mmgr.d.ts#L6)
 
 #### Parameters
 
