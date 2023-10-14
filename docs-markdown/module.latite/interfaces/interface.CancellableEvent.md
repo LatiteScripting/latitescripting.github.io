@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/latite.d.ts#L4)
+**Source:** [latite.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/33f46d6/definitions/latite.d.ts#L4)
 
 ## Hierarchy
 
@@ -20,4 +20,4 @@
 
 > **cancel**: `boolean`
 
-**Source:** [latite.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/f7b9df2/definitions/latite.d.ts#L5)
+**Source:** [latite.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/33f46d6/definitions/latite.d.ts#L5)
