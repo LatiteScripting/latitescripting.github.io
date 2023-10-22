@@ -24,6 +24,8 @@
 - [lib/clipboard](module.lib_clipboard/index.md)
 - [lib/filesystem](module.lib_filesystem/index.md)
 - [lib/network](module.lib_network/index.md)
+- [molang/Variable](module.molang_Variable/index.md)
+- [molang/Variables](module.molang_Variables/index.md)
 - [script](module.script/index.md)
 - [util/buffer](module.util_buffer/index.md)
 - [util/util](module.util_util/index.md)
