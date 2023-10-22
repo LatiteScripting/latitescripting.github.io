@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [world/entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L4)
+**Source:** [world/entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -34,7 +34,7 @@ A class representing an in-game entity.
 
 The runtime ID of the entity. Local player is always 1.
 
-**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L8)
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L8)
 
 ## Methods
 
@@ -48,7 +48,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 #### Throws
 
-**Source:** [world/entity.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L61)
+**Source:** [world/entity.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L61)
 
 #### Returns
 
@@ -61,7 +61,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L31)
+**Source:** [world/entity.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L31)
 
 #### Returns
 
@@ -75,7 +75,7 @@ Gets the entity type ID.
 
 https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
-**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L53)
+**Source:** [world/entity.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L53)
 
 #### Returns
 
@@ -89,7 +89,7 @@ Gets the health of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L68)
+**Source:** [world/entity.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L68)
 
 #### Returns
 
@@ -103,7 +103,7 @@ Gets the hunger of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L75)
+**Source:** [world/entity.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L75)
 
 #### Returns
 
@@ -115,7 +115,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
 
-**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L36)
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L36)
 
 #### Returns
 
@@ -127,7 +127,7 @@ Gets the number of ticks that the entity is invulnerable (after the entity is hi
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:88](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L88)
+**Source:** [world/entity.d.ts:88](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L88)
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Gets the value of a MoLang variable. Returns `null` if the variable was not foun
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L94)
+**Source:** [world/entity.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L94)
 
 #### Parameters
 
@@ -163,7 +163,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L20)
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
@@ -177,7 +177,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L25)
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
@@ -191,7 +191,7 @@ Gets the saturation of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L82)
+**Source:** [world/entity.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L82)
 
 #### Returns
 
@@ -203,7 +203,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Whether the entity is the local player (yourself) or not.
 
-**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L46)
+**Source:** [world/entity.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L46)
 
 #### Returns
 
@@ -215,7 +215,7 @@ Whether the entity is the local player (yourself) or not.
 
 Whether the entity is a player or not.
 
-**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L41)
+**Source:** [world/entity.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L41)
 
 #### Returns
 
@@ -228,7 +228,7 @@ Whether the entity is a player or not.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L14)
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L14)
 
 #### Returns
 
@@ -240,7 +240,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 
 [Experimental] sets a MoLang variable's value. Returns `null` if unsuccessful and the number that was set if it was successful.
 
-**Source:** [world/entity.d.ts:101](https://github.com/LatiteScripting/latitescripting.github.io/blob/bc670e2/definitions/world/entity.d.ts#L101)
+**Source:** [world/entity.d.ts:101](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/world/entity.d.ts#L101)
 
 #### Parameters
 
