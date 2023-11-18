@@ -16,6 +16,7 @@
 - [feature/module](module.feature_module/index.md)
 - [feature/setting](module.feature_setting/index.md)
 - [game](module.game/index.md)
+- [gfx/Texture](module.gfx_Texture/index.md)
 - [gfx/graphics](module.gfx_graphics/index.md)
 - [gfx/graphics3](module.gfx_graphics3/index.md)
 - [index](module.index/index.md)

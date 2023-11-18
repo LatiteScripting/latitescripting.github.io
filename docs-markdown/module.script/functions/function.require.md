@@ -16,7 +16,7 @@ Load a specified library.
 
 Invalid filepath or Non-OK HTTP/HTTPS error code
 
-**Source:** [script.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/script.d.ts#L26)
+**Source:** [script.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/script.d.ts#L18)
 
 ## Type parameters
 
@@ -34,40 +34,16 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 
 [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
 
-> **require**(path: "network"): [`HTTP`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.HTTP.md)
+> **require**(path: `string`): `any`
 
-## Deprecated
-
-use require("http")
-
-**Source:** [script.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/script.d.ts#L32)
+**Source:** [script.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/script.d.ts#L24)
 
 ## Parameters
 
-| Parameter | Type      |
-| :-------- | :-------- |
-| path      | "network" |
+| Parameter | Type     | Description                  |
+| :-------- | :------- | :--------------------------- |
+| path      | `string` | The path to load the library |
 
 ## Returns
 
-[`HTTP`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.HTTP.md)
-
-> **require**(path: `string`): `object`
-
-Load a specified script from filesystem or web.
-
-## Throws
-
-Invalid filepath or Non-OK HTTP/HTTPS error code
-
-**Source:** [script.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/script.d.ts#L39)
-
-## Parameters
-
-| Parameter | Type     | Description                                      |
-| :-------- | :------- | :----------------------------------------------- |
-| path      | `string` | The filepath, HTTP or HTTPS link to the JS file. |
-
-## Returns
-
-`object`
+`any`

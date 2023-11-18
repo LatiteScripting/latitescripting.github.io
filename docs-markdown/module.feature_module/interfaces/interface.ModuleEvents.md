@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L1)
+**Source:** [feature/module.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L1)
 
 ## Properties
 
@@ -16,7 +16,7 @@
 
 > **disable**: `Function`
 
-**Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L9)
+**Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L9)
 
 #### Type declaration (disable)
 
@@ -24,7 +24,7 @@
 >
 > Called on any module being disabled.
 >
-> **Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L9)
+> **Source:** [feature/module.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L9)
 >
 > ##### Returns
 >
@@ -34,7 +34,7 @@
 
 > **enable**: `Function`
 
-**Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L5)
+**Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L5)
 
 #### Type declaration (enable)
 
@@ -42,7 +42,7 @@
 >
 > Called on any module being enabled.
 >
-> **Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L5)
+> **Source:** [feature/module.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L5)
 >
 > ##### Returns
 >
@@ -52,7 +52,7 @@
 
 > **get-hold-to-toggle**: `Function`
 
-**Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L13)
+**Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L13)
 
 #### Type declaration (get-hold-to-toggle)
 
@@ -60,7 +60,7 @@
 >
 > Called on every frame. Return a bool to set the toggle form of the module - `true` makes it a hold module, like player list; `false`, standard toggle form.
 >
-> **Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L13)
+> **Source:** [feature/module.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L13)
 >
 > ##### Returns
 >
@@ -70,7 +70,7 @@
 
 > **render**: `Function`
 
-**Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L21)
+**Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L21)
 
 #### Type declaration (render)
 
@@ -82,7 +82,7 @@
 >
 > Only available in HUD modules.
 >
-> **Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L21)
+> **Source:** [feature/module.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L21)
 >
 > ##### Parameters
 >
@@ -99,7 +99,7 @@
 
 > **text**: `Function`
 
-**Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L31)
+**Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L31)
 
 #### Type declaration (text)
 
@@ -111,7 +111,7 @@
 >
 > Only available in text modules.
 >
-> **Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/feature/module.d.ts#L31)
+> **Source:** [feature/module.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/feature/module.d.ts#L31)
 >
 > ##### Parameters
 >

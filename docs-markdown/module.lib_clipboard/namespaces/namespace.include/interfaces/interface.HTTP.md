@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/lib/network.d.ts#L25)
+**Source:** [lib/network.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/network.d.ts#L25)
 
 ## Methods
 
@@ -21,7 +21,7 @@
 
 Sends an async GET request to a URL.
 
-**Source:** [lib/network.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/lib/network.d.ts#L39)
+**Source:** [lib/network.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/network.d.ts#L39)
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Sends an async GET request to a URL.
 
 Sends a basic GET request to a URL.
 
-**Source:** [lib/network.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/lib/network.d.ts#L31)
+**Source:** [lib/network.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/network.d.ts#L31)
 
 #### Parameters
 
@@ -60,7 +60,7 @@ Sends a basic GET request to a URL.
 
 Sends a basic POST request to a URL.
 
-**Source:** [lib/network.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/6e0c251/definitions/lib/network.d.ts#L46)
+**Source:** [lib/network.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/network.d.ts#L46)
 
 #### Parameters
 

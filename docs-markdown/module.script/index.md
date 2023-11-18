@@ -11,13 +11,14 @@
 ### Interfaces
 
 - [EngineLibraries](interfaces/interface.EngineLibraries.md)
-- [Script](interfaces/interface.Script.md)
+- [ScriptModule](interfaces/interface.ScriptModule.md)
 
 ### Variables
 
-- [script](variables/variable.script-1.md)
+- [module](variables/variable.module.md)
 
 ### Functions
 
+- [clientMessage](functions/function.clientMessage.md)
 - [require](functions/function.require.md)
 - [sleep](functions/function.sleep.md)
