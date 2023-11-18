@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L2)
+**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L2)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Creates a folder/directory.
 
-**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L40)
+**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L40)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Creates a folder/directory.
 
 Checks if a file or a directory exists
 
-**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L34)
+**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L34)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Checks if a file or a directory exists
 
 Reads a file asynchronously.
 
-**Source:** [lib/filesystem.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L8)
+**Source:** [lib/filesystem.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L8)
 
 #### Parameters
 
@@ -73,7 +73,7 @@ Reads a file asynchronously.
 
 Reads a file from the path specified.
 
-**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L22)
+**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L22)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Reads a file from the path specified.
 > data: `Uint8Array`,
 > callback: `Function`): `void`
 
-**Source:** [lib/filesystem.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L16)
+**Source:** [lib/filesystem.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L16)
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Reads a file from the path specified.
 
 Writes a file to the path specified.
 
-**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/lib/filesystem.d.ts#L28)
+**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/filesystem.d.ts#L28)
 
 #### Parameters
 

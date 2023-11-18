@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics3.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/gfx/graphics3.d.ts#L6)
+**Source:** [gfx/graphics3.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/gfx/graphics3.d.ts#L6)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Draws a mesh.
 
-**Source:** [gfx/graphics3.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/gfx/graphics3.d.ts#L11)
+**Source:** [gfx/graphics3.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/gfx/graphics3.d.ts#L11)
 
 #### Parameters
 

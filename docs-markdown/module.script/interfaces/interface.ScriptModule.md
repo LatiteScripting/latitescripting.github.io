@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [script.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/script.d.ts#L50)
+**Source:** [script.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/script.d.ts#L50)
 
 ## Properties
 
@@ -18,4 +18,4 @@
 
 What the script exports.
 
-**Source:** [script.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/03ce161/definitions/script.d.ts#L54)
+**Source:** [script.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/script.d.ts#L54)
