@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L1)
+**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Execute an in-game command.
 
-**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L12)
+**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L12)
 
 #### Parameters
 
@@ -38,11 +38,31 @@ Gets the featured server name you are connected to. This will return null if you
 
 Featured server examples: "The Hive" "CubeCraft" "InPvP" "Mineplex"
 
-**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L37)
+**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L37)
 
 #### Returns
 
 `null` \| `string`
+
+### getInputBinding()
+
+> **getInputBinding**(name: [`InputBinding`](../type-aliases/type-alias.InputBinding.md)): `number`
+
+Gets the user's input setting. Usually a key code; for example, `"forward"` returns `KeyCode.W` by default.
+
+If this function returns 0, either the key is set to nothing or the specified name was not found.
+
+**Source:** [game.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L64)
+
+#### Parameters
+
+| Parameter | Type                                                         |
+| :-------- | :----------------------------------------------------------- |
+| name      | [`InputBinding`](../type-aliases/type-alias.InputBinding.md) |
+
+#### Returns
+
+`number`
 
 ### getLocalPlayer()
 
@@ -50,7 +70,7 @@ Featured server examples: "The Hive" "CubeCraft" "InPvP" "Mineplex"
 
 Get your player. This will return null if you are not in a game.
 
-**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L25)
+**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L25)
 
 #### Returns
 
@@ -62,7 +82,7 @@ Get your player. This will return null if you are not in a game.
 
 Get the mouse position.
 
-**Source:** [game.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L54)
+**Source:** [game.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L57)
 
 #### Returns
 
@@ -74,7 +94,7 @@ Get the mouse position.
 
 Get the open screen name
 
-**Source:** [game.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L49)
+**Source:** [game.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L52)
 
 #### Returns
 
@@ -86,7 +106,7 @@ Get the open screen name
 
 Gets the server you are connected to. This will return null if you are not in a server.
 
-**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L30)
+**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L30)
 
 #### Returns
 
@@ -98,7 +118,7 @@ Gets the server you are connected to. This will return null if you are not in a 
 
 Get the current world that you're in.
 
-**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L42)
+**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L42)
 
 #### Returns
 
@@ -108,7 +128,9 @@ Get the current world that you're in.
 
 > **isInUI**(): `boolean`
 
-**Source:** [game.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L44)
+Get whether you are in a UI screen
+
+**Source:** [game.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L47)
 
 #### Returns
 
@@ -123,7 +145,7 @@ Get the current world that you're in.
 
 Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for sounds
 
-**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L20)
+**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L20)
 
 #### Parameters
 
@@ -143,7 +165,7 @@ Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for
 
 Sends a chat message.
 
-**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/game.d.ts#L6)
+**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L6)
 
 #### Parameters
 

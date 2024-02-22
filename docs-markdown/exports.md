@@ -27,6 +27,8 @@
 - [lib/network](module.lib_network/index.md)
 - [molang/Variable](module.molang_Variable/index.md)
 - [molang/Variables](module.molang_Variables/index.md)
+- [native/NativeModule](module.native_NativeModule/index.md)
+- [plugin](module.plugin/index.md)
 - [script](module.script/index.md)
 - [util/buffer](module.util_buffer/index.md)
 - [util/util](module.util_util/index.md)

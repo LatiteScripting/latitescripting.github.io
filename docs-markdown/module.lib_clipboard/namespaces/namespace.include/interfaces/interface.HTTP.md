@@ -8,20 +8,39 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/network.d.ts#L25)
+**Source:** [lib/network.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/lib/network.d.ts#L25)
 
 ## Methods
 
 ### get()
 
-> **get**(
+> **get**(url: `string`, data?: [`GetData`](interface.GetData.md)): [`HttpResponse`](interface.HttpResponse.md)
+
+Sends a basic GET request to a URL.
+
+**Source:** [lib/network.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/lib/network.d.ts#L31)
+
+#### Parameters
+
+| Parameter | Type                              | Description                  |
+| :-------- | :-------------------------------- | :--------------------------- |
+| url       | `string`                          | The URL to send the request. |
+| data?     | [`GetData`](interface.GetData.md) |                              |
+
+#### Returns
+
+[`HttpResponse`](interface.HttpResponse.md)
+
+### getAsync()
+
+> **getAsync**(
 > url: `string`,
 > data: [`GetData`](interface.GetData.md),
 > callback: `Function`): `void`
 
 Sends an async GET request to a URL.
 
-**Source:** [lib/network.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/network.d.ts#L39)
+**Source:** [lib/network.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/lib/network.d.ts#L39)
 
 #### Parameters
 
@@ -35,32 +54,13 @@ Sends an async GET request to a URL.
 
 `void`
 
-### getSync()
+### post()
 
-> **getSync**(url: `string`, data?: [`GetData`](interface.GetData.md)): [`HttpResponse`](interface.HttpResponse.md)
-
-Sends a basic GET request to a URL.
-
-**Source:** [lib/network.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/network.d.ts#L31)
-
-#### Parameters
-
-| Parameter | Type                              | Description                  |
-| :-------- | :-------------------------------- | :--------------------------- |
-| url       | `string`                          | The URL to send the request. |
-| data?     | [`GetData`](interface.GetData.md) |                              |
-
-#### Returns
-
-[`HttpResponse`](interface.HttpResponse.md)
-
-### postSync()
-
-> **postSync**(url: `string`, data?: [`PostData`](interface.PostData.md)): [`HttpResponse`](interface.HttpResponse.md)
+> **post**(url: `string`, data?: [`PostData`](interface.PostData.md)): [`HttpResponse`](interface.HttpResponse.md)
 
 Sends a basic POST request to a URL.
 
-**Source:** [lib/network.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/lib/network.d.ts#L46)
+**Source:** [lib/network.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/lib/network.d.ts#L46)
 
 #### Parameters
 

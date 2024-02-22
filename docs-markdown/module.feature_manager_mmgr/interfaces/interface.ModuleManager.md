@@ -8,27 +8,9 @@
 
 **`Interface`**
 
-**Source:** [feature/manager/mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/mmgr.d.ts#L1)
+**Source:** [feature/manager/mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/mmgr.d.ts#L1)
 
 ## Methods
-
-### deregisterModule()
-
-> **deregisterModule**(mod: [`Module`](../../module.feature_module/classes/class.Module.md)): `void`
-
-Removes a module from the client.
-
-**Source:** [feature/manager/mmgr.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/mmgr.d.ts#L12)
-
-#### Parameters
-
-| Parameter | Type                                                            | Description                                        |
-| :-------- | :-------------------------------------------------------------- | :------------------------------------------------- |
-| mod       | [`Module`](../../module.feature_module/classes/class.Module.md) | The module to unregister. Must be a script module. |
-
-#### Returns
-
-`void`
 
 ### forEachModule()
 
@@ -36,7 +18,7 @@ Removes a module from the client.
 
 Loop through each module.
 
-**Source:** [feature/manager/mmgr.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/mmgr.d.ts#L26)
+**Source:** [feature/manager/mmgr.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/mmgr.d.ts#L22)
 
 #### Parameters
 
@@ -56,7 +38,7 @@ Gets a module by the specified InternalName.
 For example, ArmorHud is the internal name for Armor Hud.
 Position is the internal name of Coordinates
 
-**Source:** [feature/manager/mmgr.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/mmgr.d.ts#L20)
+**Source:** [feature/manager/mmgr.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/mmgr.d.ts#L16)
 
 #### Parameters
 
@@ -74,7 +56,7 @@ Position is the internal name of Coordinates
 
 Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
 
-**Source:** [feature/manager/mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/mmgr.d.ts#L6)
+**Source:** [feature/manager/mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/mmgr.d.ts#L6)
 
 #### Parameters
 

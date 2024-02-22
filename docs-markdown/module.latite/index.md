@@ -22,6 +22,7 @@
 - [LatiteEvent](interfaces/interface.LatiteEvent.md)
 - [ScriptEvent](interfaces/interface.ScriptEvent.md)
 - [SendChatEvent](interfaces/interface.SendChatEvent.md)
+- [TextInputEvent](interfaces/interface.TextInputEvent.md)
 - [TitleEvent](interfaces/interface.TitleEvent.md)
 
 ### Type Aliases

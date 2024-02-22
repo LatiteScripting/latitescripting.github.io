@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [feature/manager/commandmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/commandmgr.d.ts#L1)
+**Source:** [feature/manager/commandmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/commandmgr.d.ts#L1)
 
 ## Constructors
 
@@ -22,31 +22,13 @@
 
 ## Methods
 
-### deregisterCommand()
-
-> **deregisterCommand**(cmd: [`Command`](../../module.feature_command/classes/class.Command.md)): `void`
-
-Removes a command from the client.
-
-**Source:** [feature/manager/commandmgr.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/commandmgr.d.ts#L17)
-
-#### Parameters
-
-| Parameter | Type                                                               |
-| :-------- | :----------------------------------------------------------------- |
-| cmd       | [`Command`](../../module.feature_command/classes/class.Command.md) |
-
-#### Returns
-
-`void`
-
 ### getPrefix()
 
 > **getPrefix**(): `string`
 
 Gets the command prefix, default is '.'
 
-**Source:** [feature/manager/commandmgr.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/commandmgr.d.ts#L5)
+**Source:** [feature/manager/commandmgr.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/commandmgr.d.ts#L5)
 
 #### Returns
 
@@ -58,7 +40,7 @@ Gets the command prefix, default is '.'
 
 Adds a command into the client
 
-**Source:** [feature/manager/commandmgr.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/271604a/definitions/feature/manager/commandmgr.d.ts#L11)
+**Source:** [feature/manager/commandmgr.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/feature/manager/commandmgr.d.ts#L11)
 
 #### Parameters
 

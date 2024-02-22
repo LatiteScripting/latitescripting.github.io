@@ -11,11 +11,12 @@
 ### Interfaces
 
 - [EngineLibraries](interfaces/interface.EngineLibraries.md)
+- [IScript](interfaces/interface.IScript.md)
 - [ScriptModule](interfaces/interface.ScriptModule.md)
 
 ### Variables
 
-- [module](variables/variable.module.md)
+- [script](variables/variable.script.md)
 
 ### Functions
 

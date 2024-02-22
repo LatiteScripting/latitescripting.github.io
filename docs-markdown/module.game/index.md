@@ -12,6 +12,10 @@
 
 - [Game](interfaces/interface.Game.md)
 
+### Type Aliases
+
+- [InputBinding](type-aliases/type-alias.InputBinding.md)
+
 ### Variables
 
 - [game](variables/variable.game-1.md)
