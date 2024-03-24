@@ -10,4 +10,4 @@
 
 > **InputBinding**: "attack" \| "pickItem" \| "use" \| "drop" \| "hotbar.1" \| "hotbar.2" \| "hotbar.3" \| "hotbar.4" \| "hotbar.5" \| "hotbar.6" \| "hotbar.7" \| "hotbar.8" \| "hotbar.9" \| "inventory" \| "togglePerspective" \| "jump" \| "sneak" \| "sprint" \| "left" \| "right" \| "back" \| "forward" \| "mobEffects" \| "chat" \| "command" \| "copyCoordinates" \| "copyFacingCoordinates" \| "toggleControlTips" \| "codeBuilder" \| "immersivereader" \| "emote" \| "menuTabLeft" \| "menuTabRight" \| "menuCancel"
 
-**Source:** [game.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/game.d.ts#L67)
+**Source:** [game.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/d29f363/definitions/game.d.ts#L72)

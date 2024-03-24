@@ -10,4 +10,4 @@
 
 > `const` **gfx3d**: [`Graphics3D`](../interfaces/interface.Graphics3D.md)
 
-**Source:** [gfx/graphics3.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/3779189/definitions/gfx/graphics3.d.ts#L14)
+**Source:** [gfx/graphics3.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/d29f363/definitions/gfx/graphics3.d.ts#L14)
