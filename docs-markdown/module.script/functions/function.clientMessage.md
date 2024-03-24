@@ -12,7 +12,7 @@
 
 Prints to chat.
 
-**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/d29f363/definitions/script.d.ts#L11)
+**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/script.d.ts#L11)
 
 ## Parameters
 
