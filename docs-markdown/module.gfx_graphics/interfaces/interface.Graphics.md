@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L112)
+**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L112)
 
 ## Methods
 
@@ -19,7 +19,7 @@
 > color: [`Color`](../classes/class.Color.md),
 > thickness: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L118)
+**Source:** [gfx/graphics.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L118)
 
 #### Parameters
 
@@ -43,7 +43,7 @@
 
 Draws text on the position specified
 
-**Source:** [gfx/graphics.d.ts:128](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L128)
+**Source:** [gfx/graphics.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L133)
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Draws text on the position specified
 
 A full verison of drawText, where you can specify the bounds of the text and the alignment
 
-**Source:** [gfx/graphics.d.ts:139](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L139)
+**Source:** [gfx/graphics.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L144)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ A full verison of drawText, where you can specify the bounds of the text and the
 
 Draws a texture.
 
-**Source:** [gfx/graphics.d.ts:149](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L149)
+**Source:** [gfx/graphics.d.ts:154](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L154)
 
 #### Parameters
 
@@ -118,7 +118,7 @@ Draws a texture.
 
 > **fillRect**(rect: [`Rect`](../classes/class.Rect.md), color: [`Color`](../classes/class.Color.md)): `void`
 
-**Source:** [gfx/graphics.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L119)
+**Source:** [gfx/graphics.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L119)
 
 #### Parameters
 
@@ -131,11 +131,54 @@ Draws a texture.
 
 `void`
 
+### getTextSize()
+
+> **getTextSize**(text: `string`, textSize: `number`): [`Vector2`](../classes/class.Vector2.md)
+
+**Source:** [gfx/graphics.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L121)
+
+#### Parameters
+
+| Parameter | Type     |
+| :-------- | :------- |
+| text      | `string` |
+| textSize  | `number` |
+
+#### Returns
+
+[`Vector2`](../classes/class.Vector2.md)
+
+### restoreClippingRect()
+
+> **restoreClippingRect**(): `void`
+
+**Source:** [gfx/graphics.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L124)
+
+#### Returns
+
+`void`
+
+### setClippingRect()
+
+> **setClippingRect**(rect: [`Rect`](../classes/class.Rect.md)): `void`
+
+**Source:** [gfx/graphics.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L123)
+
+#### Parameters
+
+| Parameter | Type                               |
+| :-------- | :--------------------------------- |
+| rect      | [`Rect`](../classes/class.Rect.md) |
+
+#### Returns
+
+`void`
+
 ### use()
 
 > **use**(renderer: "dx" \| "minecraft"): `void`
 
-**Source:** [gfx/graphics.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/gfx/graphics.d.ts#L117)
+**Source:** [gfx/graphics.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/gfx/graphics.d.ts#L117)
 
 #### Parameters
 

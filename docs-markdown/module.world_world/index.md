@@ -11,3 +11,7 @@
 ### Interfaces
 
 - [World](interfaces/interface.World.md)
+
+### Variables
+
+- [world](variables/variable.world-1.md)

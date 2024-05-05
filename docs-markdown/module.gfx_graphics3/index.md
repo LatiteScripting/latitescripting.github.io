@@ -11,8 +11,7 @@
 ### Interfaces
 
 - [Graphics3D](interfaces/interface.Graphics3D.md)
-- [Graphics3DObject](interfaces/interface.Graphics3DObject.md)
 
 ### Variables
 
-- [gfx3d](variables/variable.gfx3d.md)
+- [graphics3D](variables/variable.graphics3D-1.md)

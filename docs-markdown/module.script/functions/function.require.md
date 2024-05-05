@@ -8,15 +8,11 @@
 
 **`Function`**
 
-> **require**\<K\>(path: `K`): [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
+> **require**\<K\>(library: `K`): [`EngineLibraries`](../interfaces/interface.EngineLibraries.md)[`K`]
 
 Load a specified library.
 
-## Throws
-
-Invalid filepath or Non-OK HTTP/HTTPS error code
-
-**Source:** [script.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/script.d.ts#L18)
+**Source:** [script.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/script.d.ts#L17)
 
 ## Type parameters
 
@@ -26,9 +22,9 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 
 ## Parameters
 
-| Parameter | Type | Description                                      |
-| :-------- | :--- | :----------------------------------------------- |
-| path      | `K`  | The filepath, HTTP or HTTPS link to the JS file. |
+| Parameter | Type | Description                                   |
+| :-------- | :--- | :-------------------------------------------- |
+| library   | `K`  | The Latite Scripting engine built-in library. |
 
 ## Returns
 
@@ -36,13 +32,15 @@ Invalid filepath or Non-OK HTTP/HTTPS error code
 
 > **require**(path: `string`): `any`
 
-**Source:** [script.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/script.d.ts#L24)
+Load and run a specified JavaScript module. This returns whatever is in `exports` or `module.exports` of the JavaScript module.
+
+**Source:** [script.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/script.d.ts#L23)
 
 ## Parameters
 
-| Parameter | Type     | Description                  |
-| :-------- | :------- | :--------------------------- |
-| path      | `string` | The path to load the library |
+| Parameter | Type     | Description                           |
+| :-------- | :------- | :------------------------------------ |
+| path      | `string` | The path to load the JavaScript file. |
 
 ## Returns
 

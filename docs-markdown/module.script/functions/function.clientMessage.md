@@ -8,17 +8,17 @@
 
 **`Function`**
 
-> **clientMessage**(...contents: `any`[]): `void`
+> **clientMessage**(...messages: `any`[]): `void`
 
-Prints to chat.
+Adds chat message(s) to the chat.
 
-**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/script.d.ts#L11)
+**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/script.d.ts#L11)
 
 ## Parameters
 
-| Parameter   | Type    | Description          |
-| :---------- | :------ | :------------------- |
-| ...contents | `any`[] | The contents to log. |
+| Parameter   | Type    |
+| :---------- | :------ |
+| ...messages | `any`[] |
 
 ## Returns
 

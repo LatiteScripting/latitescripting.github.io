@@ -8,9 +8,21 @@
 
 **`Interface`**
 
-**Source:** [world/world.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L1)
+**Source:** [world/world.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L1)
 
 ## Methods
+
+### exists()
+
+> **exists**(): `boolean`
+
+Returns `true` if in a world, returns `false` if not. You will only be able to use the World methods if you are in a world.
+
+**Source:** [world/world.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L5)
+
+#### Returns
+
+`boolean`
 
 ### getEntities()
 
@@ -18,7 +30,7 @@
 
 Gets the clientside entity list (only if you have operator otherwise it will only return you)
 
-**Source:** [world/world.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L19)
+**Source:** [world/world.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L24)
 
 #### Returns
 
@@ -30,7 +42,7 @@ Gets the clientside entity list (only if you have operator otherwise it will onl
 
 Gets the clientside number of entities (including you)
 
-**Source:** [world/world.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L24)
+**Source:** [world/world.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L29)
 
 #### Returns
 
@@ -42,7 +54,7 @@ Gets the clientside number of entities (including you)
 
 The saved world name.
 
-**Source:** [world/world.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L5)
+**Source:** [world/world.d.ts:10](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L10)
 
 #### Returns
 
@@ -54,7 +66,7 @@ The saved world name.
 
 Gets the name of the players connected to the world.
 
-**Source:** [world/world.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L9)
+**Source:** [world/world.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L14)
 
 #### Returns
 
@@ -66,7 +78,7 @@ Gets the name of the players connected to the world.
 
 Returns true if it's your own local world. Returns false if not.
 
-**Source:** [world/world.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/world/world.d.ts#L14)
+**Source:** [world/world.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/world/world.d.ts#L19)
 
 #### Returns
 

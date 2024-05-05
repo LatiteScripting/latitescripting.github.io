@@ -10,7 +10,7 @@
 
 A class representing a native DLL.
 
-**Source:** [native/NativeModule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/native/NativeModule.d.ts#L6)
+**Source:** [native/NativeModule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/native/NativeModule.d.ts#L6)
 
 ## Constructors
 
@@ -30,7 +30,7 @@ A class representing a native DLL.
 
 The current handle of the module. Warning: will be truncated to Float64
 
-**Source:** [native/NativeModule.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/native/NativeModule.d.ts#L20)
+**Source:** [native/NativeModule.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/native/NativeModule.d.ts#L20)
 
 ## Methods
 
@@ -45,7 +45,7 @@ Calls a function.
 
 This method is restricted to prevent cheating.
 
-**Source:** [native/NativeModule.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/native/NativeModule.d.ts#L30)
+**Source:** [native/NativeModule.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/native/NativeModule.d.ts#L30)
 
 #### Parameters
 
@@ -69,7 +69,7 @@ The plugin needs the permission `Permission.SystemAccess` to use this.
 
 This method is restricted to prevent cheating.
 
-**Source:** [native/NativeModule.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/35c45ec/definitions/native/NativeModule.d.ts#L15)
+**Source:** [native/NativeModule.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/native/NativeModule.d.ts#L15)
 
 #### Parameters
 
