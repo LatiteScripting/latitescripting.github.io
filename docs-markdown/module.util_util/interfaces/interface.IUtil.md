@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [util/util.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/util/util.d.ts#L1)
+**Source:** [util/util.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/util/util.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Converts a buffer into a UTF-8 string.
 
-**Source:** [util/util.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/util/util.d.ts#L6)
+**Source:** [util/util.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/util/util.d.ts#L6)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Converts a buffer into a UTF-8 string.
 
 Converts a string to a UTF-8 buffer.
 
-**Source:** [util/util.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5c29411/definitions/util/util.d.ts#L11)
+**Source:** [util/util.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/util/util.d.ts#L11)
 
 #### Parameters
 
