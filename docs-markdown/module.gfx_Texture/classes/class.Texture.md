@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/Texture.d.ts:1
+**Source:** [gfx/Texture.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/Texture.d.ts#L1)
 
 ## Constructors
 
@@ -28,7 +28,7 @@
 
 Destroys the texture. It's highly recommended to set the texture to `null` after you call this
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/Texture.d.ts:22
+**Source:** [gfx/Texture.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/Texture.d.ts#L22)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Destroys the texture. It's highly recommended to set the texture to `null` after
 
 Reloads the (Minecraft renderer) texture.
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/Texture.d.ts:17
+**Source:** [gfx/Texture.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/Texture.d.ts#L17)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Reloads the (Minecraft renderer) texture.
 
 Gets a Minecraft texture. Can only be drawn with the Minecraft renderer
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/Texture.d.ts:12
+**Source:** [gfx/Texture.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/Texture.d.ts#L12)
 
 #### Parameters
 
@@ -70,7 +70,7 @@ Gets a Minecraft texture. Can only be drawn with the Minecraft renderer
 
 Loads a texture from file.
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/Texture.d.ts:6
+**Source:** [gfx/Texture.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/Texture.d.ts#L6)
 
 #### Parameters
 

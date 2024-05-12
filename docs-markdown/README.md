@@ -2,9 +2,10 @@
 
 ---
 
-# latiteapi
+<div align="center">
+  <h1>Documentation for Latite Client Scripting</h1>
+  <p><a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/main/docs-markdown/exports.md">Documentation in Markdown</a></p>
 
-This includes:
+<a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/main/LICENSE.md">License</a>
 
-- The default api loaded by Latite Client (for miscellaneous utility functions)
-- Latest Latite Client typescript definitions/autocomplete
+</div>

@@ -8,23 +8,23 @@
 
 **`Interface`**
 
-**Source:** @latitescripting/latiteapi/definitions/util/util.d.ts:1
+**Source:** [util/util.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/util/util.d.ts#L1)
 
 ## Methods
 
 ### bufferToString()
 
-> **bufferToString**(buf: [`Uint8Array`](../../module.util_buffer/variables/variable.Uint8Array-1.md)): `string`
+> **bufferToString**(buf: `Uint8Array`): `string`
 
 Converts a buffer into a UTF-8 string.
 
-**Source:** @latitescripting/latiteapi/definitions/util/util.d.ts:6
+**Source:** [util/util.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/util/util.d.ts#L6)
 
 #### Parameters
 
-| Parameter | Type                                                                        |
-| :-------- | :-------------------------------------------------------------------------- |
-| buf       | [`Uint8Array`](../../module.util_buffer/variables/variable.Uint8Array-1.md) |
+| Parameter | Type         |
+| :-------- | :----------- |
+| buf       | `Uint8Array` |
 
 #### Returns
 
@@ -32,11 +32,11 @@ Converts a buffer into a UTF-8 string.
 
 ### stringToBuffer()
 
-> **stringToBuffer**(str: `string`): [`Uint8Array`](../../module.util_buffer/variables/variable.Uint8Array-1.md)
+> **stringToBuffer**(str: `string`): `Uint8Array`
 
 Converts a string to a UTF-8 buffer.
 
-**Source:** @latitescripting/latiteapi/definitions/util/util.d.ts:11
+**Source:** [util/util.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/util/util.d.ts#L11)
 
 #### Parameters
 
@@ -46,4 +46,4 @@ Converts a string to a UTF-8 buffer.
 
 #### Returns
 
-[`Uint8Array`](../../module.util_buffer/variables/variable.Uint8Array-1.md)
+`Uint8Array`

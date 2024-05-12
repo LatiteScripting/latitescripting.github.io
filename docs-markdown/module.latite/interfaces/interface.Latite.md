@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:238
+**Source:** [latite.d.ts:238](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L238)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 The Latite Client version. Example: "v2.0.0"
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:270
+**Source:** [latite.d.ts:270](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L270)
 
 ## Methods
 
@@ -28,7 +28,7 @@ The Latite Client version. Example: "v2.0.0"
 
 Gets the command manager. Use this to register commands.
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:265
+**Source:** [latite.d.ts:265](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L265)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Gets the command manager. Use this to register commands.
 
 Gets the module manager. Use this to register modules.
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:260
+**Source:** [latite.d.ts:260](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L260)
 
 #### Returns
 
@@ -52,7 +52,7 @@ Gets the module manager. Use this to register modules.
 
 Listen to an event.
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:242
+**Source:** [latite.d.ts:242](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L242)
 
 #### Type parameters
 
@@ -77,7 +77,7 @@ Listen to an event.
 
 Runs a Latite command.
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:255
+**Source:** [latite.d.ts:255](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L255)
 
 #### Parameters
 
@@ -97,7 +97,7 @@ The success of the command.
 
 Shows a Latite toast on the top of the screen.
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:248
+**Source:** [latite.d.ts:248](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L248)
 
 #### Parameters
 

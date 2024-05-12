@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:43
+**Source:** [latite.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L43)
 
 ## Enumeration Members
 
@@ -16,22 +16,22 @@
 
 > **Left**: 1
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:44
+**Source:** [latite.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L44)
 
 ### Middle
 
 > **Middle**: 3
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:46
+**Source:** [latite.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L46)
 
 ### Right
 
 > **Right**: 2
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:45
+**Source:** [latite.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L45)
 
 ### Scroll
 
 > **Scroll**: 4
 
-**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:47
+**Source:** [latite.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L47)

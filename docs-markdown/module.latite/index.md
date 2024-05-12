@@ -20,7 +20,6 @@
 - [KeyEvent](interfaces/interface.KeyEvent.md)
 - [Latite](interfaces/interface.Latite.md)
 - [LatiteEvent](interfaces/interface.LatiteEvent.md)
-- [MessageEvent](interfaces/interface.MessageEvent.md)
 - [ScriptEvent](interfaces/interface.ScriptEvent.md)
 - [SendChatEvent](interfaces/interface.SendChatEvent.md)
 - [TextInputEvent](interfaces/interface.TextInputEvent.md)
@@ -33,5 +32,4 @@
 
 ### Variables
 
-- [MessageEvent](variables/variable.MessageEvent-1.md)
 - [client](variables/variable.client.md)

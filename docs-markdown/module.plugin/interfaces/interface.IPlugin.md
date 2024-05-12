@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:5
+**Source:** [plugin.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L5)
 
 ## Properties
 
@@ -16,25 +16,25 @@
 
 > `readonly` **author**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:7
+**Source:** [plugin.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L7)
 
 ### description
 
 > `readonly` **description**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:9
+**Source:** [plugin.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L9)
 
 ### name
 
 > `readonly` **name**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:6
+**Source:** [plugin.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L6)
 
 ### version
 
 > `readonly` **version**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:8
+**Source:** [plugin.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L8)
 
 ## Methods
 
@@ -44,7 +44,7 @@
 
 Requests a permission.
 
-**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:16
+**Source:** [plugin.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/plugin.d.ts#L16)
 
 #### Parameters
 

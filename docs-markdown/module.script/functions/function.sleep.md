@@ -14,7 +14,7 @@ Stops execution for a specified amount of time.
 
 **Warning**: This stops execution of both the JavaScript runtime and the game thread. This is only for specific use cases (use setTimeout instead.)
 
-**Source:** @latitescripting/latiteapi/definitions/script.d.ts:31
+**Source:** [script.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/script.d.ts#L31)
 
 ## Parameters
 

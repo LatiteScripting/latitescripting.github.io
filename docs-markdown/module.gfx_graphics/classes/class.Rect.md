@@ -26,7 +26,7 @@ right The x coordinate of the bottom-right point.
 
 bottom The y coordinate of the bottom-right point.
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:8
+**Source:** [gfx/graphics.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L8)
 
 ## Constructors
 
@@ -38,7 +38,7 @@ bottom The y coordinate of the bottom-right point.
 > right: `number`,
 > bottom: `number`): [`Rect`](class.Rect.md)
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:16
+**Source:** [gfx/graphics.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L16)
 
 #### Parameters
 
@@ -59,25 +59,25 @@ bottom The y coordinate of the bottom-right point.
 
 > **bottom**: `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:21
+**Source:** [gfx/graphics.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L21)
 
 ### left
 
 > **left**: `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:18
+**Source:** [gfx/graphics.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L18)
 
 ### right
 
 > **right**: `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:20
+**Source:** [gfx/graphics.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L20)
 
 ### top
 
 > **top**: `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:19
+**Source:** [gfx/graphics.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L19)
 
 ## Methods
 
@@ -85,7 +85,7 @@ bottom The y coordinate of the bottom-right point.
 
 > **getHeight**(): `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:24
+**Source:** [gfx/graphics.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L24)
 
 #### Returns
 
@@ -95,7 +95,7 @@ bottom The y coordinate of the bottom-right point.
 
 > **getWidth**(): `number`
 
-**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:23
+**Source:** [gfx/graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/gfx/graphics.d.ts#L23)
 
 #### Returns
 

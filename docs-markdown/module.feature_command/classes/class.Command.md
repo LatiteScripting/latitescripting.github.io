@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:13
+**Source:** [feature/command.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L13)
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > usage: `string`,
 > aliases: `string`[]): [`Command`](class.Command.md)
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:25
+**Source:** [feature/command.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L25)
 
 #### Parameters
 
@@ -41,31 +41,31 @@
 
 > `readonly` **aliases**: `string`[]
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:16
+**Source:** [feature/command.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L16)
 
 ### description
 
 > `readonly` **description**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:15
+**Source:** [feature/command.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L15)
 
 ### name
 
 > `readonly` **name**: `string`
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:14
+**Source:** [feature/command.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L14)
 
 ### on
 
 > **on**: `Function`
 
-**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:27
+**Source:** [feature/command.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L27)
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`CommandEvents`](../interfaces/interface.CommandEvents.md)[`K`]): `void`
 >
-> **Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:27
+> **Source:** [feature/command.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/feature/command.d.ts#L27)
 >
 > ##### Type parameters
 >

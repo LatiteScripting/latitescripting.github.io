@@ -10,4 +10,4 @@
 
 > `const` **world**: [`World`](../interfaces/interface.World.md)
 
-**Source:** @latitescripting/latiteapi/definitions/world/world.d.ts:32
+**Source:** [world/world.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/world/world.d.ts#L32)

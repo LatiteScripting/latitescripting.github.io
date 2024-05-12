@@ -20,10 +20,6 @@
 
 ### Functions
 
-- [clearInterval](functions/function.clearInterval.md)
-- [clearTimeout](functions/function.clearTimeout.md)
 - [clientMessage](functions/function.clientMessage.md)
 - [require](functions/function.require.md)
-- [setInterval](functions/function.setInterval.md)
-- [setTimeout](functions/function.setTimeout.md)
 - [sleep](functions/function.sleep.md)
