@@ -10,4 +10,4 @@
 
 > `const` **plugin**: [`IPlugin`](../interfaces/interface.IPlugin.md)
 
-**Source:** [plugin.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/plugin.d.ts#L19)
+**Source:** @latitescripting/latiteapi/definitions/plugin.d.ts:19

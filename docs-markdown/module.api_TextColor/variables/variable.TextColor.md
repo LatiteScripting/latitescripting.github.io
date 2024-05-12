@@ -10,4 +10,4 @@
 
 > `const` **TextColor**: [`ITextColor`](../interfaces/interface.ITextColor.md)
 
-**Source:** [api/TextColor.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L82)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:82

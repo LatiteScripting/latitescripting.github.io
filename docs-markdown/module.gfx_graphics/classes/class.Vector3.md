@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [gfx/graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L45)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:45
 
 ## Constructors
 
@@ -19,7 +19,7 @@
 > y: `number`,
 > z: `number`): [`Vector3`](class.Vector3.md)
 
-**Source:** [gfx/graphics.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L52)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:52
 
 #### Parameters
 
@@ -35,7 +35,7 @@
 
 > **new Vector3**(): [`Vector3`](class.Vector3.md)
 
-**Source:** [gfx/graphics.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L53)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:53
 
 #### Returns
 
@@ -47,13 +47,13 @@
 
 > **add**: `Function`
 
-**Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L46)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:46
 
 #### Type declaration (add)
 
 > > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L46)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:46
 >
 > ##### Parameters
 >
@@ -69,13 +69,13 @@
 
 > **distanceTo**: `Function`
 
-**Source:** [gfx/graphics.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L50)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:50
 
 #### Type declaration (distanceTo)
 
 > > (pos: [`Vector3`](class.Vector3.md)): `number`
 >
-> **Source:** [gfx/graphics.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L50)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:50
 >
 > ##### Parameters
 >
@@ -91,13 +91,13 @@
 
 > **div**: `Function`
 
-**Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L49)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:49
 
 #### Type declaration (div)
 
 > > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L49)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:49
 >
 > ##### Parameters
 >
@@ -113,13 +113,13 @@
 
 > **mul**: `Function`
 
-**Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L48)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:48
 
 #### Type declaration (mul)
 
 > > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L48)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:48
 >
 > ##### Parameters
 >
@@ -135,13 +135,13 @@
 
 > **sub**: `Function`
 
-**Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L47)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:47
 
 #### Type declaration (sub)
 
 > > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L47)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:47
 >
 > ##### Parameters
 >
@@ -157,16 +157,16 @@
 
 > **x**: `number`
 
-**Source:** [gfx/graphics.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L54)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:54
 
 ### y
 
 > **y**: `number`
 
-**Source:** [gfx/graphics.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L55)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:55
 
 ### z
 
 > **z**: `number`
 
-**Source:** [gfx/graphics.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L56)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:56

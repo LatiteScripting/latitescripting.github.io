@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [key.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L1)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:1
 
 ## Enumeration Members
 
@@ -16,916 +16,916 @@
 
 > **A**: 65
 
-**Source:** [key.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L47)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:47
 
 ### Accept
 
 > **Accept**: 30
 
-**Source:** [key.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L19)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:19
 
 ### Add
 
 > **Add**: 107
 
-**Source:** [key.d.ts:88](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L88)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:88
 
 ### App1
 
 > **App1**: 182
 
-**Source:** [key.d.ts:146](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L146)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:146
 
 ### App2
 
 > **App2**: 183
 
-**Source:** [key.d.ts:147](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L147)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:147
 
 ### Apps
 
 > **Apps**: 93
 
-**Source:** [key.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L75)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:75
 
 ### B
 
 > **B**: 66
 
-**Source:** [key.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L48)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:48
 
 ### Back
 
 > **Back**: 8
 
-**Source:** [key.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L3)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:3
 
 ### Browser_Back
 
 > **Browser_Back**: 166
 
-**Source:** [key.d.ts:130](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L130)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:130
 
 ### Browser_Favourites
 
 > **Browser_Favourites**: 171
 
-**Source:** [key.d.ts:135](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L135)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:135
 
 ### Browser_Forward
 
 > **Browser_Forward**: 167
 
-**Source:** [key.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L131)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:131
 
 ### Browser_Home
 
 > **Browser_Home**: 172
 
-**Source:** [key.d.ts:136](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L136)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:136
 
 ### Browser_Refresh
 
 > **Browser_Refresh**: 168
 
-**Source:** [key.d.ts:132](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L132)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:132
 
 ### Browser_Search
 
 > **Browser_Search**: 170
 
-**Source:** [key.d.ts:134](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L134)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:134
 
 ### Browser_Stop
 
 > **Browser_Stop**: 169
 
-**Source:** [key.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L133)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:133
 
 ### C
 
 > **C**: 67
 
-**Source:** [key.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L49)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:49
 
 ### Capital
 
 > **Capital**: 20
 
-**Source:** [key.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L11)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:11
 
 ### Clear
 
 > **Clear**: 12
 
-**Source:** [key.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L5)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:5
 
 ### Comma
 
 > **Comma**: 188
 
-**Source:** [key.d.ts:150](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L150)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:150
 
 ### Convert
 
 > **Convert**: 28
 
-**Source:** [key.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L17)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:17
 
 ### Ctrl
 
 > **Ctrl**: 17
 
-**Source:** [key.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L8)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:8
 
 ### D
 
 > **D**: 68
 
-**Source:** [key.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L50)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:50
 
 ### Decimal
 
 > **Decimal**: 110
 
-**Source:** [key.d.ts:91](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L91)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:91
 
 ### Delete
 
 > **Delete**: 46
 
-**Source:** [key.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L35)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:35
 
 ### Divide
 
 > **Divide**: 111
 
-**Source:** [key.d.ts:92](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L92)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:92
 
 ### Dot
 
 > **Dot**: 190
 
-**Source:** [key.d.ts:152](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L152)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:152
 
 ### Down
 
 > **Down**: 40
 
-**Source:** [key.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L29)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:29
 
 ### E
 
 > **E**: 69
 
-**Source:** [key.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L51)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:51
 
 ### End
 
 > **End**: 35
 
-**Source:** [key.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L24)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:24
 
 ### Escape
 
 > **Escape**: 27
 
-**Source:** [key.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L16)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:16
 
 ### Execute
 
 > **Execute**: 43
 
-**Source:** [key.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L32)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:32
 
 ### F
 
 > **F**: 70
 
-**Source:** [key.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L52)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:52
 
 ### F1
 
 > **F1**: 112
 
-**Source:** [key.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L93)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:93
 
 ### F10
 
 > **F10**: 121
 
-**Source:** [key.d.ts:102](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L102)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:102
 
 ### F11
 
 > **F11**: 122
 
-**Source:** [key.d.ts:103](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L103)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:103
 
 ### F12
 
 > **F12**: 123
 
-**Source:** [key.d.ts:104](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L104)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:104
 
 ### F13
 
 > **F13**: 124
 
-**Source:** [key.d.ts:105](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L105)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:105
 
 ### F14
 
 > **F14**: 125
 
-**Source:** [key.d.ts:106](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L106)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:106
 
 ### F15
 
 > **F15**: 126
 
-**Source:** [key.d.ts:107](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L107)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:107
 
 ### F16
 
 > **F16**: 127
 
-**Source:** [key.d.ts:108](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L108)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:108
 
 ### F17
 
 > **F17**: 128
 
-**Source:** [key.d.ts:109](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L109)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:109
 
 ### F18
 
 > **F18**: 129
 
-**Source:** [key.d.ts:110](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L110)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:110
 
 ### F19
 
 > **F19**: 130
 
-**Source:** [key.d.ts:111](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L111)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:111
 
 ### F2
 
 > **F2**: 113
 
-**Source:** [key.d.ts:94](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L94)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:94
 
 ### F20
 
 > **F20**: 131
 
-**Source:** [key.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L112)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:112
 
 ### F21
 
 > **F21**: 132
 
-**Source:** [key.d.ts:113](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L113)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:113
 
 ### F22
 
 > **F22**: 133
 
-**Source:** [key.d.ts:114](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L114)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:114
 
 ### F23
 
 > **F23**: 134
 
-**Source:** [key.d.ts:115](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L115)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:115
 
 ### F24
 
 > **F24**: 135
 
-**Source:** [key.d.ts:116](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L116)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:116
 
 ### F3
 
 > **F3**: 114
 
-**Source:** [key.d.ts:95](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L95)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:95
 
 ### F4
 
 > **F4**: 115
 
-**Source:** [key.d.ts:96](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L96)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:96
 
 ### F5
 
 > **F5**: 116
 
-**Source:** [key.d.ts:97](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L97)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:97
 
 ### F6
 
 > **F6**: 117
 
-**Source:** [key.d.ts:98](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L98)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:98
 
 ### F7
 
 > **F7**: 118
 
-**Source:** [key.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L99)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:99
 
 ### F8
 
 > **F8**: 119
 
-**Source:** [key.d.ts:100](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L100)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:100
 
 ### F9
 
 > **F9**: 120
 
-**Source:** [key.d.ts:101](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L101)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:101
 
 ### Final
 
 > **Final**: 24
 
-**Source:** [key.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L14)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:14
 
 ### G
 
 > **G**: 71
 
-**Source:** [key.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L53)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:53
 
 ### H
 
 > **H**: 72
 
-**Source:** [key.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L54)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:54
 
 ### Help
 
 > **Help**: 47
 
-**Source:** [key.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L36)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:36
 
 ### Home
 
 > **Home**: 36
 
-**Source:** [key.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L25)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:25
 
 ### I
 
 > **I**: 73
 
-**Source:** [key.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L55)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:55
 
 ### Insert
 
 > **Insert**: 45
 
-**Source:** [key.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L34)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:34
 
 ### J
 
 > **J**: 74
 
-**Source:** [key.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L56)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:56
 
 ### Junja
 
 > **Junja**: 23
 
-**Source:** [key.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L13)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:13
 
 ### K
 
 > **K**: 75
 
-**Source:** [key.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L57)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:57
 
 ### Kana
 
 > **Kana**: 21
 
-**Source:** [key.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L12)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:12
 
 ### Kanji
 
 > **Kanji**: 25
 
-**Source:** [key.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L15)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:15
 
 ### L
 
 > **L**: 76
 
-**Source:** [key.d.ts:58](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L58)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:58
 
 ### LControl
 
 > **LControl**: 162
 
-**Source:** [key.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L126)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:126
 
 ### LMenu
 
 > **LMenu**: 164
 
-**Source:** [key.d.ts:128](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L128)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:128
 
 ### LWIN
 
 > **LWIN**: 91
 
-**Source:** [key.d.ts:73](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L73)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:73
 
 ### Left
 
 > **Left**: 37
 
-**Source:** [key.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L26)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:26
 
 ### LeftShift
 
 > **LeftShift**: 160
 
-**Source:** [key.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L124)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:124
 
 ### M
 
 > **M**: 77
 
-**Source:** [key.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L59)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:59
 
 ### Mail
 
 > **Mail**: 180
 
-**Source:** [key.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L144)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:144
 
 ### Media
 
 > **Media**: 181
 
-**Source:** [key.d.ts:145](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L145)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:145
 
 ### Media_Next
 
 > **Media_Next**: 176
 
-**Source:** [key.d.ts:140](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L140)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:140
 
 ### Media_Pause
 
 > **Media_Pause**: 179
 
-**Source:** [key.d.ts:143](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L143)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:143
 
 ### Media_Prev
 
 > **Media_Prev**: 177
 
-**Source:** [key.d.ts:141](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L141)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:141
 
 ### Media_Stop
 
 > **Media_Stop**: 178
 
-**Source:** [key.d.ts:142](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L142)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:142
 
 ### Menu
 
 > **Menu**: 18
 
-**Source:** [key.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L9)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:9
 
 ### Minus
 
 > **Minus**: 189
 
-**Source:** [key.d.ts:151](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L151)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:151
 
 ### ModeChange
 
 > **ModeChange**: 31
 
-**Source:** [key.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L20)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:20
 
 ### Multiply
 
 > **Multiply**: 106
 
-**Source:** [key.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L87)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:87
 
 ### N
 
 > **N**: 78
 
-**Source:** [key.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L60)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:60
 
 ### NUMLOCK
 
 > **NUMLOCK**: 144
 
-**Source:** [key.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L117)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:117
 
 ### Next
 
 > **Next**: 34
 
-**Source:** [key.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L23)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:23
 
 ### NonConvert
 
 > **NonConvert**: 29
 
-**Source:** [key.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L18)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:18
 
 ### None
 
 > **None**: 0
 
-**Source:** [key.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:2
 
 ### Number0
 
 > **Number0**: 48
 
-**Source:** [key.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L37)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:37
 
 ### Number1
 
 > **Number1**: 49
 
-**Source:** [key.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L38)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:38
 
 ### Number2
 
 > **Number2**: 50
 
-**Source:** [key.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L39)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:39
 
 ### Number3
 
 > **Number3**: 51
 
-**Source:** [key.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L40)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:40
 
 ### Number4
 
 > **Number4**: 52
 
-**Source:** [key.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L41)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:41
 
 ### Number5
 
 > **Number5**: 53
 
-**Source:** [key.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L42)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:42
 
 ### Number6
 
 > **Number6**: 54
 
-**Source:** [key.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L43)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:43
 
 ### Number7
 
 > **Number7**: 55
 
-**Source:** [key.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L44)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:44
 
 ### Number8
 
 > **Number8**: 56
 
-**Source:** [key.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L45)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:45
 
 ### Number9
 
 > **Number9**: 57
 
-**Source:** [key.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L46)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:46
 
 ### Numpad0
 
 > **Numpad0**: 96
 
-**Source:** [key.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L77)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:77
 
 ### Numpad1
 
 > **Numpad1**: 97
 
-**Source:** [key.d.ts:78](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L78)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:78
 
 ### Numpad2
 
 > **Numpad2**: 98
 
-**Source:** [key.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L79)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:79
 
 ### Numpad3
 
 > **Numpad3**: 99
 
-**Source:** [key.d.ts:80](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L80)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:80
 
 ### Numpad4
 
 > **Numpad4**: 100
 
-**Source:** [key.d.ts:81](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L81)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:81
 
 ### Numpad5
 
 > **Numpad5**: 101
 
-**Source:** [key.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L82)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:82
 
 ### Numpad6
 
 > **Numpad6**: 102
 
-**Source:** [key.d.ts:83](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L83)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:83
 
 ### Numpad7
 
 > **Numpad7**: 103
 
-**Source:** [key.d.ts:84](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L84)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:84
 
 ### Numpad8
 
 > **Numpad8**: 104
 
-**Source:** [key.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L85)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:85
 
 ### Numpad9
 
 > **Numpad9**: 105
 
-**Source:** [key.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L86)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:86
 
 ### O
 
 > **O**: 79
 
-**Source:** [key.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L61)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:61
 
 ### OEM_1
 
 > **OEM_1**: 186
 
-**Source:** [key.d.ts:148](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L148)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:148
 
 ### OEM_2
 
 > **OEM_2**: 191
 
-**Source:** [key.d.ts:153](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L153)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:153
 
 ### OEM_3
 
 > **OEM_3**: 192
 
-**Source:** [key.d.ts:154](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L154)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:154
 
 ### OEM_FJ_LOYA
 
 > **OEM_FJ_LOYA**: 149
 
-**Source:** [key.d.ts:122](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L122)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:122
 
 ### OEM_FJ_MASSHOU
 
 > **OEM_FJ_MASSHOU**: 147
 
-**Source:** [key.d.ts:120](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L120)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:120
 
 ### OEM_FJ_ROYA
 
 > **OEM_FJ_ROYA**: 150
 
-**Source:** [key.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L123)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:123
 
 ### OEM_FJ_TOUROKU
 
 > **OEM_FJ_TOUROKU**: 148
 
-**Source:** [key.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L121)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:121
 
 ### OEM_NEC_EQUAL
 
 > **OEM_NEC_EQUAL**: 146
 
-**Source:** [key.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L119)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:119
 
 ### P
 
 > **P**: 80
 
-**Source:** [key.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L62)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:62
 
 ### Pause
 
 > **Pause**: 19
 
-**Source:** [key.d.ts:10](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L10)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:10
 
 ### Plus
 
 > **Plus**: 187
 
-**Source:** [key.d.ts:149](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L149)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:149
 
 ### Print
 
 > **Print**: 42
 
-**Source:** [key.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L31)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:31
 
 ### Prior
 
 > **Prior**: 33
 
-**Source:** [key.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:22
 
 ### Q
 
 > **Q**: 81
 
-**Source:** [key.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L63)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:63
 
 ### R
 
 > **R**: 82
 
-**Source:** [key.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L64)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:64
 
 ### RControl
 
 > **RControl**: 163
 
-**Source:** [key.d.ts:127](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L127)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:127
 
 ### RMenu
 
 > **RMenu**: 165
 
-**Source:** [key.d.ts:129](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L129)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:129
 
 ### RWIN
 
 > **RWIN**: 92
 
-**Source:** [key.d.ts:74](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L74)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:74
 
 ### Return
 
 > **Return**: 13
 
-**Source:** [key.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:6
 
 ### Right
 
 > **Right**: 39
 
-**Source:** [key.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L28)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:28
 
 ### RightShift
 
 > **RightShift**: 161
 
-**Source:** [key.d.ts:125](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L125)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:125
 
 ### S
 
 > **S**: 83
 
-**Source:** [key.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L65)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:65
 
 ### Scroll
 
 > **Scroll**: 145
 
-**Source:** [key.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L118)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:118
 
 ### Select
 
 > **Select**: 41
 
-**Source:** [key.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L30)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:30
 
 ### Separator
 
 > **Separator**: 108
 
-**Source:** [key.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L89)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:89
 
 ### Shift
 
 > **Shift**: 16
 
-**Source:** [key.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L7)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:7
 
 ### Sleep
 
 > **Sleep**: 95
 
-**Source:** [key.d.ts:76](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L76)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:76
 
 ### Snapshot
 
 > **Snapshot**: 44
 
-**Source:** [key.d.ts:33](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L33)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:33
 
 ### Space
 
 > **Space**: 32
 
-**Source:** [key.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L21)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:21
 
 ### Subtract
 
 > **Subtract**: 109
 
-**Source:** [key.d.ts:90](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L90)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:90
 
 ### T
 
 > **T**: 84
 
-**Source:** [key.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L66)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:66
 
 ### Tab
 
 > **Tab**: 9
 
-**Source:** [key.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L4)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:4
 
 ### U
 
 > **U**: 85
 
-**Source:** [key.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L67)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:67
 
 ### Up
 
 > **Up**: 38
 
-**Source:** [key.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L27)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:27
 
 ### V
 
 > **V**: 86
 
-**Source:** [key.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L68)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:68
 
 ### Volume_Down
 
 > **Volume_Down**: 174
 
-**Source:** [key.d.ts:138](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L138)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:138
 
 ### Volume_Mute
 
 > **Volume_Mute**: 173
 
-**Source:** [key.d.ts:137](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L137)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:137
 
 ### Volume_Up
 
 > **Volume_Up**: 175
 
-**Source:** [key.d.ts:139](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L139)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:139
 
 ### W
 
 > **W**: 87
 
-**Source:** [key.d.ts:69](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L69)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:69
 
 ### X
 
 > **X**: 88
 
-**Source:** [key.d.ts:70](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L70)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:70
 
 ### Y
 
 > **Y**: 89
 
-**Source:** [key.d.ts:71](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L71)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:71
 
 ### Z
 
 > **Z**: 90
 
-**Source:** [key.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/key.d.ts#L72)
+**Source:** @latitescripting/latiteapi/definitions/key.d.ts:72

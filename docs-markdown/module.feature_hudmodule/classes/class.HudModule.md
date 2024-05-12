@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [feature/hudmodule.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L1)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:1
 
 ## Hierarchy
 
@@ -25,7 +25,7 @@
 > key: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md),
 > resizable: `boolean`): [`HudModule`](class.HudModule.md)
 
-**Source:** [feature/hudmodule.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:2
 
 #### Parameters
 
@@ -51,7 +51,7 @@
 
 > `readonly` **description**: `string`
 
-**Source:** [feature/module.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L37)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:37
 
 #### Inherited from
 
@@ -61,7 +61,7 @@
 
 > `readonly` **displayName**: `string`
 
-**Source:** [feature/module.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L36)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:36
 
 #### Inherited from
 
@@ -73,7 +73,7 @@
 
 IDs for script modules are always 255.
 
-**Source:** [feature/module.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L43)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:43
 
 #### Inherited from
 
@@ -83,7 +83,7 @@ IDs for script modules are always 255.
 
 > `readonly` **key**: [`KeyCode`](../../module.key/enumerations/enumeration.KeyCode.md)
 
-**Source:** [feature/module.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L38)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:38
 
 #### Inherited from
 
@@ -93,7 +93,7 @@ IDs for script modules are always 255.
 
 > `readonly` **name**: `string`
 
-**Source:** [feature/module.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L35)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:35
 
 #### Inherited from
 
@@ -103,13 +103,13 @@ IDs for script modules are always 255.
 
 > **on**: `Function`
 
-**Source:** [feature/module.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L62)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:62
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`ModuleEvents`](../../module.feature_module/interfaces/interface.ModuleEvents.md)[`K`]): `void`
 >
-> **Source:** [feature/module.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L62)
+> **Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:62
 >
 > ##### Type parameters
 >
@@ -138,7 +138,7 @@ IDs for script modules are always 255.
 
 If the module is visible in the ClickGui
 
-**Source:** [feature/module.d.ts:51](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L51)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:51
 
 #### Inherited from
 
@@ -150,7 +150,7 @@ If the module is visible in the ClickGui
 
 If the module is a HUD module (that you can move in the hud editor)
 
-**Source:** [feature/module.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L47)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:47
 
 #### Inherited from
 
@@ -168,7 +168,7 @@ If the module is a HUD module (that you can move in the hud editor)
 
 Adds a setting.
 
-**Source:** [feature/module.d.ts:92](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L92)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:92
 
 #### Parameters
 
@@ -197,7 +197,7 @@ Adds a setting.
 
 Adds a setting.
 
-- **Source:** [feature/module.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L131)
+- **Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:131
 
 #### Parameters
 
@@ -229,7 +229,7 @@ Adds a setting.
 
 Adds a setting.
 
-- **Source:** [feature/module.d.ts:113](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L113)
+- **Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:113
 
 #### Parameters
 
@@ -264,7 +264,7 @@ Adds a setting.
 
 Adds a setting.
 
-**Source:** [feature/module.d.ts:104](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L104)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:104
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Adds a setting.
 
 Adds a setting.
 
-- **Source:** [feature/module.d.ts:122](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L122)
+- **Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:122
 
 #### Parameters
 
@@ -322,7 +322,7 @@ Adds a setting.
 
 > **getPos**(): [`Vector2`](../../module.gfx_graphics/classes/class.Vector2.md)
 
-**Source:** [feature/hudmodule.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L9)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:9
 
 #### Returns
 
@@ -332,7 +332,7 @@ Adds a setting.
 
 > **getRect**(): [`Rect`](../../module.gfx_graphics/classes/class.Rect.md)
 
-**Source:** [feature/hudmodule.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L4)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:4
 
 #### Returns
 
@@ -344,7 +344,7 @@ Adds a setting.
 
 Gets the settings of the module.
 
-**Source:** [feature/module.d.ts:83](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L83)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:83
 
 #### Returns
 
@@ -358,7 +358,7 @@ Gets the settings of the module.
 
 > **getSize**(): `number`
 
-**Source:** [feature/hudmodule.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L7)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:7
 
 #### Returns
 
@@ -370,7 +370,7 @@ Gets the settings of the module.
 
 Check if the module is blocked.
 
-**Source:** [feature/module.d.ts:78](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L78)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:78
 
 #### Returns
 
@@ -386,7 +386,7 @@ Check if the module is blocked.
 
 Checks if the module is enabled.
 
-**Source:** [feature/module.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L67)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:67
 
 #### Returns
 
@@ -400,7 +400,7 @@ Checks if the module is enabled.
 
 > **setBounds**(width: `number`, height: `number`): `void`
 
-**Source:** [feature/hudmodule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:6
 
 #### Parameters
 
@@ -419,7 +419,7 @@ Checks if the module is enabled.
 
 Set the module to be enabled or not.
 
-**Source:** [feature/module.d.ts:73](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/module.d.ts#L73)
+**Source:** @latitescripting/latiteapi/definitions/feature/module.d.ts:73
 
 #### Parameters
 
@@ -439,7 +439,7 @@ Set the module to be enabled or not.
 
 > **setPos**(x: `number`, y: `number`): `void`
 
-**Source:** [feature/hudmodule.d.ts:10](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L10)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:10
 
 #### Parameters
 
@@ -456,7 +456,7 @@ Set the module to be enabled or not.
 
 > **setRect**(newRect: [`Rect`](../../module.gfx_graphics/classes/class.Rect.md)): `void`
 
-**Source:** [feature/hudmodule.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L5)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:5
 
 #### Parameters
 
@@ -472,7 +472,7 @@ Set the module to be enabled or not.
 
 > **setSize**(): `number`
 
-**Source:** [feature/hudmodule.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/hudmodule.d.ts#L8)
+**Source:** @latitescripting/latiteapi/definitions/feature/hudmodule.d.ts:8
 
 #### Returns
 

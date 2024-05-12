@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [feature/manager/mmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/manager/mmgr.d.ts#L1)
+**Source:** @latitescripting/latiteapi/definitions/feature/manager/mmgr.d.ts:1
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Loop through each module.
 
-**Source:** [feature/manager/mmgr.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/manager/mmgr.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/feature/manager/mmgr.d.ts:22
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Gets a module by the specified InternalName.
 For example, ArmorHud is the internal name for Armor Hud.
 Position is the internal name of Coordinates
 
-**Source:** [feature/manager/mmgr.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/manager/mmgr.d.ts#L16)
+**Source:** @latitescripting/latiteapi/definitions/feature/manager/mmgr.d.ts:16
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Position is the internal name of Coordinates
 
 Registers a module into the Latite mod. This makes it appear in the mod menu, and be interactive.
 
-**Source:** [feature/manager/mmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/manager/mmgr.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/feature/manager/mmgr.d.ts:6
 
 #### Parameters
 

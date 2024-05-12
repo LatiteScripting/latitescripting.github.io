@@ -8,22 +8,22 @@
 
 **`Interface`**
 
-**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:2
 
 ## Methods
 
 ### append()
 
-> **append**(path: `string`, data: `Uint8Array`): `void`
+> **append**(path: `string`, data: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)): `void`
 
-**Source:** [lib/filesystem.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L47)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:47
 
 #### Parameters
 
-| Parameter | Type         | Description                                                     |
-| :-------- | :----------- | :-------------------------------------------------------------- |
-| path      | `string`     | The path to append to the file.                                 |
-| data      | `Uint8Array` | The data to append, for example, `util.bufferToString("hello")` |
+| Parameter | Type                                                                              | Description                                                     |
+| :-------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| path      | `string`                                                                          | The path to append to the file.                                 |
+| data      | [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md) | The data to append, for example, `util.bufferToString("hello")` |
 
 #### Returns
 
@@ -35,7 +35,7 @@
 
 Creates a folder/directory.
 
-**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L40)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:40
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Creates a folder/directory.
 
 Checks if a file or a directory exists
 
-**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L34)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:34
 
 #### Parameters
 
@@ -67,11 +67,11 @@ Checks if a file or a directory exists
 
 ### read()
 
-> **read**(path: `string`): `Uint8Array`
+> **read**(path: `string`): [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
 Reads a file from the path specified.
 
-**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:22
 
 #### Parameters
 
@@ -81,7 +81,7 @@ Reads a file from the path specified.
 
 #### Returns
 
-`Uint8Array`
+[`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
 ### readAsync()
 
@@ -89,14 +89,14 @@ Reads a file from the path specified.
 
 Reads a file asynchronously.
 
-**Source:** [lib/filesystem.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L8)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:8
 
 #### Parameters
 
-| Parameter | Type                                             | Description                                         |
-| :-------- | :----------------------------------------------- | :-------------------------------------------------- |
-| path      | `string`                                         | The path to read from.                              |
-| callback  | (err: `number`, content: `Uint8Array`) => `void` | This will get called when the operation is finished |
+| Parameter | Type                                                                                                                  | Description                                         |
+| :-------- | :-------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------- |
+| path      | `string`                                                                                                              | The path to read from.                              |
+| callback  | (err: `number`, content: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)) => `void` | This will get called when the operation is finished |
 
 #### Returns
 
@@ -104,18 +104,18 @@ Reads a file asynchronously.
 
 ### write()
 
-> **write**(path: `string`, data: `Uint8Array`): `void`
+> **write**(path: `string`, data: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)): `void`
 
 Writes a file to the path specified.
 
-**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L28)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:28
 
 #### Parameters
 
-| Parameter | Type         | Description                                                    |
-| :-------- | :----------- | :------------------------------------------------------------- |
-| path      | `string`     | The relative path from the script.                             |
-| data      | `Uint8Array` | The data to write. For example, `util.stringToBuffer("hello")` |
+| Parameter | Type                                                                              | Description                                                    |
+| :-------- | :-------------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| path      | `string`                                                                          | The relative path from the script.                             |
+| data      | [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md) | The data to write. For example, `util.stringToBuffer("hello")` |
 
 #### Returns
 
@@ -125,18 +125,18 @@ Writes a file to the path specified.
 
 > **writeAsync**(
 > path: `string`,
-> data: `Uint8Array`,
+> data: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md),
 > callback: `Function`): `void`
 
-**Source:** [lib/filesystem.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/filesystem.d.ts#L16)
+**Source:** @latitescripting/latiteapi/definitions/lib/filesystem.d.ts:16
 
 #### Parameters
 
-| Parameter | Type                      | Description                                                                 |
-| :-------- | :------------------------ | :-------------------------------------------------------------------------- |
-| path      | `string`                  | The path to write to                                                        |
-| data      | `Uint8Array`              | The data to write (see util.stringToBuffer to convert a string to a buffer) |
-| callback  | (err: `number`) => `void` | This will get called when the operation is finished                         |
+| Parameter | Type                                                                              | Description                                                                 |
+| :-------- | :-------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| path      | `string`                                                                          | The path to write to                                                        |
+| data      | [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md) | The data to write (see util.stringToBuffer to convert a string to a buffer) |
+| callback  | (err: `number`) => `void`                                                         | This will get called when the operation is finished                         |
 
 #### Returns
 

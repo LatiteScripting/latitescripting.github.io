@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [api/TextColor.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L1)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:1
 
 ## Properties
 
@@ -16,97 +16,97 @@
 
 > **AQUA**: `string`
 
-**Source:** [api/TextColor.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L24)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:24
 
 ### BLACK
 
 > **BLACK**: `string`
 
-**Source:** [api/TextColor.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L13)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:13
 
 ### BLUE
 
 > **BLUE**: `string`
 
-**Source:** [api/TextColor.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:22
 
 ### BOLD
 
 > **BOLD**: `string`
 
-**Source:** [api/TextColor.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L7)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:7
 
 ### DARK_AQUA
 
 > **DARK_AQUA**: `string`
 
-**Source:** [api/TextColor.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L16)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:16
 
 ### DARK_BLUE
 
 > **DARK_BLUE**: `string`
 
-**Source:** [api/TextColor.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L14)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:14
 
 ### DARK_GRAY
 
 > **DARK_GRAY**: `string`
 
-**Source:** [api/TextColor.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L21)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:21
 
 ### DARK_GREEN
 
 > **DARK_GREEN**: `string`
 
-**Source:** [api/TextColor.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L15)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:15
 
 ### DARK_PURPLE
 
 > **DARK_PURPLE**: `string`
 
-**Source:** [api/TextColor.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L18)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:18
 
 ### DARK_RED
 
 > **DARK_RED**: `string`
 
-**Source:** [api/TextColor.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L17)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:17
 
 ### FORMAT_CHAR
 
 > **FORMAT_CHAR**: `string`
 
-**Source:** [api/TextColor.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:2
 
 ### GOLD
 
 > **GOLD**: `string`
 
-**Source:** [api/TextColor.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L19)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:19
 
 ### GRAY
 
 > **GRAY**: `string`
 
-**Source:** [api/TextColor.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L20)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:20
 
 ### GREEN
 
 > **GREEN**: `string`
 
-**Source:** [api/TextColor.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L23)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:23
 
 ### ITALIC
 
 > **ITALIC**: `string`
 
-**Source:** [api/TextColor.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L8)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:8
 
 ### LIGHT_PURPLE
 
 > **LIGHT_PURPLE**: `string`
 
-**Source:** [api/TextColor.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L26)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:26
 
 ### MATERIAL_AMETHYST
 
@@ -114,7 +114,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:73](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L73)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:73
 
 ### MATERIAL_COPPER
 
@@ -122,7 +122,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L53)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:53
 
 ### MATERIAL_DIAMOND
 
@@ -130,7 +130,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L65)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:65
 
 ### MATERIAL_EMERALD
 
@@ -138,7 +138,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L61)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:61
 
 ### MATERIAL_GOLD
 
@@ -146,7 +146,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L57)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:57
 
 ### MATERIAL_IRON
 
@@ -154,7 +154,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L41)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:41
 
 ### MATERIAL_LAPIS
 
@@ -162,7 +162,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:69](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L69)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:69
 
 ### MATERIAL_NETHERITE
 
@@ -170,7 +170,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L45)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:45
 
 ### MATERIAL_QUARTZ
 
@@ -178,7 +178,7 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L37)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:37
 
 ### MATERIAL_REDSTONE
 
@@ -186,43 +186,43 @@
 
 1.20 ONLY
 
-**Source:** [api/TextColor.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L49)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:49
 
 ### MINECOIN_GOLD
 
 > **MINECOIN_GOLD**: `string`
 
-**Source:** [api/TextColor.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L32)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:32
 
 ### OBFUSCATE
 
 > **OBFUSCATE**: `string`
 
-**Source:** [api/TextColor.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:6
 
 ### RED
 
 > **RED**: `string`
 
-**Source:** [api/TextColor.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L25)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:25
 
 ### RESET
 
 > **RESET**: `string`
 
-**Source:** [api/TextColor.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L9)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:9
 
 ### WHITE
 
 > **WHITE**: `string`
 
-**Source:** [api/TextColor.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L28)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:28
 
 ### YELLOW
 
 > **YELLOW**: `string`
 
-**Source:** [api/TextColor.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L27)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:27
 
 ## Methods
 
@@ -232,7 +232,7 @@
 
 Formats '&' into colorcoded string.
 
-**Source:** [api/TextColor.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/api/TextColor.d.ts#L79)
+**Source:** @latitescripting/latiteapi/definitions/api/TextColor.d.ts:79
 
 #### Parameters
 

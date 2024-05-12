@@ -10,7 +10,7 @@
 
 A class representing a native DLL.
 
-**Source:** [native/NativeModule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/native/NativeModule.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/native/NativeModule.d.ts:6
 
 ## Constructors
 
@@ -30,7 +30,7 @@ A class representing a native DLL.
 
 The current handle of the module. Warning: will be truncated to Float64
 
-**Source:** [native/NativeModule.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/native/NativeModule.d.ts#L20)
+**Source:** @latitescripting/latiteapi/definitions/native/NativeModule.d.ts:20
 
 ## Methods
 
@@ -45,7 +45,11 @@ Calls a function.
 
 This method is restricted to prevent cheating.
 
-**Source:** [native/NativeModule.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/native/NativeModule.d.ts#L30)
+Every argument is passed as a little-endian integer. There may be precision loss when passing in numbers larger than `Number.MAX_SAFE_INTEGER`.
+
+Strings passed in will be treated as wstrings (wide strings)
+
+**Source:** @latitescripting/latiteapi/definitions/native/NativeModule.d.ts:35
 
 #### Parameters
 
@@ -53,7 +57,7 @@ This method is restricted to prevent cheating.
 | :----------- | :------------------------------------------------------- | :-------------------------------------------------------------- |
 | functionName | `string`                                                 | The procedure name.                                             |
 | returnType   | [`NativeType`](../type-aliases/type-alias.NativeType.md) | The return type that is expected.                               |
-| ...args      | `any`[]                                                  | Arguments to pass to the function. The maximum arguments is 10. |
+| ...args      | `any`[]                                                  | Arguments to pass to the function. The maximum arguments is 15. |
 
 #### Returns
 
@@ -69,7 +73,7 @@ The plugin needs the permission `Permission.SystemAccess` to use this.
 
 This method is restricted to prevent cheating.
 
-**Source:** [native/NativeModule.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/native/NativeModule.d.ts#L15)
+**Source:** @latitescripting/latiteapi/definitions/native/NativeModule.d.ts:15
 
 #### Parameters
 

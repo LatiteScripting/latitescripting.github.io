@@ -8,18 +8,18 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L20)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:20
 
 ## Properties
 
 ### content
 
-> **content**: `Uint8Array`
+> **content**: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
-**Source:** [lib/network.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:22
 
 ### contentType
 
 > **contentType**?: `string`
 
-**Source:** [lib/network.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L21)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:21

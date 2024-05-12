@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [feature/command.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L13)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:13
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > usage: `string`,
 > aliases: `string`[]): [`Command`](class.Command.md)
 
-**Source:** [feature/command.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L25)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:25
 
 #### Parameters
 
@@ -41,31 +41,31 @@
 
 > `readonly` **aliases**: `string`[]
 
-**Source:** [feature/command.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L16)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:16
 
 ### description
 
 > `readonly` **description**: `string`
 
-**Source:** [feature/command.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L15)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:15
 
 ### name
 
 > `readonly` **name**: `string`
 
-**Source:** [feature/command.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L14)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:14
 
 ### on
 
 > **on**: `Function`
 
-**Source:** [feature/command.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L27)
+**Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:27
 
 #### Type declaration (on)
 
 > > \<K\>(eventName: `K`, handler: [`CommandEvents`](../interfaces/interface.CommandEvents.md)[`K`]): `void`
 >
-> **Source:** [feature/command.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/feature/command.d.ts#L27)
+> **Source:** @latitescripting/latiteapi/definitions/feature/command.d.ts:27
 >
 > ##### Type parameters
 >

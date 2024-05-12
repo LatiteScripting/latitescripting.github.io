@@ -11,6 +11,7 @@
   "keywords": [],
   "license": "Latite Products License (https://github.com/Plextora/LatiteInjector/blob/master/LICENSE.md)",
   "dependencies": {
+    "@latitescripting/latiteapi": "^2.0.2",
     "typescript": "^5.1.6"
   },
   "devDependencies": {

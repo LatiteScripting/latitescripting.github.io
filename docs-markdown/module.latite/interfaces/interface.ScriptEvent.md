@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L63)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:63
 
 ## Hierarchy
 
@@ -20,16 +20,16 @@
 
 > `readonly` **scriptAuthor**: `string`
 
-**Source:** [latite.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L66)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:66
 
 ### scriptName
 
 > `readonly` **scriptName**: `string`
 
-**Source:** [latite.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L64)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:64
 
 ### scriptVersion
 
 > `readonly` **scriptVersion**: `string`
 
-**Source:** [latite.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L65)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:65

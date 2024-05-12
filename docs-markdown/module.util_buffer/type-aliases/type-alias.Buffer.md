@@ -8,6 +8,6 @@
 
 **`Type alias`**
 
-> **Buffer**: `Uint8Array`
+> **Buffer**: [`Uint8Array`](../variables/variable.Uint8Array-1.md)
 
-**Source:** [util/buffer.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/util/buffer.d.ts#L13)
+**Source:** @latitescripting/latiteapi/definitions/util/buffer.d.ts:13

@@ -10,4 +10,4 @@
 
 > **BackendType**: "dx"
 
-**Source:** [gfx/graphics.d.ts:106](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L106)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:106

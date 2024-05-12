@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:80](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L80)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:80
 
 ## Hierarchy
 
@@ -20,7 +20,7 @@
 
 > **cancel**: `boolean`
 
-**Source:** [latite.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L5)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:5
 
 #### Inherited from
 
@@ -30,10 +30,10 @@
 
 > `readonly` **text**: `string`
 
-**Source:** [latite.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L82)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:82
 
 ### type
 
 > `readonly` **type**: [`TitleType`](../type-aliases/type-alias.TitleType.md)
 
-**Source:** [latite.d.ts:81](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/latite.d.ts#L81)
+**Source:** @latitescripting/latiteapi/definitions/latite.d.ts:81

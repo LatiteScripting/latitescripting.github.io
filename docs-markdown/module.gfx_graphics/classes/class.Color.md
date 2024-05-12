@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [gfx/graphics.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L59)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:59
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > b: `number`,
 > a: `number`): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:74](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L74)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:74
 
 #### Parameters
 
@@ -37,7 +37,7 @@
 
 > **new Color**(): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:76](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L76)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:76
 
 #### Returns
 
@@ -49,19 +49,19 @@
 
 > **a**: `number`
 
-**Source:** [gfx/graphics.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L65)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:65
 
 ### asAlpha
 
 > **asAlpha**: `Function`
 
-**Source:** [gfx/graphics.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L60)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:60
 
 #### Type declaration (asAlpha)
 
 > > (opacity: `number`): [`Color`](class.Color.md)
 >
-> **Source:** [gfx/graphics.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L60)
+> **Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:60
 >
 > ##### Parameters
 >
@@ -77,49 +77,49 @@
 
 > **b**: `number`
 
-**Source:** [gfx/graphics.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L64)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:64
 
 ### g
 
 > **g**: `number`
 
-**Source:** [gfx/graphics.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L63)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:63
 
 ### r
 
 > **r**: `number`
 
-**Source:** [gfx/graphics.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L62)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:62
 
 ### BLACK
 
 > `static` **BLACK**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:88](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L88)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:88
 
 ### BLUE
 
 > `static` **BLUE**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:91](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L91)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:91
 
 ### GREEN
 
 > `static` **GREEN**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:90](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L90)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:90
 
 ### RED
 
 > `static` **RED**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L89)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:89
 
 ### WHITE
 
 > `static` **WHITE**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L87)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:87
 
 ## Methods
 
@@ -131,7 +131,7 @@
 > b: `number`,
 > a: `undefined` \| `number`): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/gfx/graphics.d.ts#L85)
+**Source:** @latitescripting/latiteapi/definitions/gfx/graphics.d.ts:85
 
 #### Parameters
 

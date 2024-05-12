@@ -8,17 +8,17 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:2
 
 ## Properties
 
 ### body
 
-> **body**: `Uint8Array`
+> **body**: [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
 The body, if the status code is 200 (OK)
 
-**Source:** [lib/network.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:6
 
 ### error
 
@@ -26,10 +26,10 @@ The body, if the status code is 200 (OK)
 
 The http client error message
 
-**Source:** [lib/network.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L12)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:12
 
 ### statusCode
 
 > **statusCode**: `number`
 
-**Source:** [lib/network.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/network.d.ts#L7)
+**Source:** @latitescripting/latiteapi/definitions/lib/network.d.ts:7

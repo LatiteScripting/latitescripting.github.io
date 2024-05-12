@@ -10,7 +10,7 @@
 
 An instance of an `Item` (has count, damage, etc.)
 
-**Source:** [world/item.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L18)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:18
 
 ## Constructors
 
@@ -28,9 +28,9 @@ An instance of an `Item` (has count, damage, etc.)
 
 > `readonly` **aux**: `number`
 
-The aux/data value of the item (not damage) (-32768 to 32767)
+The auxiliary/data value of the item (not damage) (-32768 to 32767)
 
-**Source:** [world/item.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L26)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:26
 
 ### item
 
@@ -38,7 +38,7 @@ The aux/data value of the item (not damage) (-32768 to 32767)
 
 The item type. Will be `null` when the item is air.
 
-**Source:** [world/item.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L22)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:22
 
 ## Methods
 
@@ -46,9 +46,9 @@ The item type. Will be `null` when the item is air.
 
 > **getCount**(): `number`
 
-Gets the count of the stack
+Gets the number of items in the stack
 
-**Source:** [world/item.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L36)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:36
 
 #### Returns
 
@@ -60,7 +60,7 @@ Gets the count of the stack
 
 Gets the damage of the item (e.g. if a sword was used once, it would have a damage value of 1)
 
-**Source:** [world/item.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L46)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:46
 
 #### Returns
 
@@ -72,7 +72,7 @@ Gets the damage of the item (e.g. if a sword was used once, it would have a dama
 
 Get the display name (e.g. `Cooked Beef`)
 
-**Source:** [world/item.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L31)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:31
 
 #### Returns
 
@@ -84,7 +84,7 @@ Get the display name (e.g. `Cooked Beef`)
 
 Gets the pickup time in milliseconds
 
-**Source:** [world/item.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/world/item.d.ts#L41)
+**Source:** @latitescripting/latiteapi/definitions/world/item.d.ts:41
 
 #### Returns
 

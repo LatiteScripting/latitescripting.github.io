@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/clipboard.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/clipboard.d.ts#L2)
+**Source:** @latitescripting/latiteapi/definitions/lib/clipboard.d.ts:2
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Gets the current clipboard text
 
-**Source:** [lib/clipboard.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/clipboard.d.ts#L6)
+**Source:** @latitescripting/latiteapi/definitions/lib/clipboard.d.ts:6
 
 #### Returns
 
@@ -26,15 +26,15 @@ Gets the current clipboard text
 
 ### getBitmap()
 
-> **getBitmap**(): `null` \| `Uint8Array`
+> **getBitmap**(): `null` \| [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
 Gets the copied bitmap. If the clipboard is unable to be opened, it will return null
 
-**Source:** [lib/clipboard.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/clipboard.d.ts#L18)
+**Source:** @latitescripting/latiteapi/definitions/lib/clipboard.d.ts:18
 
 #### Returns
 
-`null` \| `Uint8Array`
+`null` \| [`Uint8Array`](../../../../module.util_buffer/variables/variable.Uint8Array-1.md)
 
 ### set()
 
@@ -42,7 +42,7 @@ Gets the copied bitmap. If the clipboard is unable to be opened, it will return 
 
 Sets the clipboard text
 
-**Source:** [lib/clipboard.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a8bf81d/definitions/lib/clipboard.d.ts#L12)
+**Source:** @latitescripting/latiteapi/definitions/lib/clipboard.d.ts:12
 
 #### Parameters
 
