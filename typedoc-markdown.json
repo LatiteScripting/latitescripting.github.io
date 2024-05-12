@@ -1,10 +1,10 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "plugin": ["@terwer/typedoc-plugin-markdown"],
-  "excludeExternals": false,
+  "excludeExternals": true,
   "externalPattern": ["**/node_modules/**"],
   "entryPointStrategy": "expand",
-  "entryPoints": ["./node_modules/@latitescripting/latiteapi/definitions"],
+  "entryPoints": ["./definitions"],
   "out": "./docs-markdown",
   "theme": "markdown",
   "name": "Latite Scripting Documentation"

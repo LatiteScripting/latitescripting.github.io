@@ -1,10 +1,10 @@
 {
   "$schema": "https://typedoc.org/schema.json",
   "plugin": ["@mxssfd/typedoc-theme"],
-  "excludeExternals": false,
+  "excludeExternals": true,
   "externalPattern": ["**/node_modules/**"],
   "entryPointStrategy": "expand",
-  "entryPoints": ["./node_modules/@latitescripting/latiteapi/definitions"],
+  "entryPoints": ["./definitions"],
   "theme": "my-theme",
   "name": "Latite Scripting Documentation"
 }
