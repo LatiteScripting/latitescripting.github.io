@@ -10,4 +10,4 @@
 
 > **MessageType**: "raw" \| "chat" \| "translation" \| "popup" \| "jukebox" \| "tip" \| "system_message" \| "whisper" \| "announcement" \| "text_object" \| "object_whisper"
 
-**Source:** [latite.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/feb6a18/definitions/latite.d.ts#L12)
+**Source:** [latite.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L12)
