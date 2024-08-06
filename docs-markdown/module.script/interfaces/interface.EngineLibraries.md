@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [script.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L1)
+**Source:** [script.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L1)
 
 ## Properties
 
@@ -16,16 +16,16 @@
 
 > **clipboard**: [`Clipboard`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.Clipboard.md)
 
-**Source:** [script.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L4)
+**Source:** [script.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L4)
 
 ### filesystem
 
 > **filesystem**: [`Filesystem`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.Filesystem.md)
 
-**Source:** [script.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L2)
+**Source:** [script.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L2)
 
 ### http
 
 > **http**: [`HTTP`](../../module.lib_clipboard/namespaces/namespace.include/interfaces/interface.HTTP.md)
 
-**Source:** [script.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L3)
+**Source:** [script.d.ts:3](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L3)

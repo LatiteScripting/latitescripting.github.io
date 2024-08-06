@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/clipboard.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/lib/clipboard.d.ts#L2)
+**Source:** [lib/clipboard.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/lib/clipboard.d.ts#L2)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Gets the current clipboard text
 
-**Source:** [lib/clipboard.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/lib/clipboard.d.ts#L6)
+**Source:** [lib/clipboard.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/lib/clipboard.d.ts#L6)
 
 #### Returns
 
@@ -30,7 +30,7 @@ Gets the current clipboard text
 
 Gets the copied bitmap. If the clipboard is unable to be opened, it will return null
 
-**Source:** [lib/clipboard.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/lib/clipboard.d.ts#L18)
+**Source:** [lib/clipboard.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/lib/clipboard.d.ts#L18)
 
 #### Returns
 
@@ -42,7 +42,7 @@ Gets the copied bitmap. If the clipboard is unable to be opened, it will return 
 
 Sets the clipboard text
 
-**Source:** [lib/clipboard.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/lib/clipboard.d.ts#L12)
+**Source:** [lib/clipboard.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/lib/clipboard.d.ts#L12)
 
 #### Parameters
 

@@ -12,7 +12,7 @@
 
 Load a specified library.
 
-**Source:** [script.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L17)
+**Source:** [script.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L17)
 
 ## Type parameters
 
@@ -34,7 +34,7 @@ Load a specified library.
 
 Load and run a specified JavaScript module. This returns whatever is in `exports` or `module.exports` of the JavaScript module.
 
-**Source:** [script.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/script.d.ts#L23)
+**Source:** [script.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/script.d.ts#L23)
 
 ## Parameters
 

@@ -8,9 +8,21 @@
 
 **`Interface`**
 
-**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L1)
+**Source:** [game.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L1)
 
 ## Methods
+
+### captureCursor()
+
+> **captureCursor**(): `void`
+
+Captures the mouse cursor (hides it and allows the player to look around using the mouse cursor.)
+
+**Source:** [game.d.ts:75](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L75)
+
+#### Returns
+
+`void`
 
 ### executeCommand()
 
@@ -18,7 +30,7 @@
 
 Execute an in-game command.
 
-**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L12)
+**Source:** [game.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L12)
 
 #### Parameters
 
@@ -39,7 +51,7 @@ Execute an in-game command.
 use `dimension`
 Get the Dimension object.
 
-**Source:** [game.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L55)
+**Source:** [game.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L55)
 
 #### Returns
 
@@ -53,7 +65,7 @@ Gets the featured server name you are connected to. This will return null if you
 
 Featured server examples: "The Hive" "CubeCraft" "InPvP" "Mineplex"
 
-**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L37)
+**Source:** [game.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L37)
 
 #### Returns
 
@@ -67,7 +79,7 @@ Gets the user's input setting. Usually a key code; for example, `"forward"` retu
 
 If this function returns 0, either the key is set to nothing or the specified name was not found.
 
-**Source:** [game.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L77)
+**Source:** [game.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L87)
 
 #### Parameters
 
@@ -85,7 +97,7 @@ If this function returns 0, either the key is set to nothing or the specified na
 
 Get your player. This will return null if you are not in a game.
 
-**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L25)
+**Source:** [game.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L25)
 
 #### Returns
 
@@ -97,7 +109,7 @@ Get your player. This will return null if you are not in a game.
 
 Get the mouse position.
 
-**Source:** [game.d.ts:70](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L70)
+**Source:** [game.d.ts:70](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L70)
 
 #### Returns
 
@@ -109,7 +121,7 @@ Get the mouse position.
 
 Gets the port of the server you're connected to. If you are not in a server, it returns 0.
 
-**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L42)
+**Source:** [game.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L42)
 
 #### Returns
 
@@ -121,7 +133,7 @@ Gets the port of the server you're connected to. If you are not in a server, it 
 
 Gets the size of the viewport.
 
-**Source:** [game.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L65)
+**Source:** [game.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L65)
 
 #### Returns
 
@@ -133,7 +145,7 @@ Gets the size of the viewport.
 
 Gets the server you are connected to. This will return null if you are not in a server.
 
-**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L30)
+**Source:** [game.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L30)
 
 #### Returns
 
@@ -148,7 +160,7 @@ Gets the server you are connected to. This will return null if you are not in a 
 use `world`
 Get the World object.
 
-**Source:** [game.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L48)
+**Source:** [game.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L48)
 
 #### Returns
 
@@ -160,7 +172,7 @@ Get the World object.
 
 Get whether you are in a UI screen
 
-**Source:** [game.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L60)
+**Source:** [game.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L60)
 
 #### Returns
 
@@ -175,7 +187,7 @@ Get whether you are in a UI screen
 
 Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for sounds
 
-**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L20)
+**Source:** [game.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L20)
 
 #### Parameters
 
@@ -189,13 +201,25 @@ Plays a sound. Refer to https://www.digminecraft.com/lists/sound_list_pe.php for
 
 `void`
 
+### releaseCursor()
+
+> **releaseCursor**(): `void`
+
+Releases the mouse cursor.
+
+**Source:** [game.d.ts:80](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L80)
+
+#### Returns
+
+`void`
+
 ### sendChatMessage()
 
 > **sendChatMessage**(msg: `string`): `void`
 
 Sends a chat message.
 
-**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/game.d.ts#L6)
+**Source:** [game.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/game.d.ts#L6)
 
 #### Parameters
 

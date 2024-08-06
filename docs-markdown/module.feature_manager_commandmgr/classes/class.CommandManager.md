@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [feature/manager/commandmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/feature/manager/commandmgr.d.ts#L1)
+**Source:** [feature/manager/commandmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/feature/manager/commandmgr.d.ts#L1)
 
 ## Constructors
 
@@ -28,7 +28,7 @@
 
 Gets the command prefix, default is '.'
 
-**Source:** [feature/manager/commandmgr.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/feature/manager/commandmgr.d.ts#L5)
+**Source:** [feature/manager/commandmgr.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/feature/manager/commandmgr.d.ts#L5)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Gets the command prefix, default is '.'
 
 Adds a command into the client
 
-**Source:** [feature/manager/commandmgr.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/feature/manager/commandmgr.d.ts#L11)
+**Source:** [feature/manager/commandmgr.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/feature/manager/commandmgr.d.ts#L11)
 
 #### Parameters
 

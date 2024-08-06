@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:238](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L238)
+**Source:** [latite.d.ts:238](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L238)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 The Latite Client version. Example: "v2.0.0"
 
-**Source:** [latite.d.ts:270](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L270)
+**Source:** [latite.d.ts:273](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L273)
 
 ## Methods
 
@@ -28,7 +28,7 @@ The Latite Client version. Example: "v2.0.0"
 
 Gets the command manager. Use this to register commands.
 
-**Source:** [latite.d.ts:265](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L265)
+**Source:** [latite.d.ts:268](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L268)
 
 #### Returns
 
@@ -40,7 +40,7 @@ Gets the command manager. Use this to register commands.
 
 Gets the module manager. Use this to register modules.
 
-**Source:** [latite.d.ts:260](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L260)
+**Source:** [latite.d.ts:263](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L263)
 
 #### Returns
 
@@ -48,11 +48,14 @@ Gets the module manager. Use this to register modules.
 
 ### on()
 
-> **on**\<K\>(eventName: `K`, listener: `Function`): `void`
+> **on**\<K\>(
+> eventName: `K`,
+> listener: `Function`,
+> priority?: `number`): `void`
 
-Listen to an event.
+Listens to a client-side event.
 
-**Source:** [latite.d.ts:242](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L242)
+**Source:** [latite.d.ts:245](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L245)
 
 #### Type parameters
 
@@ -62,10 +65,11 @@ Listen to an event.
 
 #### Parameters
 
-| Parameter | Type                                                                |
-| :-------- | :------------------------------------------------------------------ |
-| eventName | `K`                                                                 |
-| listener  | (event: [`ClientEvents`](interface.ClientEvents.md)[`K`]) => `void` |
+| Parameter | Type                                                                | Description                                                                                                                                                                   |
+| :-------- | :------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| eventName | `K`                                                                 | The event to listen to                                                                                                                                                        |
+| listener  | (event: [`ClientEvents`](interface.ClientEvents.md)[`K`]) => `void` | The event callback                                                                                                                                                            |
+| priority? | `number`                                                            | Positive or negative integer. The priority in which the event listener should have over other events globally. The default is 0. Greater = called first, less = called later. |
 
 #### Returns
 
@@ -77,7 +81,7 @@ Listen to an event.
 
 Runs a Latite command.
 
-**Source:** [latite.d.ts:255](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L255)
+**Source:** [latite.d.ts:258](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L258)
 
 #### Parameters
 
@@ -97,7 +101,7 @@ The success of the command.
 
 Shows a Latite toast on the top of the screen.
 
-**Source:** [latite.d.ts:248](https://github.com/LatiteScripting/latitescripting.github.io/blob/a4de419/definitions/latite.d.ts#L248)
+**Source:** [latite.d.ts:251](https://github.com/LatiteScripting/latitescripting.github.io/blob/303196e/definitions/latite.d.ts#L251)
 
 #### Parameters
 
