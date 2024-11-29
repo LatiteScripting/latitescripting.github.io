@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [world/entity.d.ts:177](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L177)
+**Source:** [world/entity.d.ts:177](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L177)
 
 ## Properties
 
@@ -16,40 +16,40 @@
 
 > **backward**: `boolean`
 
-**Source:** [world/entity.d.ts:179](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L179)
+**Source:** [world/entity.d.ts:179](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L179)
 
 ### forward
 
 > **forward**: `boolean`
 
-**Source:** [world/entity.d.ts:178](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L178)
+**Source:** [world/entity.d.ts:178](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L178)
 
 ### jump
 
 > **jump**: `boolean`
 
-**Source:** [world/entity.d.ts:182](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L182)
+**Source:** [world/entity.d.ts:182](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L182)
 
 ### left
 
 > **left**: `boolean`
 
-**Source:** [world/entity.d.ts:180](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L180)
+**Source:** [world/entity.d.ts:180](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L180)
 
 ### right
 
 > **right**: `boolean`
 
-**Source:** [world/entity.d.ts:181](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L181)
+**Source:** [world/entity.d.ts:181](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L181)
 
 ### sneak
 
 > **sneak**: `boolean`
 
-**Source:** [world/entity.d.ts:183](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L183)
+**Source:** [world/entity.d.ts:183](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L183)
 
 ### sprintHeld
 
 > `readonly` **sprintHeld**: `boolean`
 
-**Source:** [world/entity.d.ts:184](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L184)
+**Source:** [world/entity.d.ts:184](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L184)

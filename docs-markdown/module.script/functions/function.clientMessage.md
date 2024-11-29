@@ -12,7 +12,7 @@
 
 Adds chat message(s) to the chat.
 
-**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L11)
+**Source:** [script.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/script.d.ts#L11)
 
 ## Parameters
 
