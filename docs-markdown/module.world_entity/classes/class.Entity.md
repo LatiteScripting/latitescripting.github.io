@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [world/entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L4)
+**Source:** [world/entity.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L4)
 
 ## Hierarchy
 
@@ -34,7 +34,7 @@ A class representing an in-game entity.
 
 The runtime ID of the entity. Local player is always 1.
 
-**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L8)
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L8)
 
 ## Methods
 
@@ -48,7 +48,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 #### Throws
 
-**Source:** [world/entity.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L72)
+**Source:** [world/entity.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L72)
 
 #### Returns
 
@@ -61,7 +61,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** [world/entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L42)
+**Source:** [world/entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L42)
 
 #### Returns
 
@@ -75,7 +75,7 @@ Gets the entity type ID.
 
 https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
-**Source:** [world/entity.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L64)
+**Source:** [world/entity.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L64)
 
 #### Returns
 
@@ -87,7 +87,7 @@ https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
 Gets a status flag's state in the current entity.
 
-**Source:** [world/entity.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L118)
+**Source:** [world/entity.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L118)
 
 #### Parameters
 
@@ -107,7 +107,7 @@ Gets the health of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L79)
+**Source:** [world/entity.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L79)
 
 #### Returns
 
@@ -121,7 +121,7 @@ Gets the hunger of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L86)
+**Source:** [world/entity.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L86)
 
 #### Returns
 
@@ -133,7 +133,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
 
-**Source:** [world/entity.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L47)
+**Source:** [world/entity.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L47)
 
 #### Returns
 
@@ -145,7 +145,7 @@ Gets the number of ticks that the entity is invulnerable (after the entity is hi
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L99)
+**Source:** [world/entity.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L99)
 
 #### Parameters
 
@@ -161,7 +161,7 @@ Gets the value of a MoLang variable. Returns `null` if the variable was not foun
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:105](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L105)
+**Source:** [world/entity.d.ts:105](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L105)
 
 #### Parameters
 
@@ -181,7 +181,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L20)
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
@@ -193,7 +193,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 Get the interpolated position. Use this in the context of rendering based on entity position.
 
-**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L25)
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
@@ -205,7 +205,7 @@ Get the interpolated position. Use this in the context of rendering based on ent
 
 Get the position the entity was in the last tick.
 
-**Source:** [world/entity.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L30)
+**Source:** [world/entity.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L30)
 
 #### Returns
 
@@ -219,7 +219,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L36)
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L36)
 
 #### Returns
 
@@ -233,11 +233,23 @@ Gets the saturation of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L93)
+**Source:** [world/entity.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L93)
 
 #### Returns
 
 `number`
+
+### getVelocity()
+
+> **getVelocity**(): [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
+
+Gets the entity's movement velocity.
+
+**Source:** [world/entity.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L131)
+
+#### Returns
+
+[`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)
 
 ### isLocalPlayer()
 
@@ -245,7 +257,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Whether the entity is the local player (yourself) or not.
 
-**Source:** [world/entity.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L57)
+**Source:** [world/entity.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L57)
 
 #### Returns
 
@@ -257,7 +269,7 @@ Whether the entity is the local player (yourself) or not.
 
 Whether the entity is a player or not.
 
-**Source:** [world/entity.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L52)
+**Source:** [world/entity.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L52)
 
 #### Returns
 
@@ -270,7 +282,7 @@ Whether the entity is a player or not.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L14)
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L14)
 
 #### Returns
 
@@ -282,7 +294,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 
 Sets a status flag's state in the current entity.
 
-**Source:** [world/entity.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L126)
+**Source:** [world/entity.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L126)
 
 #### Parameters
 
@@ -301,7 +313,7 @@ Sets a status flag's state in the current entity.
 
 [Experimental] sets a MoLang variable's value. Returns `null` if unsuccessful and the number that was set if it was successful.
 
-**Source:** [world/entity.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L112)
+**Source:** [world/entity.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L112)
 
 #### Parameters
 
@@ -313,3 +325,23 @@ Sets a status flag's state in the current entity.
 #### Returns
 
 `null` \| `number`
+
+### setVelocity()
+
+> **setVelocity**(vector: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)): `void`
+
+Sets the entity's movement velocity.
+
+This function is restricted - it only works if you have operator.
+
+**Source:** [world/entity.d.ts:140](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L140)
+
+#### Parameters
+
+| Parameter | Type                                                            | Description      |
+| :-------- | :-------------------------------------------------------------- | :--------------- |
+| vector    | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) | The new velocity |
+
+#### Returns
+
+`void`

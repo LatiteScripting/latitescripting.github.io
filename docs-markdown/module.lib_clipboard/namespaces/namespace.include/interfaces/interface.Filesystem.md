@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L2)
+**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L2)
 
 ## Methods
 
@@ -16,7 +16,7 @@
 
 > **append**(path: `string`, data: `Uint8Array`): `void`
 
-**Source:** [lib/filesystem.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L47)
+**Source:** [lib/filesystem.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L53)
 
 #### Parameters
 
@@ -35,7 +35,7 @@
 
 Creates a folder/directory.
 
-**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L40)
+**Source:** [lib/filesystem.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L46)
 
 #### Parameters
 
@@ -47,13 +47,29 @@ Creates a folder/directory.
 
 `void`
 
+### delete()
+
+> **delete**(path: `string`): `void`
+
+**Source:** [lib/filesystem.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L7)
+
+#### Parameters
+
+| Parameter | Type     | Description          |
+| :-------- | :------- | :------------------- |
+| path      | `string` | The path of the file |
+
+#### Returns
+
+`void`
+
 ### exists()
 
 > **exists**(path: `string`): `boolean`
 
 Checks if a file or a directory exists
 
-**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L34)
+**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L40)
 
 #### Parameters
 
@@ -71,7 +87,7 @@ Checks if a file or a directory exists
 
 Reads a file from the path specified.
 
-**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L22)
+**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L28)
 
 #### Parameters
 
@@ -89,7 +105,7 @@ Reads a file from the path specified.
 
 Reads a file asynchronously.
 
-**Source:** [lib/filesystem.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L8)
+**Source:** [lib/filesystem.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L14)
 
 #### Parameters
 
@@ -102,13 +118,31 @@ Reads a file asynchronously.
 
 `void`
 
+### readDirectory()
+
+> **readDirectory**(path: `string`): `string`[]
+
+Gets a list of the contents of a directory.
+
+**Source:** [lib/filesystem.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L59)
+
+#### Parameters
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| path      | `string` | The path to the directory. |
+
+#### Returns
+
+`string`[]
+
 ### write()
 
 > **write**(path: `string`, data: `Uint8Array`): `void`
 
 Writes a file to the path specified.
 
-**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L28)
+**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L34)
 
 #### Parameters
 
@@ -128,7 +162,7 @@ Writes a file to the path specified.
 > data: `Uint8Array`,
 > callback: `Function`): `void`
 
-**Source:** [lib/filesystem.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/lib/filesystem.d.ts#L16)
+**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/lib/filesystem.d.ts#L22)
 
 #### Parameters
 

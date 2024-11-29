@@ -10,4 +10,4 @@
 
 > `const` **game**: [`Game`](../interfaces/interface.Game.md)
 
-**Source:** [game.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/game.d.ts#L126)
+**Source:** [game.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/game.d.ts#L126)

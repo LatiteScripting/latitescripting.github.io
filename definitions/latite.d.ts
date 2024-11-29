@@ -52,6 +52,7 @@ interface ClickEvent extends CancellableEvent {
     readonly isDown: boolean;
     readonly mouseX: number;
     readonly mouseY: number;
+    readonly wheelDelta: number;
 }
 
 interface KeyEvent extends CancellableEvent {
@@ -233,6 +234,16 @@ interface ClientEvents {
      * Calls whenever the player goes into a different dimension.
      */
     "change-dimension": LatiteEvent;
+
+    /**
+     * Called before movement input is processed. This is cancellable.
+     */
+    "pre-move": CancellableEvent;
+
+    /**
+     * Called after movement input is processed.
+     */
+    "post-move": LatiteEvent;
 }
 
 interface Latite {

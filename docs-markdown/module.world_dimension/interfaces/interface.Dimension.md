@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [world/dimension.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/dimension.d.ts#L1)
+**Source:** [world/dimension.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/dimension.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Returns `true` if in a dimension, returns `false` if not. You will only be able to use the Dimension methods if you are in a world.
 
-**Source:** [world/dimension.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/dimension.d.ts#L5)
+**Source:** [world/dimension.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/dimension.d.ts#L5)
 
 #### Returns
 
@@ -33,7 +33,7 @@ Returns `true` if in a dimension, returns `false` if not. You will only be able 
 
 Gets a block at the specified position. Will return null if no block was found. (If it's air, it will also return a Block)
 
-**Source:** [world/dimension.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/dimension.d.ts#L13)
+**Source:** [world/dimension.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/dimension.d.ts#L13)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ Gets a block at the specified position. Will return null if no block was found. 
 
 Gets the dimension's name, for example, `"Overworld"`
 
-**Source:** [world/dimension.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/dimension.d.ts#L19)
+**Source:** [world/dimension.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/dimension.d.ts#L19)
 
 #### Returns
 

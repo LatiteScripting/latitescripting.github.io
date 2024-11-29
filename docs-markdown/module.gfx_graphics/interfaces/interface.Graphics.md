@@ -8,9 +8,34 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L112)
+**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L112)
 
 ## Methods
+
+### drawItem()
+
+> **drawItem**(
+> item: [`ItemStack`](../../module.world_item/classes/class.ItemStack.md),
+> pos: [`Vector2`](../classes/class.Vector2.md),
+> sizeModifier: `number`,
+> opacity: `number`): `void`
+
+Draw an item instance.
+
+**Source:** [gfx/graphics.d.ts:163](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L163)
+
+#### Parameters
+
+| Parameter    | Type                                                              | Description                                              |
+| :----------- | :---------------------------------------------------------------- | :------------------------------------------------------- |
+| item         | [`ItemStack`](../../module.world_item/classes/class.ItemStack.md) | The item to draw                                         |
+| pos          | [`Vector2`](../classes/class.Vector2.md)                          | The position in pixels to draw the texture               |
+| sizeModifier | `number`                                                          | The relative size modifier (defualt: 1.0, aka 16 pixels) |
+| opacity      | `number`                                                          | The opacity of the item                                  |
+
+#### Returns
+
+`void`
 
 ### drawRect()
 
@@ -20,7 +45,7 @@
 > thickness: `number`,
 > radius?: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L118)
+**Source:** [gfx/graphics.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L118)
 
 #### Parameters
 
@@ -45,7 +70,7 @@
 
 Draws text on the position specified
 
-**Source:** [gfx/graphics.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L133)
+**Source:** [gfx/graphics.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L133)
 
 #### Parameters
 
@@ -72,7 +97,7 @@ Draws text on the position specified
 
 A full verison of drawText, where you can specify the bounds of the text and the alignment
 
-**Source:** [gfx/graphics.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L144)
+**Source:** [gfx/graphics.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L144)
 
 #### Parameters
 
@@ -100,7 +125,7 @@ A full verison of drawText, where you can specify the bounds of the text and the
 
 Draws a texture.
 
-**Source:** [gfx/graphics.d.ts:154](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L154)
+**Source:** [gfx/graphics.d.ts:154](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L154)
 
 #### Parameters
 
@@ -123,7 +148,7 @@ Draws a texture.
 > color: [`Color`](../classes/class.Color.md),
 > radius?: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L119)
+**Source:** [gfx/graphics.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L119)
 
 #### Parameters
 
@@ -141,7 +166,7 @@ Draws a texture.
 
 > **getTextSize**(text: `string`, textSize: `number`): [`Vector2`](../classes/class.Vector2.md)
 
-**Source:** [gfx/graphics.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L121)
+**Source:** [gfx/graphics.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L121)
 
 #### Parameters
 
@@ -158,7 +183,7 @@ Draws a texture.
 
 > **restoreClippingRect**(): `void`
 
-**Source:** [gfx/graphics.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L124)
+**Source:** [gfx/graphics.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L124)
 
 #### Returns
 
@@ -168,7 +193,7 @@ Draws a texture.
 
 > **setClippingRect**(rect: [`Rect`](../classes/class.Rect.md)): `void`
 
-**Source:** [gfx/graphics.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L123)
+**Source:** [gfx/graphics.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L123)
 
 #### Parameters
 
@@ -184,7 +209,7 @@ Draws a texture.
 
 > **use**(renderer: "dx" \| "minecraft"): `void`
 
-**Source:** [gfx/graphics.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/gfx/graphics.d.ts#L117)
+**Source:** [gfx/graphics.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/gfx/graphics.d.ts#L117)
 
 #### Parameters
 

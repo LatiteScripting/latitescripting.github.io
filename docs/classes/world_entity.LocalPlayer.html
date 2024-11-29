@@ -39,7 +39,7 @@
 <ul class="tsd-hierarchy">
 <li><span class="target">LocalPlayer</span></li></ul></li></ul></section><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L163">world/entity.d.ts:163</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L187">world/entity.d.ts:187</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-index-accordion" open><summary class="tsd-accordion-summary tsd-index-summary">
@@ -68,6 +68,7 @@
 <a href="world_entity.LocalPlayer.html#getLastBreakProgress" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Last<wbr/>Break<wbr/>Progress</span></a>
 <a href="world_entity.LocalPlayer.html#getLookingAt" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Looking<wbr/>At</span></a>
 <a href="world_entity.LocalPlayer.html#getMolangVariable" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Molang<wbr/>Variable</span></a>
+<a href="world_entity.LocalPlayer.html#getMovementState" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Movement<wbr/>State</span></a>
 <a href="world_entity.LocalPlayer.html#getName" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Name</span></a>
 <a href="world_entity.LocalPlayer.html#getPosition" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Position</span></a>
 <a href="world_entity.LocalPlayer.html#getPositionInterpolated" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Position<wbr/>Interpolated</span></a>
@@ -76,12 +77,15 @@
 <a href="world_entity.LocalPlayer.html#getSaturation" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Saturation</span></a>
 <a href="world_entity.LocalPlayer.html#getSelectedBlock" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Selected<wbr/>Block</span></a>
 <a href="world_entity.LocalPlayer.html#getSelectedSlot" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Selected<wbr/>Slot</span></a>
+<a href="world_entity.LocalPlayer.html#getVelocity" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Velocity</span></a>
 <a href="world_entity.LocalPlayer.html#getXUID" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>getXUID</span></a>
 <a href="world_entity.LocalPlayer.html#isLocalPlayer" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Local<wbr/>Player</span></a>
 <a href="world_entity.LocalPlayer.html#isPlayer" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Player</span></a>
 <a href="world_entity.LocalPlayer.html#isValid" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Valid</span></a>
 <a href="world_entity.LocalPlayer.html#setFlag" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Flag</span></a>
 <a href="world_entity.LocalPlayer.html#setMolangVariable" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Molang<wbr/>Variable</span></a>
+<a href="world_entity.LocalPlayer.html#setMovementState" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Movement<wbr/>State</span></a>
+<a href="world_entity.LocalPlayer.html#setVelocity" class="tsd-index-link tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Velocity</span></a>
 </div></section></div></details></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Constructors</h2>
@@ -102,7 +106,7 @@
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#runtimeId">runtimeId</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L8">world/entity.d.ts:8</a></li></ul></aside></section></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L8">world/entity.d.ts:8</a></li></ul></aside></section></section>
 <section class="tsd-panel-group tsd-member-group">
 <h2>Methods</h2>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="attack" class="tsd-anchor"></a>
@@ -118,7 +122,7 @@
 <h4>Throws</h4></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#attack">attack</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L72">world/entity.d.ts:72</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L72">world/entity.d.ts:72</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getBreakProgress" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Break<wbr/>Progress</span><a href="#getBreakProgress" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -129,7 +133,7 @@
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L167">world/entity.d.ts:167</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L191">world/entity.d.ts:191</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getDimensionName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Dimension<wbr/>Name</span><a href="#getDimensionName" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -142,7 +146,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getDimensionName">getDimensionName</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L42">world/entity.d.ts:42</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L42">world/entity.d.ts:42</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getEntityType" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Entity<wbr/>Type</span><a href="#getEntityType" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -155,7 +159,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getEntityType">getEntityType</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L64">world/entity.d.ts:64</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L64">world/entity.d.ts:64</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getFlag" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Flag</span><a href="#getFlag" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -172,7 +176,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getFlag">getFlag</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L118">world/entity.d.ts:118</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L118">world/entity.d.ts:118</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getHealth" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Health</span><a href="#getHealth" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -185,7 +189,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getHealth">getHealth</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L79">world/entity.d.ts:79</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L79">world/entity.d.ts:79</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getHoldingItem" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Holding<wbr/>Item</span><a href="#getHoldingItem" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -197,7 +201,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getHoldingItem">getHoldingItem</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L143">world/entity.d.ts:143</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L157">world/entity.d.ts:157</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getHunger" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Hunger</span><a href="#getHunger" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -210,7 +214,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getHunger">getHunger</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L86">world/entity.d.ts:86</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L86">world/entity.d.ts:86</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getHurtTime" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Hurt<wbr/>Time</span><a href="#getHurtTime" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -222,7 +226,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getHurtTime">getHurtTime</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L47">world/entity.d.ts:47</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L47">world/entity.d.ts:47</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getItem" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Item</span><a href="#getItem" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -242,7 +246,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getItem">getItem</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L154">world/entity.d.ts:154</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L168">world/entity.d.ts:168</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getLastBreakProgress" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Last<wbr/>Break<wbr/>Progress</span><a href="#getLastBreakProgress" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -253,7 +257,7 @@ for example, &quot;Overworld&quot;</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L172">world/entity.d.ts:172</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L196">world/entity.d.ts:196</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getLookingAt" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Looking<wbr/>At</span><a href="#getLookingAt" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -264,7 +268,7 @@ for example, &quot;Overworld&quot;</p>
 <h4 class="tsd-returns-title">Returns <a href="../enums/world_entity.LookingAt.html" class="tsd-signature-type tsd-kind-enum">LookingAt</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L177">world/entity.d.ts:177</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L201">world/entity.d.ts:201</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getMolangVariable" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Molang<wbr/>Variable</span><a href="#getMolangVariable" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -284,7 +288,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getMolangVariable">getMolangVariable</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L99">world/entity.d.ts:99</a></li></ul></aside></li>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L99">world/entity.d.ts:99</a></li></ul></aside></li>
 <li class="tsd-signature tsd-anchor-link" id="getMolangVariable.getMolangVariable-2"><span class="tsd-kind-call-signature">get<wbr/>Molang<wbr/>Variable</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">name</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="../interfaces/molang_Variable.MolangVariable.html" class="tsd-signature-type tsd-kind-interface">MolangVariable</a><a href="#getMolangVariable.getMolangVariable-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
 <li class="tsd-description">
 <div class="tsd-comment tsd-typography"><p>Gets the value of a MoLang variable. Returns <code>null</code> if the variable was not found.</p>
@@ -301,7 +305,18 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getMolangVariable">getMolangVariable</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L105">world/entity.d.ts:105</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L105">world/entity.d.ts:105</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="getMovementState" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>get<wbr/>Movement<wbr/>State</span><a href="#getMovementState" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="getMovementState.getMovementState-1"><span class="tsd-kind-call-signature">get<wbr/>Movement<wbr/>State</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/world_entity.MovementState.html" class="tsd-signature-type tsd-kind-interface">MovementState</a><a href="#getMovementState.getMovementState-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the movement state of the player (i.e. the movement keys held.)</p>
+</div>
+<h4 class="tsd-returns-title">Returns <a href="../interfaces/world_entity.MovementState.html" class="tsd-signature-type tsd-kind-interface">MovementState</a></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L212">world/entity.d.ts:212</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getName" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Name</span><a href="#getName" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -313,7 +328,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getName">getName</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L133">world/entity.d.ts:133</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L147">world/entity.d.ts:147</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getPosition" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Position</span><a href="#getPosition" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -326,7 +341,7 @@ for example, &quot;Overworld&quot;</p>
 <h4>Throws</h4></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getPosition">getPosition</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L20">world/entity.d.ts:20</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L20">world/entity.d.ts:20</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getPositionInterpolated" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Position<wbr/>Interpolated</span><a href="#getPositionInterpolated" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -338,7 +353,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getPositionInterpolated">getPositionInterpolated</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L25">world/entity.d.ts:25</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L25">world/entity.d.ts:25</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getPreviousPosition" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Previous<wbr/>Position</span><a href="#getPreviousPosition" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -350,7 +365,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getPreviousPosition">getPreviousPosition</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L30">world/entity.d.ts:30</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L30">world/entity.d.ts:30</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getRotation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Rotation</span><a href="#getRotation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -363,7 +378,7 @@ for example, &quot;Overworld&quot;</p>
 <h4>Throws</h4></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getRotation">getRotation</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L36">world/entity.d.ts:36</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L36">world/entity.d.ts:36</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getSaturation" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Saturation</span><a href="#getSaturation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -376,7 +391,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getSaturation">getSaturation</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L93">world/entity.d.ts:93</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L93">world/entity.d.ts:93</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member"><a id="getSelectedBlock" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Selected<wbr/>Block</span><a href="#getSelectedBlock" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -387,7 +402,7 @@ for example, &quot;Overworld&quot;</p>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">null</span><span class="tsd-signature-symbol"> | </span><a href="gfx_graphics.Vector3.html" class="tsd-signature-type tsd-kind-class">Vector3</a></h4>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L182">world/entity.d.ts:182</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L206">world/entity.d.ts:206</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getSelectedSlot" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>get<wbr/>Selected<wbr/>Slot</span><a href="#getSelectedSlot" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -399,7 +414,19 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getSelectedSlot">getSelectedSlot</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L148">world/entity.d.ts:148</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L162">world/entity.d.ts:162</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="getVelocity" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>get<wbr/>Velocity</span><a href="#getVelocity" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="getVelocity.getVelocity-1"><span class="tsd-kind-call-signature">get<wbr/>Velocity</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="gfx_graphics.Vector3.html" class="tsd-signature-type tsd-kind-class">Vector3</a><a href="#getVelocity.getVelocity-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Gets the entity&#39;s movement velocity.</p>
+</div>
+<h4 class="tsd-returns-title">Returns <a href="gfx_graphics.Vector3.html" class="tsd-signature-type tsd-kind-class">Vector3</a></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getVelocity">getVelocity</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L131">world/entity.d.ts:131</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="getXUID" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>getXUID</span><a href="#getXUID" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -411,7 +438,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#getXUID">getXUID</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L138">world/entity.d.ts:138</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L152">world/entity.d.ts:152</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="isLocalPlayer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Local<wbr/>Player</span><a href="#isLocalPlayer" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -423,7 +450,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#isLocalPlayer">isLocalPlayer</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L57">world/entity.d.ts:57</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L57">world/entity.d.ts:57</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="isPlayer" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Player</span><a href="#isPlayer" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -435,7 +462,7 @@ for example, &quot;Overworld&quot;</p>
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#isPlayer">isPlayer</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L52">world/entity.d.ts:52</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L52">world/entity.d.ts:52</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="isValid" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>is<wbr/>Valid</span><a href="#isValid" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -448,7 +475,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#isValid">isValid</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L14">world/entity.d.ts:14</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L14">world/entity.d.ts:14</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="setFlag" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Flag</span><a href="#setFlag" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -470,7 +497,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#setFlag">setFlag</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L126">world/entity.d.ts:126</a></li></ul></aside></li></ul></section>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L126">world/entity.d.ts:126</a></li></ul></aside></li></ul></section>
 <section class="tsd-panel tsd-member tsd-is-inherited"><a id="setMolangVariable" class="tsd-anchor"></a>
 <h3 class="tsd-anchor-link"><span>set<wbr/>Molang<wbr/>Variable</span><a href="#setMolangVariable" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures tsd-is-inherited">
@@ -495,7 +522,47 @@ event listener. This is to prevent the scripting engine from being used as a che
 <div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
 <p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#setMolangVariable">setMolangVariable</a></p>
 <ul>
-<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/world/entity.d.ts#L112">world/entity.d.ts:112</a></li></ul></aside></li></ul></section></section></div>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L112">world/entity.d.ts:112</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member"><a id="setMovementState" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>set<wbr/>Movement<wbr/>State</span><a href="#setMovementState" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures">
+<li class="tsd-signature tsd-anchor-link" id="setMovementState.setMovementState-1"><span class="tsd-kind-call-signature">set<wbr/>Movement<wbr/>State</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">state</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#setMovementState.setMovementState-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the movement state of the player</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">state</span>: <a href="../interfaces/world_entity.MovementState.html" class="tsd-signature-type tsd-kind-interface">MovementState</a></h5>
+<div class="tsd-comment tsd-typography"><p>The state to update to</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L218">world/entity.d.ts:218</a></li></ul></aside></li></ul></section>
+<section class="tsd-panel tsd-member tsd-is-inherited"><a id="setVelocity" class="tsd-anchor"></a>
+<h3 class="tsd-anchor-link"><span>set<wbr/>Velocity</span><a href="#setVelocity" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></h3>
+<ul class="tsd-signatures tsd-is-inherited">
+<li class="tsd-signature tsd-anchor-link" id="setVelocity.setVelocity-1"><span class="tsd-kind-call-signature">set<wbr/>Velocity</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">vector</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><a href="#setVelocity.setVelocity-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="#icon-anchor"></use></svg></a></li>
+<li class="tsd-description">
+<div class="tsd-comment tsd-typography"><p>Sets the entity&#39;s movement velocity. </p>
+<p>This function is restricted - it only works if you have operator.</p>
+</div>
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5><span class="tsd-kind-parameter">vector</span>: <a href="gfx_graphics.Vector3.html" class="tsd-signature-type tsd-kind-class">Vector3</a></h5>
+<div class="tsd-comment tsd-typography"><p>The new velocity</p>
+</div>
+<div class="tsd-comment tsd-typography"></div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+<div class="tsd-comment tsd-typography"></div><aside class="tsd-sources">
+<p>Inherited from <a href="world_entity.Player.html">Player</a>.<a href="world_entity.Player.html#setVelocity">setVelocity</a></p>
+<ul>
+<li>Defined in <a href="https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/world/entity.d.ts#L140">world/entity.d.ts:140</a></li></ul></aside></li></ul></section></section></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <details open class="tsd-index-accordion tsd-page-navigation"><summary class="tsd-accordion-summary">
@@ -517,6 +584,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 <li><a href="#getLastBreakProgress" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Last<wbr/>Break<wbr/>Progress</span></a></li>
 <li><a href="#getLookingAt" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Looking<wbr/>At</span></a></li>
 <li><a href="#getMolangVariable" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Molang<wbr/>Variable</span></a></li>
+<li><a href="#getMovementState" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Movement<wbr/>State</span></a></li>
 <li><a href="#getName" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Name</span></a></li>
 <li><a href="#getPosition" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Position</span></a></li>
 <li><a href="#getPositionInterpolated" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Position<wbr/>Interpolated</span></a></li>
@@ -525,12 +593,15 @@ event listener. This is to prevent the scripting engine from being used as a che
 <li><a href="#getSaturation" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Saturation</span></a></li>
 <li><a href="#getSelectedBlock" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Selected<wbr/>Block</span></a></li>
 <li><a href="#getSelectedSlot" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Selected<wbr/>Slot</span></a></li>
+<li><a href="#getVelocity" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>get<wbr/>Velocity</span></a></li>
 <li><a href="#getXUID" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>getXUID</span></a></li>
 <li><a href="#isLocalPlayer" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Local<wbr/>Player</span></a></li>
 <li><a href="#isPlayer" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Player</span></a></li>
 <li><a href="#isValid" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>is<wbr/>Valid</span></a></li>
 <li><a href="#setFlag" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Flag</span></a></li>
-<li><a href="#setMolangVariable" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Molang<wbr/>Variable</span></a></li></ul></div></details></div>
+<li><a href="#setMolangVariable" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Molang<wbr/>Variable</span></a></li>
+<li><a href="#setMovementState" class=""><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Movement<wbr/>State</span></a></li>
+<li><a href="#setVelocity" class="tsd-is-inherited"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-2048"></use></svg><span>set<wbr/>Velocity</span></a></li></ul></div></details></div>
 <div class="site-menu">
 <nav class="tsd-navigation"><a href="../index.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><g id="icon-4"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-namespace)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6"></rect><path d="M9.33 16V7.24H10.77L13.446 14.74C13.43 14.54 13.41 14.296 13.386 14.008C13.37 13.712 13.354 13.404 13.338 13.084C13.33 12.756 13.326 12.448 13.326 12.16V7.24H14.37V16H12.93L10.266 8.5C10.282 8.692 10.298 8.936 10.314 9.232C10.33 9.52 10.342 9.828 10.35 10.156C10.366 10.476 10.374 10.784 10.374 11.08V16H9.33Z" fill="var(--color-text)"></path></g></svg>
 <div>Latite <wbr/>Scripting <wbr/>Documentation</div></a>
@@ -825,7 +896,9 @@ event listener. This is to prevent the scripting engine from being used as a che
 <div class="menu-item-desc">A class representing an in-game entity.</div></div></a></li>
 <li><a href="world_entity.Player.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-128"></use></svg>
 <div>Player
-<div class="menu-item-desc">A class representing an in-game entity.</div></div></a></li></ul></div></details></li>
+<div class="menu-item-desc">A class representing an in-game entity.</div></div></a></li>
+<li><a href="../interfaces/world_entity.MovementState.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-256"></use></svg>
+<div>Movement<wbr/>State</div></a></li></ul></div></details></li>
 <li>
 <details class="tsd-index-accordion" data-key="world/item"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><use href="#icon-chevronDown"></use></svg><a href="../modules/world_item.html"><svg class="tsd-kind-icon" viewBox="0 0 24 24"><use href="#icon-4"></use></svg>
 <div>world/item</div></a></summary>

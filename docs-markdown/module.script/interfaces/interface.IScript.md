@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [script.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L68)
+**Source:** [script.d.ts:68](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L68)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 #### Deprecated
 
-**Source:** [script.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L77)
+**Source:** [script.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L77)
 
 ### description
 
@@ -26,13 +26,13 @@
 
 #### Deprecated
 
-**Source:** [script.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L82)
+**Source:** [script.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L82)
 
 ### log
 
 > **log**: `Function`
 
-**Source:** [script.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L89)
+**Source:** [script.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L89)
 
 #### Type declaration (log)
 
@@ -40,7 +40,7 @@
 >
 > ##### Deprecated
 >
-> **Source:** [script.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L89)
+> **Source:** [script.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L89)
 >
 > ##### Parameters
 >
@@ -58,4 +58,4 @@
 
 #### Deprecated
 
-**Source:** [script.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/1720dc7/definitions/script.d.ts#L72)
+**Source:** [script.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/e10e2da/definitions/script.d.ts#L72)
