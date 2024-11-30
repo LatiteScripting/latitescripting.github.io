@@ -10,7 +10,7 @@
 
 A class representing a native DLL.
 
-**Source:** [native/NativeModule.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/native/NativeModule.d.ts#L6)
+**Source:** [native/NativeModule.d.ts:6](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/native/NativeModule.d.ts#L6)
 
 ## Constructors
 
@@ -30,7 +30,7 @@ A class representing a native DLL.
 
 The current handle of the module. Warning: will be truncated to Float64
 
-**Source:** [native/NativeModule.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/native/NativeModule.d.ts#L20)
+**Source:** [native/NativeModule.d.ts:20](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/native/NativeModule.d.ts#L20)
 
 ## Methods
 
@@ -49,7 +49,7 @@ Every argument is passed as a little-endian integer. There may be precision loss
 
 Strings passed in will be treated as wstrings (wide strings)
 
-**Source:** [native/NativeModule.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/native/NativeModule.d.ts#L35)
+**Source:** [native/NativeModule.d.ts:35](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/native/NativeModule.d.ts#L35)
 
 #### Parameters
 
@@ -73,7 +73,7 @@ The plugin needs the permission `Permission.SystemAccess` to use this.
 
 This method is restricted to prevent cheating.
 
-**Source:** [native/NativeModule.d.ts:15](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/native/NativeModule.d.ts#L15)
+**Source:** [native/NativeModule.d.ts:15](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/native/NativeModule.d.ts#L15)
 
 #### Parameters
 

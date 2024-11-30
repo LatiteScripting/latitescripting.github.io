@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics3.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L1)
+**Source:** [gfx/graphics3.d.ts:1](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L1)
 
 ## Methods
 
@@ -18,7 +18,7 @@
 
 Draws a line into the world (adds a line into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L20)
+**Source:** [gfx/graphics3.d.ts:20](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L20)
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Draws a line into the world (adds a line into the vertex buffer)
 
 Draws a quad into the world (adds a quad into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L37)
+**Source:** [gfx/graphics3.d.ts:37](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L37)
 
 #### Parameters
 
@@ -65,7 +65,7 @@ Draws a quad into the world (adds a quad into the vertex buffer)
 
 Draws a triangle into the world (adds a triangle into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L28)
+**Source:** [gfx/graphics3.d.ts:28](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L28)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Draws a triangle into the world (adds a triangle into the vertex buffer)
 
 Call this every time you're done rendering. (batched renders the current vertex buffer into the world)
 
-**Source:** [gfx/graphics3.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L43)
+**Source:** [gfx/graphics3.d.ts:43](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L43)
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Call this every time you're done rendering. (batched renders the current vertex 
 
 Sets the color.
 
-**Source:** [gfx/graphics3.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L7)
+**Source:** [gfx/graphics3.d.ts:7](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L7)
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Sets the color.
 
 Sets the colors. (allows for gradients)
 
-**Source:** [gfx/graphics3.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/gfx/graphics3.d.ts#L13)
+**Source:** [gfx/graphics3.d.ts:13](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/gfx/graphics3.d.ts#L13)
 
 #### Parameters
 

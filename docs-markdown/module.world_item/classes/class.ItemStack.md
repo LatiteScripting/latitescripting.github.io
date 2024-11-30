@@ -10,7 +10,7 @@
 
 An instance of an `Item` (has count, damage, etc.)
 
-**Source:** [world/item.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L18)
+**Source:** [world/item.d.ts:18](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L18)
 
 ## Constructors
 
@@ -30,7 +30,7 @@ An instance of an `Item` (has count, damage, etc.)
 
 The auxiliary/data value of the item (not damage) (-32768 to 32767)
 
-**Source:** [world/item.d.ts:26](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L26)
+**Source:** [world/item.d.ts:26](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L26)
 
 ### item
 
@@ -38,7 +38,7 @@ The auxiliary/data value of the item (not damage) (-32768 to 32767)
 
 The item type. Will be `null` when the item is air.
 
-**Source:** [world/item.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L22)
+**Source:** [world/item.d.ts:22](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L22)
 
 ## Methods
 
@@ -48,7 +48,7 @@ The item type. Will be `null` when the item is air.
 
 Gets the number of items in the stack
 
-**Source:** [world/item.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L36)
+**Source:** [world/item.d.ts:36](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L36)
 
 #### Returns
 
@@ -60,7 +60,7 @@ Gets the number of items in the stack
 
 Gets the damage of the item (e.g. if a sword was used once, it would have a damage value of 1)
 
-**Source:** [world/item.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L46)
+**Source:** [world/item.d.ts:46](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L46)
 
 #### Returns
 
@@ -72,7 +72,7 @@ Gets the damage of the item (e.g. if a sword was used once, it would have a dama
 
 Get the display name (e.g. `Cooked Beef`)
 
-**Source:** [world/item.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L31)
+**Source:** [world/item.d.ts:31](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L31)
 
 #### Returns
 
@@ -84,7 +84,7 @@ Get the display name (e.g. `Cooked Beef`)
 
 Gets the pickup time in milliseconds
 
-**Source:** [world/item.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/item.d.ts#L41)
+**Source:** [world/item.d.ts:41](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/world/item.d.ts#L41)
 
 #### Returns
 

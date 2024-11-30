@@ -10,4 +10,4 @@
 
 > **MessageType**: "raw" \| "chat" \| "translation" \| "popup" \| "jukebox" \| "tip" \| "system_message" \| "whisper" \| "announcement" \| "text_object" \| "object_whisper"
 
-**Source:** [latite.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/latite.d.ts#L12)
+**Source:** [latite.d.ts:12](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/latite.d.ts#L12)
