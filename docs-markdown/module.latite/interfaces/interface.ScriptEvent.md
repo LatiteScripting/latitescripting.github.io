@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/latite.d.ts#L64)
+**Source:** [latite.d.ts:64](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/latite.d.ts#L64)
 
 ## Hierarchy
 
@@ -20,16 +20,16 @@
 
 > `readonly` **scriptAuthor**: `string`
 
-**Source:** [latite.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/latite.d.ts#L67)
+**Source:** [latite.d.ts:67](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/latite.d.ts#L67)
 
 ### scriptName
 
 > `readonly` **scriptName**: `string`
 
-**Source:** [latite.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/latite.d.ts#L65)
+**Source:** [latite.d.ts:65](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/latite.d.ts#L65)
 
 ### scriptVersion
 
 > `readonly` **scriptVersion**: `string`
 
-**Source:** [latite.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/latite.d.ts#L66)
+**Source:** [latite.d.ts:66](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/latite.d.ts#L66)

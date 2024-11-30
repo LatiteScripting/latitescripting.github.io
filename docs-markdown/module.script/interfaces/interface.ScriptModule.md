@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [script.d.ts:61](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/script.d.ts#L61)
+**Source:** [script.d.ts:61](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/script.d.ts#L61)
 
 ## Properties
 
@@ -18,4 +18,4 @@
 
 What the script exports.
 
-**Source:** [script.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/script.d.ts#L65)
+**Source:** [script.d.ts:65](https://github.com/EpiclyRaspberry/latitescripting.github.io/blob/0717eac/definitions/script.d.ts#L65)
