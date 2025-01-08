@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [latite.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/latite.d.ts#L1)
+**Source:** [latite.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/latite.d.ts#L1)
 
 ## Hierarchy
 

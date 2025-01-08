@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [molang/Variable.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/molang/Variable.d.ts#L1)
+**Source:** [molang/Variable.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/molang/Variable.d.ts#L1)
 
 ## Properties
 
@@ -16,4 +16,4 @@
 
 > **number**: `number`
 
-**Source:** [molang/Variable.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/molang/Variable.d.ts#L2)
+**Source:** [molang/Variable.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/molang/Variable.d.ts#L2)

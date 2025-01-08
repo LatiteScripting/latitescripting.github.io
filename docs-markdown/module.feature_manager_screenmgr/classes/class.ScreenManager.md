@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** feature/manager/screenmgr.d.ts:1
+**Source:** [feature/manager/screenmgr.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/manager/screenmgr.d.ts#L1)
 
 ## Constructors
 
@@ -28,7 +28,7 @@
 
 Adds a screen into the client.
 
-**Source:** feature/manager/screenmgr.d.ts:6
+**Source:** [feature/manager/screenmgr.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/manager/screenmgr.d.ts#L6)
 
 #### Parameters
 

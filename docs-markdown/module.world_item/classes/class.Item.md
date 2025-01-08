@@ -10,7 +10,7 @@
 
 A class representing a Minecraft Item definition (not an item instance)
 
-**Source:** [world/item.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/item.d.ts#L4)
+**Source:** [world/item.d.ts:4](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/item.d.ts#L4)
 
 ## Constructors
 
@@ -30,7 +30,7 @@ A class representing a Minecraft Item definition (not an item instance)
 
 Maximum damage of the item type.
 
-**Source:** [world/item.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/item.d.ts#L17)
+**Source:** [world/item.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/item.d.ts#L17)
 
 ### name
 
@@ -38,7 +38,7 @@ Maximum damage of the item type.
 
 The Namespaced ID of the item (e.g. `minecraft:stone`)
 
-**Source:** [world/item.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/item.d.ts#L8)
+**Source:** [world/item.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/item.d.ts#L8)
 
 ### translateName
 
@@ -46,4 +46,4 @@ The Namespaced ID of the item (e.g. `minecraft:stone`)
 
 The translate name of the item (e.g. `item.stone`)
 
-**Source:** [world/item.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/item.d.ts#L12)
+**Source:** [world/item.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/item.d.ts#L12)

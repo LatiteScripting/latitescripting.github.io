@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** feature/screen.d.ts:1
+**Source:** [feature/screen.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L1)
 
 ## Properties
 
@@ -16,7 +16,7 @@
 
 > **disable**: `Function`
 
-**Source:** feature/screen.d.ts:11
+**Source:** [feature/screen.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L11)
 
 #### Type declaration (disable)
 
@@ -24,7 +24,7 @@
 >
 > Called on the screen being disabled.
 >
-> **Source:** feature/screen.d.ts:11
+> **Source:** [feature/screen.d.ts:11](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L11)
 >
 > ##### Returns
 >
@@ -34,7 +34,7 @@
 
 > **enable**: `Function`
 
-**Source:** feature/screen.d.ts:6
+**Source:** [feature/screen.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L6)
 
 #### Type declaration (enable)
 
@@ -42,7 +42,7 @@
 >
 > Calls on the screen being enabled.
 >
-> **Source:** feature/screen.d.ts:6
+> **Source:** [feature/screen.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L6)
 >
 > ##### Parameters
 >
@@ -58,7 +58,7 @@
 
 > **key**: `Function`
 
-**Source:** feature/screen.d.ts:25
+**Source:** [feature/screen.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L25)
 
 #### Type declaration (key)
 
@@ -66,7 +66,7 @@
 >
 > Calls when the screen receives a key event.
 >
-> **Source:** feature/screen.d.ts:25
+> **Source:** [feature/screen.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L25)
 >
 > ##### Parameters
 >
@@ -85,7 +85,7 @@
 
 > **mouse**: `Function`
 
-**Source:** feature/screen.d.ts:34
+**Source:** [feature/screen.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L34)
 
 #### Type declaration (mouse)
 
@@ -96,7 +96,7 @@
 >
 > Calls when the screen receives a mouse event.
 >
-> **Source:** feature/screen.d.ts:34
+> **Source:** [feature/screen.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L34)
 >
 > ##### Parameters
 >
@@ -116,7 +116,7 @@
 
 > **render**: `Function`
 
-**Source:** feature/screen.d.ts:17
+**Source:** [feature/screen.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L17)
 
 #### Type declaration (render)
 
@@ -128,7 +128,7 @@
 >
 > This gets called whether the screen is on or off - this may be useful for animations.
 >
-> **Source:** feature/screen.d.ts:17
+> **Source:** [feature/screen.d.ts:17](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/feature/screen.d.ts#L17)
 >
 > ##### Returns
 >

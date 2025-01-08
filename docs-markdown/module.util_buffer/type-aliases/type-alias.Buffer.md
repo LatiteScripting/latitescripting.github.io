@@ -10,4 +10,4 @@
 
 > **Buffer**: `Uint8Array`
 
-**Source:** [util/buffer.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/util/buffer.d.ts#L13)
+**Source:** [util/buffer.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/util/buffer.d.ts#L13)
