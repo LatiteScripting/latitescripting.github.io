@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L2)
+**Source:** [lib/filesystem.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L2)
 
 ## Methods
 
@@ -16,7 +16,7 @@
 
 > **append**(path: `string`, data: `Uint8Array`): `void`
 
-**Source:** [lib/filesystem.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L53)
+**Source:** [lib/filesystem.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L53)
 
 #### Parameters
 
@@ -35,7 +35,7 @@
 
 Creates a folder/directory.
 
-**Source:** [lib/filesystem.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L46)
+**Source:** [lib/filesystem.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L46)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Creates a folder/directory.
 
 > **delete**(path: `string`): `void`
 
-**Source:** [lib/filesystem.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L7)
+**Source:** [lib/filesystem.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L7)
 
 #### Parameters
 
@@ -69,7 +69,7 @@ Creates a folder/directory.
 
 Checks if a file or a directory exists
 
-**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L40)
+**Source:** [lib/filesystem.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L40)
 
 #### Parameters
 
@@ -81,13 +81,32 @@ Checks if a file or a directory exists
 
 `boolean`
 
+### move()
+
+> **move**(from: `string`, to: `string`): `void`
+
+Moves (or renames) files and directories.
+
+**Source:** [lib/filesystem.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L66)
+
+#### Parameters
+
+| Parameter | Type     | Description      |
+| :-------- | :------- | :--------------- |
+| from      | `string` | Source path      |
+| to        | `string` | Destination path |
+
+#### Returns
+
+`void`
+
 ### read()
 
 > **read**(path: `string`): `Uint8Array`
 
 Reads a file from the path specified.
 
-**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L28)
+**Source:** [lib/filesystem.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L28)
 
 #### Parameters
 
@@ -105,7 +124,7 @@ Reads a file from the path specified.
 
 Reads a file asynchronously.
 
-**Source:** [lib/filesystem.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L14)
+**Source:** [lib/filesystem.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L14)
 
 #### Parameters
 
@@ -124,7 +143,7 @@ Reads a file asynchronously.
 
 Gets a list of the contents of a directory.
 
-**Source:** [lib/filesystem.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L59)
+**Source:** [lib/filesystem.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L59)
 
 #### Parameters
 
@@ -142,7 +161,7 @@ Gets a list of the contents of a directory.
 
 Writes a file to the path specified.
 
-**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L34)
+**Source:** [lib/filesystem.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L34)
 
 #### Parameters
 
@@ -162,7 +181,7 @@ Writes a file to the path specified.
 > data: `Uint8Array`,
 > callback: `Function`): `void`
 
-**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/lib/filesystem.d.ts#L22)
+**Source:** [lib/filesystem.d.ts:22](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/lib/filesystem.d.ts#L22)
 
 #### Parameters
 

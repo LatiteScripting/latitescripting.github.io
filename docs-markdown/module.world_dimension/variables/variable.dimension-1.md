@@ -10,4 +10,4 @@
 
 > `const` **dimension**: [`Dimension`](../interfaces/interface.Dimension.md)
 
-**Source:** [world/dimension.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/dimension.d.ts#L23)
+**Source:** [world/dimension.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/dimension.d.ts#L23)

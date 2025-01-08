@@ -10,4 +10,4 @@
 
 > **NativeType**: "void" \| "float32" \| "float64" \| "int32" \| "int64"
 
-**Source:** [native/NativeModule.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/native/NativeModule.d.ts#L1)
+**Source:** [native/NativeModule.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/native/NativeModule.d.ts#L1)

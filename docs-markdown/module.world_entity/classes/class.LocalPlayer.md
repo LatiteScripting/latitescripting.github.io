@@ -10,7 +10,7 @@
 
 A class representing an in-game entity.
 
-**Source:** [world/entity.d.ts:187](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L187)
+**Source:** [world/entity.d.ts:187](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L187)
 
 ## Hierarchy
 
@@ -38,7 +38,7 @@ A class representing an in-game entity.
 
 The runtime ID of the entity. Local player is always 1.
 
-**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L8)
+**Source:** [world/entity.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L8)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 #### Throws
 
-**Source:** [world/entity.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L72)
+**Source:** [world/entity.d.ts:72](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L72)
 
 #### Returns
 
@@ -72,7 +72,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Get the progress of breaking a block (ranging from 0 to 1)
 
-**Source:** [world/entity.d.ts:191](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L191)
+**Source:** [world/entity.d.ts:191](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L191)
 
 #### Returns
 
@@ -85,7 +85,7 @@ Get the progress of breaking a block (ranging from 0 to 1)
 Get the dimension name.
 for example, "Overworld"
 
-**Source:** [world/entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L42)
+**Source:** [world/entity.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L42)
 
 #### Returns
 
@@ -103,7 +103,7 @@ Gets the entity type ID.
 
 https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
-**Source:** [world/entity.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L64)
+**Source:** [world/entity.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L64)
 
 #### Returns
 
@@ -119,7 +119,7 @@ https://minecraft.fandom.com/wiki/Bedrock_Edition_data_values#Entity_IDs
 
 Gets a status flag's state in the current entity.
 
-**Source:** [world/entity.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L118)
+**Source:** [world/entity.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L118)
 
 #### Parameters
 
@@ -143,7 +143,7 @@ Gets the health of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L79)
+**Source:** [world/entity.d.ts:79](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L79)
 
 #### Returns
 
@@ -159,7 +159,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Gets the item being held.
 
-**Source:** [world/entity.d.ts:157](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L157)
+**Source:** [world/entity.d.ts:157](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L157)
 
 #### Returns
 
@@ -177,7 +177,7 @@ Gets the hunger of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L86)
+**Source:** [world/entity.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L86)
 
 #### Returns
 
@@ -193,7 +193,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Gets the number of ticks that the entity is invulnerable (after the entity is hit/hurt), ranges from 0-10
 
-**Source:** [world/entity.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L47)
+**Source:** [world/entity.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L47)
 
 #### Returns
 
@@ -209,7 +209,7 @@ Gets the number of ticks that the entity is invulnerable (after the entity is hi
 
 Gets the item at the current inventory slot. Will return null if the specified slot is out of bounds
 
-**Source:** [world/entity.d.ts:168](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L168)
+**Source:** [world/entity.d.ts:168](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L168)
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Gets the item at the current inventory slot. Will return null if the specified s
 
 Same as `getBreakProgress` but doesn't reset
 
-**Source:** [world/entity.d.ts:196](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L196)
+**Source:** [world/entity.d.ts:196](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L196)
 
 #### Returns
 
@@ -243,7 +243,7 @@ Same as `getBreakProgress` but doesn't reset
 
 Get the type of whatever the player is looking at.
 
-**Source:** [world/entity.d.ts:201](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L201)
+**Source:** [world/entity.d.ts:201](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L201)
 
 #### Returns
 
@@ -255,7 +255,7 @@ Get the type of whatever the player is looking at.
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L99)
+**Source:** [world/entity.d.ts:99](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L99)
 
 #### Parameters
 
@@ -275,7 +275,7 @@ Gets the value of a MoLang variable. Returns `null` if the variable was not foun
 
 Gets the value of a MoLang variable. Returns `null` if the variable was not found.
 
-**Source:** [world/entity.d.ts:105](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L105)
+**Source:** [world/entity.d.ts:105](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L105)
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Gets the value of a MoLang variable. Returns `null` if the variable was not foun
 
 Gets the movement state of the player (i.e. the movement keys held.)
 
-**Source:** [world/entity.d.ts:212](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L212)
+**Source:** [world/entity.d.ts:212](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L212)
 
 #### Returns
 
@@ -309,7 +309,7 @@ Gets the movement state of the player (i.e. the movement keys held.)
 
 Get the player's name (same one as the player list in the pause menu.)
 
-**Source:** [world/entity.d.ts:147](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L147)
+**Source:** [world/entity.d.ts:147](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L147)
 
 #### Returns
 
@@ -327,7 +327,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L20)
+**Source:** [world/entity.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L20)
 
 #### Returns
 
@@ -343,7 +343,7 @@ Get the position. Note that this will fail if you dont have permission to get th
 
 Get the interpolated position. Use this in the context of rendering based on entity position.
 
-**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L25)
+**Source:** [world/entity.d.ts:25](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L25)
 
 #### Returns
 
@@ -359,7 +359,7 @@ Get the interpolated position. Use this in the context of rendering based on ent
 
 Get the position the entity was in the last tick.
 
-**Source:** [world/entity.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L30)
+**Source:** [world/entity.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L30)
 
 #### Returns
 
@@ -377,7 +377,7 @@ Get the rotation. Note that this will fail if you dont have permission to get th
 
 #### Throws
 
-**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L36)
+**Source:** [world/entity.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L36)
 
 #### Returns
 
@@ -395,7 +395,7 @@ Gets the saturation of the entity.
 
 This function is restricted - meaning it will only work on LocalPlayer or if you have OP
 
-**Source:** [world/entity.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L93)
+**Source:** [world/entity.d.ts:93](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L93)
 
 #### Returns
 
@@ -411,7 +411,7 @@ This function is restricted - meaning it will only work on LocalPlayer or if you
 
 Get the block selected by looking at it. Will return null if no block is selected.
 
-**Source:** [world/entity.d.ts:206](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L206)
+**Source:** [world/entity.d.ts:206](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L206)
 
 #### Returns
 
@@ -423,7 +423,7 @@ Get the block selected by looking at it. Will return null if no block is selecte
 
 Gets the slot of the item being held.
 
-**Source:** [world/entity.d.ts:162](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L162)
+**Source:** [world/entity.d.ts:162](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L162)
 
 #### Returns
 
@@ -439,7 +439,7 @@ Gets the slot of the item being held.
 
 Gets the entity's movement velocity.
 
-**Source:** [world/entity.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L131)
+**Source:** [world/entity.d.ts:131](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L131)
 
 #### Returns
 
@@ -455,7 +455,7 @@ Gets the entity's movement velocity.
 
 Gets the player's Xbox User ID.
 
-**Source:** [world/entity.d.ts:152](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L152)
+**Source:** [world/entity.d.ts:152](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L152)
 
 #### Returns
 
@@ -471,7 +471,7 @@ Gets the player's Xbox User ID.
 
 Whether the entity is the local player (yourself) or not.
 
-**Source:** [world/entity.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L57)
+**Source:** [world/entity.d.ts:57](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L57)
 
 #### Returns
 
@@ -487,7 +487,7 @@ Whether the entity is the local player (yourself) or not.
 
 Whether the entity is a player or not.
 
-**Source:** [world/entity.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L52)
+**Source:** [world/entity.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L52)
 
 #### Returns
 
@@ -504,7 +504,7 @@ Whether the entity is a player or not.
 Check if the entity is still valid. In some cases, Latite may invalidate an entity outside of an
 event listener. This is to prevent the scripting engine from being used as a cheat.
 
-**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L14)
+**Source:** [world/entity.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L14)
 
 #### Returns
 
@@ -520,7 +520,7 @@ event listener. This is to prevent the scripting engine from being used as a che
 
 Sets a status flag's state in the current entity.
 
-**Source:** [world/entity.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L126)
+**Source:** [world/entity.d.ts:126](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L126)
 
 #### Parameters
 
@@ -543,7 +543,7 @@ Sets a status flag's state in the current entity.
 
 [Experimental] sets a MoLang variable's value. Returns `null` if unsuccessful and the number that was set if it was successful.
 
-**Source:** [world/entity.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L112)
+**Source:** [world/entity.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L112)
 
 #### Parameters
 
@@ -566,7 +566,7 @@ Sets a status flag's state in the current entity.
 
 Sets the movement state of the player
 
-**Source:** [world/entity.d.ts:218](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L218)
+**Source:** [world/entity.d.ts:218](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L218)
 
 #### Parameters
 
@@ -586,7 +586,7 @@ Sets the entity's movement velocity.
 
 This function is restricted - it only works if you have operator.
 
-**Source:** [world/entity.d.ts:140](https://github.com/LatiteScripting/latitescripting.github.io/blob/796c413/definitions/world/entity.d.ts#L140)
+**Source:** [world/entity.d.ts:140](https://github.com/LatiteScripting/latitescripting.github.io/blob/41aefce/definitions/world/entity.d.ts#L140)
 
 #### Parameters
 
