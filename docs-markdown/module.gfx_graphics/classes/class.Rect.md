@@ -26,7 +26,11 @@ right The x coordinate of the bottom-right point.
 
 bottom The y coordinate of the bottom-right point.
 
-**Source:** [gfx/graphics.d.ts:8](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L8)
+**Source:** [gfx/graphics.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L24)
+
+## Implements
+
+- [`IRect`](../interfaces/interface.IRect.md)
 
 ## Constructors
 
@@ -38,7 +42,7 @@ bottom The y coordinate of the bottom-right point.
 > right: `number`,
 > bottom: `number`): [`Rect`](class.Rect.md)
 
-**Source:** [gfx/graphics.d.ts:16](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L16)
+**Source:** [gfx/graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L32)
 
 #### Parameters
 
@@ -59,25 +63,41 @@ bottom The y coordinate of the bottom-right point.
 
 > **bottom**: `number`
 
-**Source:** [gfx/graphics.d.ts:21](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L21)
+**Source:** [gfx/graphics.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L37)
+
+#### Implementation of
+
+[`IRect`](../interfaces/interface.IRect.md).[`bottom`](../interfaces/interface.IRect.md#bottom)
 
 ### left
 
 > **left**: `number`
 
-**Source:** [gfx/graphics.d.ts:18](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L18)
+**Source:** [gfx/graphics.d.ts:34](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L34)
+
+#### Implementation of
+
+[`IRect`](../interfaces/interface.IRect.md).[`left`](../interfaces/interface.IRect.md#left)
 
 ### right
 
 > **right**: `number`
 
-**Source:** [gfx/graphics.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L20)
+**Source:** [gfx/graphics.d.ts:36](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L36)
+
+#### Implementation of
+
+[`IRect`](../interfaces/interface.IRect.md).[`right`](../interfaces/interface.IRect.md#right)
 
 ### top
 
 > **top**: `number`
 
-**Source:** [gfx/graphics.d.ts:19](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L19)
+**Source:** [gfx/graphics.d.ts:35](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L35)
+
+#### Implementation of
+
+[`IRect`](../interfaces/interface.IRect.md).[`top`](../interfaces/interface.IRect.md#top)
 
 ## Methods
 
@@ -85,7 +105,7 @@ bottom The y coordinate of the bottom-right point.
 
 > **getHeight**(): `number`
 
-**Source:** [gfx/graphics.d.ts:24](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L24)
+**Source:** [gfx/graphics.d.ts:40](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L40)
 
 #### Returns
 
@@ -95,7 +115,7 @@ bottom The y coordinate of the bottom-right point.
 
 > **getWidth**(): `number`
 
-**Source:** [gfx/graphics.d.ts:23](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L23)
+**Source:** [gfx/graphics.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L39)
 
 #### Returns
 

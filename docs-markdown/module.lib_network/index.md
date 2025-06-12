@@ -20,4 +20,4 @@ Re-exports [include](../module.lib_clipboard/namespaces/namespace.include/index.
 
 > **include**
 
-**Source:** [lib/clipboard.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/clipboard.d.ts#L1) [lib/filesystem.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/filesystem.d.ts#L1) [lib/network.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/network.d.ts#L1)
+**Source:** [lib/clipboard.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/clipboard.d.ts#L1) [lib/filesystem.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/filesystem.d.ts#L1) [lib/network.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/network.d.ts#L1)

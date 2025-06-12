@@ -8,7 +8,11 @@
 
 **`Class`**
 
-**Source:** [gfx/graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L45)
+**Source:** [gfx/graphics.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L62)
+
+## Implements
+
+- [`IVector3`](../interfaces/interface.IVector3.md)
 
 ## Constructors
 
@@ -19,7 +23,7 @@
 > y: `number`,
 > z: `number`): [`Vector3`](class.Vector3.md)
 
-**Source:** [gfx/graphics.d.ts:52](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L52)
+**Source:** [gfx/graphics.d.ts:69](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L69)
 
 #### Parameters
 
@@ -35,7 +39,9 @@
 
 > **new Vector3**(): [`Vector3`](class.Vector3.md)
 
-**Source:** [gfx/graphics.d.ts:53](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L53)
+Create a `Vector3` object with all fields initialized to `0`
+
+**Source:** [gfx/graphics.d.ts:74](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L74)
 
 #### Returns
 
@@ -47,19 +53,19 @@
 
 > **add**: `Function`
 
-**Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L46)
+**Source:** [gfx/graphics.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L63)
 
 #### Type declaration (add)
 
-> > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
+> > (vec: [`IVector3`](../interfaces/interface.IVector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L46)
+> **Source:** [gfx/graphics.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L63)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector3`](class.Vector3.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector3`](../interfaces/interface.IVector3.md) |
 >
 > ##### Returns
 >
@@ -69,19 +75,19 @@
 
 > **distanceTo**: `Function`
 
-**Source:** [gfx/graphics.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L50)
+**Source:** [gfx/graphics.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L67)
 
 #### Type declaration (distanceTo)
 
-> > (pos: [`Vector3`](class.Vector3.md)): `number`
+> > (pos: [`IVector3`](../interfaces/interface.IVector3.md)): `number`
 >
-> **Source:** [gfx/graphics.d.ts:50](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L50)
+> **Source:** [gfx/graphics.d.ts:67](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L67)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | pos       | [`Vector3`](class.Vector3.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | pos       | [`IVector3`](../interfaces/interface.IVector3.md) |
 >
 > ##### Returns
 >
@@ -91,19 +97,19 @@
 
 > **div**: `Function`
 
-**Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L49)
+**Source:** [gfx/graphics.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L66)
 
 #### Type declaration (div)
 
-> > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
+> > (vec: [`IVector3`](../interfaces/interface.IVector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L49)
+> **Source:** [gfx/graphics.d.ts:66](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L66)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector3`](class.Vector3.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector3`](../interfaces/interface.IVector3.md) |
 >
 > ##### Returns
 >
@@ -113,19 +119,19 @@
 
 > **mul**: `Function`
 
-**Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L48)
+**Source:** [gfx/graphics.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L65)
 
 #### Type declaration (mul)
 
-> > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
+> > (vec: [`IVector3`](../interfaces/interface.IVector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L48)
+> **Source:** [gfx/graphics.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L65)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector3`](class.Vector3.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector3`](../interfaces/interface.IVector3.md) |
 >
 > ##### Returns
 >
@@ -135,19 +141,19 @@
 
 > **sub**: `Function`
 
-**Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L47)
+**Source:** [gfx/graphics.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L64)
 
 #### Type declaration (sub)
 
-> > (vec: [`Vector3`](class.Vector3.md)): [`Vector3`](class.Vector3.md)
+> > (vec: [`IVector3`](../interfaces/interface.IVector3.md)): [`Vector3`](class.Vector3.md)
 >
-> **Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L47)
+> **Source:** [gfx/graphics.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L64)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector3`](class.Vector3.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector3`](../interfaces/interface.IVector3.md) |
 >
 > ##### Returns
 >
@@ -157,16 +163,28 @@
 
 > **x**: `number`
 
-**Source:** [gfx/graphics.d.ts:54](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L54)
+**Source:** [gfx/graphics.d.ts:76](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L76)
+
+#### Implementation of
+
+[`IVector3`](../interfaces/interface.IVector3.md).[`x`](../interfaces/interface.IVector3.md#x)
 
 ### y
 
 > **y**: `number`
 
-**Source:** [gfx/graphics.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L55)
+**Source:** [gfx/graphics.d.ts:77](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L77)
+
+#### Implementation of
+
+[`IVector3`](../interfaces/interface.IVector3.md).[`y`](../interfaces/interface.IVector3.md#y)
 
 ### z
 
 > **z**: `number`
 
-**Source:** [gfx/graphics.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L56)
+**Source:** [gfx/graphics.d.ts:78](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L78)
+
+#### Implementation of
+
+[`IVector3`](../interfaces/interface.IVector3.md).[`z`](../interfaces/interface.IVector3.md#z)

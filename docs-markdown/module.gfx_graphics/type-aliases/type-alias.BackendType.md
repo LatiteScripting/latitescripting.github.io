@@ -8,6 +8,6 @@
 
 **`Type alias`**
 
-> **BackendType**: "dx"
+> **BackendType**: "dx" \| "minecraft"
 
-**Source:** [gfx/graphics.d.ts:106](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L106)
+**Source:** [gfx/graphics.d.ts:128](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L128)

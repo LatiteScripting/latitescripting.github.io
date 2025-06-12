@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L112)
+**Source:** [gfx/graphics.d.ts:132](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L132)
 
 ## Methods
 
@@ -16,20 +16,20 @@
 
 > **drawItem**(
 > item: [`ItemStack`](../../module.world_item/classes/class.ItemStack.md),
-> pos: [`Vector2`](../classes/class.Vector2.md),
+> pos: [`IVector2`](interface.IVector2.md),
 > sizeModifier: `number`,
 > opacity: `number`): `void`
 
 Draw an item instance.
 
-**Source:** [gfx/graphics.d.ts:163](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L163)
+**Source:** [gfx/graphics.d.ts:183](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L183)
 
 #### Parameters
 
 | Parameter    | Type                                                              | Description                                              |
 | :----------- | :---------------------------------------------------------------- | :------------------------------------------------------- |
 | item         | [`ItemStack`](../../module.world_item/classes/class.ItemStack.md) | The item to draw                                         |
-| pos          | [`Vector2`](../classes/class.Vector2.md)                          | The position in pixels to draw the texture               |
+| pos          | [`IVector2`](interface.IVector2.md)                               | The position in pixels to draw the texture               |
 | sizeModifier | `number`                                                          | The relative size modifier (defualt: 1.0, aka 16 pixels) |
 | opacity      | `number`                                                          | The opacity of the item                                  |
 
@@ -40,18 +40,18 @@ Draw an item instance.
 ### drawRect()
 
 > **drawRect**(
-> rect: [`Rect`](../classes/class.Rect.md),
+> rect: [`IRect`](interface.IRect.md),
 > color: [`Color`](../classes/class.Color.md),
 > thickness: `number`,
 > radius?: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:118](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L118)
+**Source:** [gfx/graphics.d.ts:138](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L138)
 
 #### Parameters
 
 | Parameter | Type                                 |
 | :-------- | :----------------------------------- |
-| rect      | [`Rect`](../classes/class.Rect.md)   |
+| rect      | [`IRect`](interface.IRect.md)        |
 | color     | [`Color`](../classes/class.Color.md) |
 | thickness | `number`                             |
 | radius?   | `number`                             |
@@ -63,23 +63,23 @@ Draw an item instance.
 ### drawText()
 
 > **drawText**(
-> pos: [`Vector2`](../classes/class.Vector2.md),
+> pos: [`IVector2`](interface.IVector2.md),
 > text: `string`,
 > size: `number`,
 > color: [`Color`](../classes/class.Color.md)): `void`
 
 Draws text on the position specified
 
-**Source:** [gfx/graphics.d.ts:133](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L133)
+**Source:** [gfx/graphics.d.ts:153](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L153)
 
 #### Parameters
 
-| Parameter | Type                                     | Description                    |
-| :-------- | :--------------------------------------- | :----------------------------- |
-| pos       | [`Vector2`](../classes/class.Vector2.md) | The position to draw the text  |
-| text      | `string`                                 | The text to draw               |
-| size      | `number`                                 | The size of the text in pixels |
-| color     | [`Color`](../classes/class.Color.md)     | The color of the text          |
+| Parameter | Type                                 | Description                    |
+| :-------- | :----------------------------------- | :----------------------------- |
+| pos       | [`IVector2`](interface.IVector2.md)  | The position to draw the text  |
+| text      | `string`                             | The text to draw               |
+| size      | `number`                             | The size of the text in pixels |
+| color     | [`Color`](../classes/class.Color.md) | The color of the text          |
 
 #### Returns
 
@@ -88,7 +88,7 @@ Draws text on the position specified
 ### drawTextFull()
 
 > **drawTextFull**(
-> area: [`Rect`](../classes/class.Rect.md),
+> area: [`IRect`](interface.IRect.md),
 > text: `string`,
 > size: `number`,
 > color: [`Color`](../classes/class.Color.md),
@@ -97,13 +97,13 @@ Draws text on the position specified
 
 A full verison of drawText, where you can specify the bounds of the text and the alignment
 
-**Source:** [gfx/graphics.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L144)
+**Source:** [gfx/graphics.d.ts:164](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L164)
 
 #### Parameters
 
 | Parameter         | Type                                                                    | Description                  |
 | :---------------- | :---------------------------------------------------------------------- | :--------------------------- |
-| area              | [`Rect`](../classes/class.Rect.md)                                      | The place to render the text |
+| area              | [`IRect`](interface.IRect.md)                                           | The place to render the text |
 | text              | `string`                                                                | The text to render           |
 | size              | `number`                                                                | The size of the text         |
 | color             | [`Color`](../classes/class.Color.md)                                    | The color of the text        |
@@ -118,21 +118,21 @@ A full verison of drawText, where you can specify the bounds of the text and the
 
 > **drawTexture**(
 > texture: [`Texture`](../../module.gfx_Texture/classes/class.Texture.md),
-> pos: [`Vector2`](../classes/class.Vector2.md),
+> pos: [`IVector2`](interface.IVector2.md),
 > sizeX: `number`,
 > sizeY: `number`,
 > color?: [`Color`](../classes/class.Color.md)): `void`
 
 Draws a texture.
 
-**Source:** [gfx/graphics.d.ts:154](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L154)
+**Source:** [gfx/graphics.d.ts:174](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L174)
 
 #### Parameters
 
 | Parameter | Type                                                           | Description                                          |
 | :-------- | :------------------------------------------------------------- | :--------------------------------------------------- |
 | texture   | [`Texture`](../../module.gfx_Texture/classes/class.Texture.md) | The texture to draw                                  |
-| pos       | [`Vector2`](../classes/class.Vector2.md)                       | The position to draw the texture                     |
+| pos       | [`IVector2`](interface.IVector2.md)                            | The position to draw the texture                     |
 | sizeX     | `number`                                                       | The size of the texture in pixels                    |
 | sizeY     | `number`                                                       | The size of the texture in pixels                    |
 | color?    | [`Color`](../classes/class.Color.md)                           | The overlay color of the texture (defaults to white) |
@@ -144,17 +144,17 @@ Draws a texture.
 ### fillRect()
 
 > **fillRect**(
-> rect: [`Rect`](../classes/class.Rect.md),
+> rect: [`IRect`](interface.IRect.md),
 > color: [`Color`](../classes/class.Color.md),
 > radius?: `number`): `void`
 
-**Source:** [gfx/graphics.d.ts:119](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L119)
+**Source:** [gfx/graphics.d.ts:139](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L139)
 
 #### Parameters
 
 | Parameter | Type                                 |
 | :-------- | :----------------------------------- |
-| rect      | [`Rect`](../classes/class.Rect.md)   |
+| rect      | [`IRect`](interface.IRect.md)        |
 | color     | [`Color`](../classes/class.Color.md) |
 | radius?   | `number`                             |
 
@@ -166,7 +166,7 @@ Draws a texture.
 
 > **getTextSize**(text: `string`, textSize: `number`): [`Vector2`](../classes/class.Vector2.md)
 
-**Source:** [gfx/graphics.d.ts:121](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L121)
+**Source:** [gfx/graphics.d.ts:141](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L141)
 
 #### Parameters
 
@@ -183,7 +183,7 @@ Draws a texture.
 
 > **restoreClippingRect**(): `void`
 
-**Source:** [gfx/graphics.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L124)
+**Source:** [gfx/graphics.d.ts:144](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L144)
 
 #### Returns
 
@@ -191,15 +191,15 @@ Draws a texture.
 
 ### setClippingRect()
 
-> **setClippingRect**(rect: [`Rect`](../classes/class.Rect.md)): `void`
+> **setClippingRect**(rect: [`IRect`](interface.IRect.md)): `void`
 
-**Source:** [gfx/graphics.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L123)
+**Source:** [gfx/graphics.d.ts:143](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L143)
 
 #### Parameters
 
-| Parameter | Type                               |
-| :-------- | :--------------------------------- |
-| rect      | [`Rect`](../classes/class.Rect.md) |
+| Parameter | Type                          |
+| :-------- | :---------------------------- |
+| rect      | [`IRect`](interface.IRect.md) |
 
 #### Returns
 
@@ -207,15 +207,15 @@ Draws a texture.
 
 ### use()
 
-> **use**(renderer: "dx" \| "minecraft"): `void`
+> **use**(renderer: [`BackendType`](../type-aliases/type-alias.BackendType.md)): `void`
 
-**Source:** [gfx/graphics.d.ts:117](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L117)
+**Source:** [gfx/graphics.d.ts:137](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L137)
 
 #### Parameters
 
-| Parameter | Type                | Description                                                                  |
-| :-------- | :------------------ | :--------------------------------------------------------------------------- |
-| renderer  | "dx" \| "minecraft" | `"dx"`: uses Direct2D/DirectWrite, `"minecraft":` use the Minecraft renderer |
+| Parameter | Type                                                       | Description                                                                  |
+| :-------- | :--------------------------------------------------------- | :--------------------------------------------------------------------------- |
+| renderer  | [`BackendType`](../type-aliases/type-alias.BackendType.md) | `"dx"`: uses Direct2D/DirectWrite, `"minecraft":` use the Minecraft renderer |
 
 #### Returns
 

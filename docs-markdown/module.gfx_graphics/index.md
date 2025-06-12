@@ -23,6 +23,9 @@
 ### Interfaces
 
 - [Graphics](interfaces/interface.Graphics.md)
+- [IRect](interfaces/interface.IRect.md)
+- [IVector2](interfaces/interface.IVector2.md)
+- [IVector3](interfaces/interface.IVector3.md)
 
 ### Type Aliases
 

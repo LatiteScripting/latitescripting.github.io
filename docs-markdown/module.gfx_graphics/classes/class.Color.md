@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [gfx/graphics.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L59)
+**Source:** [gfx/graphics.d.ts:81](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L81)
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 > b: `number`,
 > a: `number`): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:74](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L74)
+**Source:** [gfx/graphics.d.ts:96](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L96)
 
 #### Parameters
 
@@ -37,7 +37,7 @@
 
 > **new Color**(): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:76](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L76)
+**Source:** [gfx/graphics.d.ts:98](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L98)
 
 #### Returns
 
@@ -49,19 +49,19 @@
 
 > **a**: `number`
 
-**Source:** [gfx/graphics.d.ts:65](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L65)
+**Source:** [gfx/graphics.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L87)
 
 ### asAlpha
 
 > **asAlpha**: `Function`
 
-**Source:** [gfx/graphics.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L60)
+**Source:** [gfx/graphics.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L82)
 
 #### Type declaration (asAlpha)
 
 > > (opacity: `number`): [`Color`](class.Color.md)
 >
-> **Source:** [gfx/graphics.d.ts:60](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L60)
+> **Source:** [gfx/graphics.d.ts:82](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L82)
 >
 > ##### Parameters
 >
@@ -77,49 +77,49 @@
 
 > **b**: `number`
 
-**Source:** [gfx/graphics.d.ts:64](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L64)
+**Source:** [gfx/graphics.d.ts:86](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L86)
 
 ### g
 
 > **g**: `number`
 
-**Source:** [gfx/graphics.d.ts:63](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L63)
+**Source:** [gfx/graphics.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L85)
 
 ### r
 
 > **r**: `number`
 
-**Source:** [gfx/graphics.d.ts:62](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L62)
+**Source:** [gfx/graphics.d.ts:84](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L84)
 
 ### BLACK
 
 > `static` **BLACK**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:88](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L88)
+**Source:** [gfx/graphics.d.ts:110](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L110)
 
 ### BLUE
 
 > `static` **BLUE**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:91](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L91)
+**Source:** [gfx/graphics.d.ts:113](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L113)
 
 ### GREEN
 
 > `static` **GREEN**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:90](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L90)
+**Source:** [gfx/graphics.d.ts:112](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L112)
 
 ### RED
 
 > `static` **RED**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:89](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L89)
+**Source:** [gfx/graphics.d.ts:111](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L111)
 
 ### WHITE
 
 > `static` **WHITE**: [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:87](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L87)
+**Source:** [gfx/graphics.d.ts:109](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L109)
 
 ## Methods
 
@@ -129,18 +129,18 @@
 > r: `number`,
 > g: `number`,
 > b: `number`,
-> a: `undefined` \| `number`): [`Color`](class.Color.md)
+> a?: `number`): [`Color`](class.Color.md)
 
-**Source:** [gfx/graphics.d.ts:85](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L85)
+**Source:** [gfx/graphics.d.ts:107](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L107)
 
 #### Parameters
 
-| Parameter | Type                    | Description        |
-| :-------- | :---------------------- | :----------------- |
-| r         | `number`                | Red (0 to 255)     |
-| g         | `number`                | Green (0 to 255)   |
-| b         | `number`                | Blue (0 to 255)    |
-| a         | `undefined` \| `number` | Opacity (0 to 255) |
+| Parameter | Type     | Description        |
+| :-------- | :------- | :----------------- |
+| r         | `number` | Red (0 to 255)     |
+| g         | `number` | Green (0 to 255)   |
+| b         | `number` | Blue (0 to 255)    |
+| a?        | `number` | Opacity (0 to 255) |
 
 #### Returns
 

@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [gfx/graphics.d.ts:100](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L100)
+**Source:** [gfx/graphics.d.ts:122](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L122)
 
 ## Enumeration Members
 
@@ -16,16 +16,16 @@
 
 > **Bottom**: 1
 
-**Source:** [gfx/graphics.d.ts:102](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L102)
+**Source:** [gfx/graphics.d.ts:124](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L124)
 
 ### Center
 
 > **Center**: 2
 
-**Source:** [gfx/graphics.d.ts:103](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L103)
+**Source:** [gfx/graphics.d.ts:125](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L125)
 
 ### Top
 
 > **Top**: 0
 
-**Source:** [gfx/graphics.d.ts:101](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L101)
+**Source:** [gfx/graphics.d.ts:123](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L123)

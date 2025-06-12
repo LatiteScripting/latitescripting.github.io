@@ -8,24 +8,24 @@
 
 **`Interface`**
 
-**Source:** [gfx/graphics3.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L1)
+**Source:** [gfx/graphics3.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L1)
 
 ## Methods
 
 ### drawLine()
 
-> **drawLine**(p1: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md), p2: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)): `void`
+> **drawLine**(p1: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md), p2: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md)): `void`
 
 Draws a line into the world (adds a line into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L20)
+**Source:** [gfx/graphics3.d.ts:20](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L20)
 
 #### Parameters
 
-| Parameter | Type                                                            |
-| :-------- | :-------------------------------------------------------------- |
-| p1        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p2        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
+| Parameter | Type                                                                     |
+| :-------- | :----------------------------------------------------------------------- |
+| p1        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p2        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
 
 #### Returns
 
@@ -34,23 +34,23 @@ Draws a line into the world (adds a line into the vertex buffer)
 ### drawQuad()
 
 > **drawQuad**(
-> p1: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
-> p2: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
-> p3: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
-> p4: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)): `void`
+> p1: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md),
+> p2: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md),
+> p3: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md),
+> p4: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md)): `void`
 
 Draws a quad into the world (adds a quad into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L37)
+**Source:** [gfx/graphics3.d.ts:37](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L37)
 
 #### Parameters
 
-| Parameter | Type                                                            |
-| :-------- | :-------------------------------------------------------------- |
-| p1        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p2        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p3        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p4        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
+| Parameter | Type                                                                     |
+| :-------- | :----------------------------------------------------------------------- |
+| p1        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p2        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p3        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p4        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
 
 #### Returns
 
@@ -59,21 +59,21 @@ Draws a quad into the world (adds a quad into the vertex buffer)
 ### drawTriangle()
 
 > **drawTriangle**(
-> p1: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
-> p2: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md),
-> p3: [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md)): `void`
+> p1: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md),
+> p2: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md),
+> p3: [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md)): `void`
 
 Draws a triangle into the world (adds a triangle into the vertex buffer)
 
-**Source:** [gfx/graphics3.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L28)
+**Source:** [gfx/graphics3.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L28)
 
 #### Parameters
 
-| Parameter | Type                                                            |
-| :-------- | :-------------------------------------------------------------- |
-| p1        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p2        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
-| p3        | [`Vector3`](../../module.gfx_graphics/classes/class.Vector3.md) |
+| Parameter | Type                                                                     |
+| :-------- | :----------------------------------------------------------------------- |
+| p1        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p2        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
+| p3        | [`IVector3`](../../module.gfx_graphics/interfaces/interface.IVector3.md) |
 
 #### Returns
 
@@ -85,7 +85,7 @@ Draws a triangle into the world (adds a triangle into the vertex buffer)
 
 Call this every time you're done rendering. (batched renders the current vertex buffer into the world)
 
-**Source:** [gfx/graphics3.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L43)
+**Source:** [gfx/graphics3.d.ts:43](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L43)
 
 #### Parameters
 
@@ -103,7 +103,7 @@ Call this every time you're done rendering. (batched renders the current vertex 
 
 Sets the color.
 
-**Source:** [gfx/graphics3.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L7)
+**Source:** [gfx/graphics3.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L7)
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Sets the color.
 
 Sets the colors. (allows for gradients)
 
-**Source:** [gfx/graphics3.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics3.d.ts#L13)
+**Source:** [gfx/graphics3.d.ts:13](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics3.d.ts#L13)
 
 #### Parameters
 

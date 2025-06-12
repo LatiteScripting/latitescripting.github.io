@@ -10,4 +10,4 @@
 
 > **TitleType**: "clear" \| "reset" \| "title" \| "subtitle" \| "actionbar" \| "titleraw" \| "subtitleraw" \| "actionbarraw" \| "times"
 
-**Source:** [latite.d.ts:70](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/latite.d.ts#L70)
+**Source:** [latite.d.ts:70](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/latite.d.ts#L70)

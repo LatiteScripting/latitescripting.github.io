@@ -34,6 +34,7 @@
 - [script](module.script/index.md)
 - [util/buffer](module.util_buffer/index.md)
 - [util/util](module.util_util/index.md)
+- [websocket/WebSocket](module.websocket_WebSocket/index.md)
 - [world/block](module.world_block/index.md)
 - [world/dimension](module.world_dimension/index.md)
 - [world/entity](module.world_entity/index.md)

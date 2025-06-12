@@ -8,7 +8,7 @@
 
 **`Class`**
 
-**Source:** [world/block.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/block.d.ts#L1)
+**Source:** [world/block.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/world/block.d.ts#L1)
 
 ## Constructors
 
@@ -28,7 +28,7 @@
 
 Example: itemGroup.name.ore
 
-**Source:** [world/block.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/block.d.ts#L14)
+**Source:** [world/block.d.ts:14](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/world/block.d.ts#L14)
 
 ### name
 
@@ -36,7 +36,7 @@ Example: itemGroup.name.ore
 
 Example: minecraft:deepslate_diamond_ore
 
-**Source:** [world/block.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/block.d.ts#L5)
+**Source:** [world/block.d.ts:5](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/world/block.d.ts#L5)
 
 ### translateName
 
@@ -44,4 +44,4 @@ Example: minecraft:deepslate_diamond_ore
 
 Examle: tile.stone.stone
 
-**Source:** [world/block.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/world/block.d.ts#L9)
+**Source:** [world/block.d.ts:9](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/world/block.d.ts#L9)

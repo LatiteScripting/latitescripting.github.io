@@ -8,7 +8,11 @@
 
 **`Class`**
 
-**Source:** [gfx/graphics.d.ts:27](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L27)
+**Source:** [gfx/graphics.d.ts:44](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L44)
+
+## Implements
+
+- [`IVector2`](../interfaces/interface.IVector2.md)
 
 ## Constructors
 
@@ -18,7 +22,7 @@
 
 A point on the screen.
 
-**Source:** [gfx/graphics.d.ts:38](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L38)
+**Source:** [gfx/graphics.d.ts:55](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L55)
 
 #### Parameters
 
@@ -33,7 +37,7 @@ A point on the screen.
 
 > **new Vector2**(): [`Vector2`](class.Vector2.md)
 
-**Source:** [gfx/graphics.d.ts:39](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L39)
+**Source:** [gfx/graphics.d.ts:56](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L56)
 
 #### Returns
 
@@ -45,19 +49,19 @@ A point on the screen.
 
 > **add**: `Function`
 
-**Source:** [gfx/graphics.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L28)
+**Source:** [gfx/graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L45)
 
 #### Type declaration (add)
 
-> > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
+> > (vec: [`IVector2`](../interfaces/interface.IVector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** [gfx/graphics.d.ts:28](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L28)
+> **Source:** [gfx/graphics.d.ts:45](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L45)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector2`](class.Vector2.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector2`](../interfaces/interface.IVector2.md) |
 >
 > ##### Returns
 >
@@ -67,19 +71,19 @@ A point on the screen.
 
 > **distanceTo**: `Function`
 
-**Source:** [gfx/graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L32)
+**Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L49)
 
 #### Type declaration (distanceTo)
 
-> > (pos: [`Vector2`](class.Vector2.md)): `number`
+> > (pos: [`IVector2`](../interfaces/interface.IVector2.md)): `number`
 >
-> **Source:** [gfx/graphics.d.ts:32](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L32)
+> **Source:** [gfx/graphics.d.ts:49](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L49)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | pos       | [`Vector2`](class.Vector2.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | pos       | [`IVector2`](../interfaces/interface.IVector2.md) |
 >
 > ##### Returns
 >
@@ -89,19 +93,19 @@ A point on the screen.
 
 > **div**: `Function`
 
-**Source:** [gfx/graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L31)
+**Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L48)
 
 #### Type declaration (div)
 
-> > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
+> > (vec: [`IVector2`](../interfaces/interface.IVector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** [gfx/graphics.d.ts:31](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L31)
+> **Source:** [gfx/graphics.d.ts:48](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L48)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector2`](class.Vector2.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector2`](../interfaces/interface.IVector2.md) |
 >
 > ##### Returns
 >
@@ -111,19 +115,19 @@ A point on the screen.
 
 > **mul**: `Function`
 
-**Source:** [gfx/graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L30)
+**Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L47)
 
 #### Type declaration (mul)
 
-> > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
+> > (vec: [`IVector2`](../interfaces/interface.IVector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** [gfx/graphics.d.ts:30](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L30)
+> **Source:** [gfx/graphics.d.ts:47](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L47)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector2`](class.Vector2.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector2`](../interfaces/interface.IVector2.md) |
 >
 > ##### Returns
 >
@@ -133,19 +137,19 @@ A point on the screen.
 
 > **sub**: `Function`
 
-**Source:** [gfx/graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L29)
+**Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L46)
 
 #### Type declaration (sub)
 
-> > (vec: [`Vector2`](class.Vector2.md)): [`Vector2`](class.Vector2.md)
+> > (vec: [`IVector2`](../interfaces/interface.IVector2.md)): [`Vector2`](class.Vector2.md)
 >
-> **Source:** [gfx/graphics.d.ts:29](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L29)
+> **Source:** [gfx/graphics.d.ts:46](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L46)
 >
 > ##### Parameters
 >
-> | Parameter | Type                          |
-> | :-------- | :---------------------------- |
-> | vec       | [`Vector2`](class.Vector2.md) |
+> | Parameter | Type                                              |
+> | :-------- | :------------------------------------------------ |
+> | vec       | [`IVector2`](../interfaces/interface.IVector2.md) |
 >
 > ##### Returns
 >
@@ -155,10 +159,18 @@ A point on the screen.
 
 > **x**: `number`
 
-**Source:** [gfx/graphics.d.ts:41](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L41)
+**Source:** [gfx/graphics.d.ts:58](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L58)
+
+#### Implementation of
+
+[`IVector2`](../interfaces/interface.IVector2.md).[`x`](../interfaces/interface.IVector2.md#x)
 
 ### y
 
 > **y**: `number`
 
-**Source:** [gfx/graphics.d.ts:42](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/gfx/graphics.d.ts#L42)
+**Source:** [gfx/graphics.d.ts:59](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/gfx/graphics.d.ts#L59)
+
+#### Implementation of
+
+[`IVector2`](../interfaces/interface.IVector2.md).[`y`](../interfaces/interface.IVector2.md#y)

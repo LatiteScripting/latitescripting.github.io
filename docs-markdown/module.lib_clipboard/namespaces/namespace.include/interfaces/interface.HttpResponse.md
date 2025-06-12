@@ -8,7 +8,7 @@
 
 **`Interface`**
 
-**Source:** [lib/network.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/network.d.ts#L2)
+**Source:** [lib/network.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/network.d.ts#L2)
 
 ## Properties
 
@@ -18,7 +18,7 @@
 
 The body, if the status code is 200 (OK)
 
-**Source:** [lib/network.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/network.d.ts#L6)
+**Source:** [lib/network.d.ts:6](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/network.d.ts#L6)
 
 ### error
 
@@ -26,10 +26,10 @@ The body, if the status code is 200 (OK)
 
 The http client error message
 
-**Source:** [lib/network.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/network.d.ts#L12)
+**Source:** [lib/network.d.ts:12](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/network.d.ts#L12)
 
 ### statusCode
 
 > **statusCode**: `number`
 
-**Source:** [lib/network.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/lib/network.d.ts#L7)
+**Source:** [lib/network.d.ts:7](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/lib/network.d.ts#L7)

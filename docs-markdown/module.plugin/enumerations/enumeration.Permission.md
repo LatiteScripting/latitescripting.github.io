@@ -8,7 +8,7 @@
 
 **`Enumeration`**
 
-**Source:** [plugin.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/plugin.d.ts#L1)
+**Source:** [plugin.d.ts:1](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/plugin.d.ts#L1)
 
 ## Enumeration Members
 
@@ -16,4 +16,4 @@
 
 > **SystemAccess**: "permission.system_access"
 
-**Source:** [plugin.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/5a9cee2/definitions/plugin.d.ts#L2)
+**Source:** [plugin.d.ts:2](https://github.com/LatiteScripting/latitescripting.github.io/blob/a08b0d1/definitions/plugin.d.ts#L2)
